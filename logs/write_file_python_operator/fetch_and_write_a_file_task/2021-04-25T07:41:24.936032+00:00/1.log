@@ -1,0 +1,35 @@
+[2021-04-25 07:41:26,989] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: write_file_python_operator.fetch_and_write_a_file_task 2021-04-25T07:41:24.936032+00:00 [queued]>
+[2021-04-25 07:41:27,043] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: write_file_python_operator.fetch_and_write_a_file_task 2021-04-25T07:41:24.936032+00:00 [queued]>
+[2021-04-25 07:41:27,044] {taskinstance.py:1068} INFO - 
+--------------------------------------------------------------------------------
+[2021-04-25 07:41:27,044] {taskinstance.py:1069} INFO - Starting attempt 1 of 3
+[2021-04-25 07:41:27,044] {taskinstance.py:1070} INFO - 
+--------------------------------------------------------------------------------
+[2021-04-25 07:41:27,067] {taskinstance.py:1089} INFO - Executing <Task(PythonOperator): fetch_and_write_a_file_task> on 2021-04-25T07:41:24.936032+00:00
+[2021-04-25 07:41:27,078] {standard_task_runner.py:52} INFO - Started process 51 to run task
+[2021-04-25 07:41:27,089] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'write_file_python_operator', 'fetch_and_write_a_file_task', '2021-04-25T07:41:24.936032+00:00', '--job-id', '785', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/python_operator/write_file_python_operator.py', '--cfg-path', '/tmp/tmpzrklw3xc', '--error-file', '/tmp/tmpft16n0d4']
+[2021-04-25 07:41:27,092] {standard_task_runner.py:77} INFO - Job 785: Subtask fetch_and_write_a_file_task
+[2021-04-25 07:41:27,217] {logging_mixin.py:104} INFO - Running <TaskInstance: write_file_python_operator.fetch_and_write_a_file_task 2021-04-25T07:41:24.936032+00:00 [running]> on host d6e2455ef0ec
+[2021-04-25 07:41:27,378] {taskinstance.py:1283} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=write_file_python_operator
+AIRFLOW_CTX_TASK_ID=fetch_and_write_a_file_task
+AIRFLOW_CTX_EXECUTION_DATE=2021-04-25T07:41:24.936032+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-04-25T07:41:24.936032+00:00
+[2021-04-25 07:41:28,188] {taskinstance.py:1482} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1138, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1311, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1341, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 117, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 128, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/python_operator/write_file_python_operator.py", line 17, in fetch_and_write
+    with open(path_to_write, 'wb') as file:
+IsADirectoryError: [Errno 21] Is a directory: './'
+[2021-04-25 07:41:28,194] {taskinstance.py:1532} INFO - Marking task as UP_FOR_RETRY. dag_id=write_file_python_operator, task_id=fetch_and_write_a_file_task, execution_date=20210425T074124, start_date=20210425T074126, end_date=20210425T074128
+[2021-04-25 07:41:28,272] {local_task_job.py:146} INFO - Task exited with return code 1

@@ -1,0 +1,24 @@
+[2021-04-25 10:57:01,082] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: external_sensor_dag.external_sensor_task 2021-04-25T10:56:00+00:00 [queued]>
+[2021-04-25 10:57:01,107] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: external_sensor_dag.external_sensor_task 2021-04-25T10:56:00+00:00 [queued]>
+[2021-04-25 10:57:01,108] {taskinstance.py:1068} INFO - 
+--------------------------------------------------------------------------------
+[2021-04-25 10:57:01,108] {taskinstance.py:1069} INFO - Starting attempt 1 of 3
+[2021-04-25 10:57:01,108] {taskinstance.py:1070} INFO - 
+--------------------------------------------------------------------------------
+[2021-04-25 10:57:01,121] {taskinstance.py:1089} INFO - Executing <Task(ExternalTaskSensor): external_sensor_task> on 2021-04-25T10:56:00+00:00
+[2021-04-25 10:57:01,126] {standard_task_runner.py:52} INFO - Started process 102 to run task
+[2021-04-25 10:57:01,133] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'external_sensor_dag', 'external_sensor_task', '2021-04-25T10:56:00+00:00', '--job-id', '860', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/sensor/external_sensor.py', '--cfg-path', '/tmp/tmpgpzfa65b', '--error-file', '/tmp/tmpy6s3j9np']
+[2021-04-25 10:57:01,134] {standard_task_runner.py:77} INFO - Job 860: Subtask external_sensor_task
+[2021-04-25 10:57:01,222] {logging_mixin.py:104} INFO - Running <TaskInstance: external_sensor_dag.external_sensor_task 2021-04-25T10:56:00+00:00 [running]> on host d6e2455ef0ec
+[2021-04-25 10:57:01,297] {taskinstance.py:1283} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=external_sensor_dag
+AIRFLOW_CTX_TASK_ID=external_sensor_task
+AIRFLOW_CTX_EXECUTION_DATE=2021-04-25T10:56:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-04-25T10:56:00+00:00
+[2021-04-25 10:57:01,298] {external_task.py:154} INFO - Poking for write_file_python_operator.fetch_and_write_a_file_task on 2021-04-25T10:56:00+00:00 ... 
+[2021-04-25 10:58:01,364] {external_task.py:154} INFO - Poking for write_file_python_operator.fetch_and_write_a_file_task on 2021-04-25T10:56:00+00:00 ... 
+[2021-04-25 10:58:01,373] {base.py:245} INFO - Success criteria met. Exiting.
+[2021-04-25 10:58:01,386] {taskinstance.py:1192} INFO - Marking task as SUCCESS. dag_id=external_sensor_dag, task_id=external_sensor_task, execution_date=20210425T105600, start_date=20210425T105701, end_date=20210425T105801
+[2021-04-25 10:58:01,427] {taskinstance.py:1246} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-04-25 10:58:01,456] {local_task_job.py:146} INFO - Task exited with return code 0

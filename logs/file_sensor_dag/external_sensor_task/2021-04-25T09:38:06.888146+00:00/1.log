@@ -1,0 +1,47 @@
+[2021-04-25 09:38:08,687] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: file_sensor_dag.external_sensor_task 2021-04-25T09:38:06.888146+00:00 [queued]>
+[2021-04-25 09:38:08,744] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: file_sensor_dag.external_sensor_task 2021-04-25T09:38:06.888146+00:00 [queued]>
+[2021-04-25 09:38:08,745] {taskinstance.py:1068} INFO - 
+--------------------------------------------------------------------------------
+[2021-04-25 09:38:08,745] {taskinstance.py:1069} INFO - Starting attempt 1 of 3
+[2021-04-25 09:38:08,745] {taskinstance.py:1070} INFO - 
+--------------------------------------------------------------------------------
+[2021-04-25 09:38:08,796] {taskinstance.py:1089} INFO - Executing <Task(ExternalTaskSensor): external_sensor_task> on 2021-04-25T09:38:06.888146+00:00
+[2021-04-25 09:38:08,810] {standard_task_runner.py:52} INFO - Started process 53 to run task
+[2021-04-25 09:38:08,817] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'file_sensor_dag', 'external_sensor_task', '2021-04-25T09:38:06.888146+00:00', '--job-id', '822', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/sensor/simple_sensor_dag.py', '--cfg-path', '/tmp/tmp1hgrm3_o', '--error-file', '/tmp/tmp5p80j3qu']
+[2021-04-25 09:38:08,817] {standard_task_runner.py:77} INFO - Job 822: Subtask external_sensor_task
+[2021-04-25 09:38:08,935] {logging_mixin.py:104} INFO - Running <TaskInstance: file_sensor_dag.external_sensor_task 2021-04-25T09:38:06.888146+00:00 [running]> on host d6e2455ef0ec
+[2021-04-25 09:38:09,065] {taskinstance.py:1283} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=file_sensor_dag
+AIRFLOW_CTX_TASK_ID=external_sensor_task
+AIRFLOW_CTX_EXECUTION_DATE=2021-04-25T09:38:06.888146+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-04-25T09:38:06.888146+00:00
+[2021-04-25 09:38:09,066] {external_task.py:154} INFO - Poking for write_file_python_operator.fetch_and_write_a_file_task on 2021-04-25T09:38:06.888146+00:00 ... 
+[2021-04-25 09:39:09,134] {external_task.py:154} INFO - Poking for write_file_python_operator.fetch_and_write_a_file_task on 2021-04-25T09:38:06.888146+00:00 ... 
+[2021-04-25 09:40:09,214] {external_task.py:154} INFO - Poking for write_file_python_operator.fetch_and_write_a_file_task on 2021-04-25T09:38:06.888146+00:00 ... 
+[2021-04-25 09:41:09,290] {external_task.py:154} INFO - Poking for write_file_python_operator.fetch_and_write_a_file_task on 2021-04-25T09:38:06.888146+00:00 ... 
+[2021-04-25 09:42:09,364] {external_task.py:154} INFO - Poking for write_file_python_operator.fetch_and_write_a_file_task on 2021-04-25T09:38:06.888146+00:00 ... 
+[2021-04-25 09:43:09,384] {external_task.py:154} INFO - Poking for write_file_python_operator.fetch_and_write_a_file_task on 2021-04-25T09:38:06.888146+00:00 ... 
+[2021-04-25 09:44:09,458] {external_task.py:154} INFO - Poking for write_file_python_operator.fetch_and_write_a_file_task on 2021-04-25T09:38:06.888146+00:00 ... 
+[2021-04-25 09:45:09,529] {external_task.py:154} INFO - Poking for write_file_python_operator.fetch_and_write_a_file_task on 2021-04-25T09:38:06.888146+00:00 ... 
+[2021-04-25 09:46:09,594] {external_task.py:154} INFO - Poking for write_file_python_operator.fetch_and_write_a_file_task on 2021-04-25T09:38:06.888146+00:00 ... 
+[2021-04-25 09:47:09,664] {external_task.py:154} INFO - Poking for write_file_python_operator.fetch_and_write_a_file_task on 2021-04-25T09:38:06.888146+00:00 ... 
+[2021-04-25 09:48:09,734] {external_task.py:154} INFO - Poking for write_file_python_operator.fetch_and_write_a_file_task on 2021-04-25T09:38:06.888146+00:00 ... 
+[2021-04-25 09:48:53,402] {local_task_job.py:188} WARNING - State of this instance has been externally set to None. Terminating instance.
+[2021-04-25 09:48:53,551] {process_utils.py:100} INFO - Sending Signals.SIGTERM to GPID 53
+[2021-04-25 09:48:53,558] {taskinstance.py:1265} ERROR - Received SIGTERM. Terminating subprocesses.
+[2021-04-25 09:48:53,662] {taskinstance.py:1482} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1138, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1311, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1341, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/sensors/base.py", line 243, in execute
+    time.sleep(self._get_next_poke_interval(started_at, run_duration, try_number))
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1267, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+[2021-04-25 09:48:53,765] {taskinstance.py:1532} INFO - Marking task as UP_FOR_RETRY. dag_id=file_sensor_dag, task_id=external_sensor_task, execution_date=20210425T093806, start_date=20210425T093808, end_date=20210425T094853
+[2021-04-25 09:48:53,990] {process_utils.py:66} INFO - Process psutil.Process(pid=53, status='terminated', exitcode=1, started='09:38:08') (53) terminated with exit code 1

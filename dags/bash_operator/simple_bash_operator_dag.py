@@ -1,9 +1,7 @@
 # Import DAG object
 from airflow.models import DAG
-
 # Import the BashOperator
 from airflow.operators.bash_operator import BashOperator
-
 from datetime import datetime
 
 # Define the default_args dictionary
@@ -17,22 +15,18 @@ with DAG(
     # Define DAG id
     'bash_operator_dag',
     default_args=default_args,
-    # Define description of the DAG
     description='echoing simple string',
-    # Define the DAG tag
     tags=['explore-airflow'],
-    # To enabled/disabled backfilling
+    # To enabled/disabled backfilling, set the catchup property
     catchup=False,
-    # Define when the dag will triggered
     schedule_interval='@daily'
 ) as dag:
 
-    # Define the BashOperator 
+    # Define the BashOperator
     first_task = BashOperator(
         task_id='first_task',
         # Define the bash_command
         bash_command='echo "testing first bash operator"',
-        # Add the task to the dag
         dag=dag
     )
 
@@ -41,8 +35,8 @@ with DAG(
         task_id='second_task',
         # Define the bash_command
         bash_command='echo "testing second bash operator"',
-        # Add the task to the dag
         dag=dag
     )
 
+    # Define task depedencies
     first_task >> second_task
