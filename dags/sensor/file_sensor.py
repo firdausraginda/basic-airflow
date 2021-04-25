@@ -22,8 +22,8 @@ with DAG(
     tags=['explore-airflow'],
     # To enabled/disabled backfilling, set the catchup property
     catchup=False,
-    # schedule interval every 2 minutes
-    schedule_interval='*/2 * * * *'
+    # schedule interval every 6 minutes
+    schedule_interval='*/6 * * * *'
 ) as dag:
 
     file_sensor = FileSensor(

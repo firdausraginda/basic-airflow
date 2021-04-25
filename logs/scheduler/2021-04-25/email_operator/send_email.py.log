@@ -111,3 +111,8 @@
 [2021-04-25 09:59:34,498] {logging_mixin.py:104} INFO - [2021-04-25 09:59:34,498] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/email_operator/send_email.py
 [2021-04-25 09:59:34,499] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/email_operator/send_email.py
 [2021-04-25 09:59:34,502] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/email_operator/send_email.py took 0.018 seconds
+[2021-04-25 13:30:22,000] {scheduler_job.py:182} INFO - Started process (PID=49) to work on /opt/airflow/dags/email_operator/send_email.py
+[2021-04-25 13:30:22,004] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/email_operator/send_email.py for tasks to queue
+[2021-04-25 13:30:22,005] {logging_mixin.py:104} INFO - [2021-04-25 13:30:22,005] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/email_operator/send_email.py
+[2021-04-25 13:30:22,006] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/email_operator/send_email.py
+[2021-04-25 13:30:22,006] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/email_operator/send_email.py took 0.011 seconds
