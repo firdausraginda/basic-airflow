@@ -21,15 +21,16 @@ with DAG(
     tags=['explore-airflow'],
     # To enabled/disabled backfilling, set the catchup property
     catchup=False,
-    schedule_interval='* * * * *'
+    # schedule interval every 2 minutes
+    schedule_interval='*/2 * * * *'
 ) as dag:
 
     external_sensor = ExternalTaskSensor(
         task_id='external_sensor_task',
         # by default mode set to 'poke', which means run repeatedly
         mode='poke',
-        # time to wait before the task fail
-        timeout=600,
+        # wait 300 between checks
+        poke_interval=300,
         external_dag_id='write_file_python_operator',
         external_task_id='fetch_and_write_a_file_task',
         dag=dag

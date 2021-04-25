@@ -22,12 +22,18 @@ with DAG(
     tags=['explore-airflow'],
     # To enabled/disabled backfilling, set the catchup property
     catchup=False,
-    schedule_interval='@daily'
+    # schedule interval every 2 minutes
+    schedule_interval='*/2 * * * *'
 ) as dag:
 
     file_sensor = FileSensor(
         task_id='file_sensor_task',
+        # the file path has been set in admin -> connection, so just need to specify the file name here
         filepath='todo.json',
+        # set the fs_conn_id (admin -> connections)
+        fs_conn_id='my_file_system',
+        # by default mode set to 'poke', which means run repeatedly
+        mode='poke',
         # wait 300 between checks
         poke_interval=300,
         dag=dag

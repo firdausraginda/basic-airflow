@@ -31,7 +31,8 @@ with DAG(
     tags=['explore-airflow'],
     # To enabled/disabled backfilling, set the catchup property
     catchup=False,
-    schedule_interval='* * * * *'
+    # schedule interval every 2 minutes
+    schedule_interval='*/2 * * * *'
 ) as dag:
 
     fetch_and_write_a_file = PythonOperator(
