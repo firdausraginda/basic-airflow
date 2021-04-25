@@ -1,0 +1,451 @@
+[2021-04-24 23:37:13,997] {scheduler_job.py:182} INFO - Started process (PID=42) to work on /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:37:14,000] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bash_operator_dag.py for tasks to queue
+[2021-04-24 23:37:14,003] {logging_mixin.py:104} INFO - [2021-04-24 23:37:14,003] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:37:14,046] {logging_mixin.py:104} INFO - [2021-04-24 23:37:14,041] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/bash_operator_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bash_operator_dag.py", line 10, in <module>
+    dag=analytics_dag
+NameError: name 'analytics_dag' is not defined
+[2021-04-24 23:37:14,049] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:37:14,199] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bash_operator_dag.py took 0.224 seconds
+[2021-04-24 23:37:45,794] {scheduler_job.py:182} INFO - Started process (PID=70) to work on /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:37:45,797] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bash_operator_dag.py for tasks to queue
+[2021-04-24 23:37:45,799] {logging_mixin.py:104} INFO - [2021-04-24 23:37:45,799] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:37:45,836] {logging_mixin.py:104} INFO - [2021-04-24 23:37:45,826] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/bash_operator_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bash_operator_dag.py", line 10, in <module>
+    dag=analytics_dag
+NameError: name 'analytics_dag' is not defined
+[2021-04-24 23:37:45,837] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:37:45,930] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bash_operator_dag.py took 0.156 seconds
+[2021-04-24 23:38:16,326] {scheduler_job.py:182} INFO - Started process (PID=96) to work on /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:38:16,328] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bash_operator_dag.py for tasks to queue
+[2021-04-24 23:38:16,329] {logging_mixin.py:104} INFO - [2021-04-24 23:38:16,329] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:38:16,336] {logging_mixin.py:104} INFO - [2021-04-24 23:38:16,334] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/bash_operator_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bash_operator_dag.py", line 10, in <module>
+    dag=analytics_dag
+NameError: name 'analytics_dag' is not defined
+[2021-04-24 23:38:16,337] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:38:16,363] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bash_operator_dag.py took 0.042 seconds
+[2021-04-24 23:38:46,832] {scheduler_job.py:182} INFO - Started process (PID=123) to work on /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:38:46,833] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bash_operator_dag.py for tasks to queue
+[2021-04-24 23:38:46,835] {logging_mixin.py:104} INFO - [2021-04-24 23:38:46,834] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:38:46,839] {logging_mixin.py:104} INFO - [2021-04-24 23:38:46,839] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/bash_operator_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bash_operator_dag.py", line 10, in <module>
+    dag=analytics_dag
+NameError: name 'analytics_dag' is not defined
+[2021-04-24 23:38:46,840] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:38:46,869] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bash_operator_dag.py took 0.042 seconds
+[2021-04-24 23:39:17,504] {scheduler_job.py:182} INFO - Started process (PID=150) to work on /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:39:17,505] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bash_operator_dag.py for tasks to queue
+[2021-04-24 23:39:17,506] {logging_mixin.py:104} INFO - [2021-04-24 23:39:17,506] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:39:17,512] {logging_mixin.py:104} INFO - [2021-04-24 23:39:17,511] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/bash_operator_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bash_operator_dag.py", line 10, in <module>
+    dag=analytics_dag
+NameError: name 'analytics_dag' is not defined
+[2021-04-24 23:39:17,512] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:39:17,536] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bash_operator_dag.py took 0.037 seconds
+[2021-04-24 23:39:48,315] {scheduler_job.py:182} INFO - Started process (PID=177) to work on /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:39:48,316] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bash_operator_dag.py for tasks to queue
+[2021-04-24 23:39:48,317] {logging_mixin.py:104} INFO - [2021-04-24 23:39:48,316] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:39:48,321] {logging_mixin.py:104} INFO - [2021-04-24 23:39:48,320] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/bash_operator_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bash_operator_dag.py", line 10, in <module>
+    dag=analytics_dag
+NameError: name 'analytics_dag' is not defined
+[2021-04-24 23:39:48,321] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:39:48,343] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bash_operator_dag.py took 0.032 seconds
+[2021-04-24 23:40:19,385] {scheduler_job.py:182} INFO - Started process (PID=204) to work on /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:40:19,386] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bash_operator_dag.py for tasks to queue
+[2021-04-24 23:40:19,387] {logging_mixin.py:104} INFO - [2021-04-24 23:40:19,387] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:40:19,391] {logging_mixin.py:104} INFO - [2021-04-24 23:40:19,390] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/bash_operator_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bash_operator_dag.py", line 10, in <module>
+    dag=analytics_dag
+NameError: name 'analytics_dag' is not defined
+[2021-04-24 23:40:19,391] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:40:19,412] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bash_operator_dag.py took 0.031 seconds
+[2021-04-24 23:40:49,433] {scheduler_job.py:182} INFO - Started process (PID=228) to work on /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:40:49,434] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bash_operator_dag.py for tasks to queue
+[2021-04-24 23:40:49,435] {logging_mixin.py:104} INFO - [2021-04-24 23:40:49,435] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:40:49,445] {logging_mixin.py:104} INFO - [2021-04-24 23:40:49,444] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/bash_operator_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bash_operator_dag.py", line 10, in <module>
+    'start_date': datetime(2020, 1, 14),
+NameError: name 'datetime' is not defined
+[2021-04-24 23:40:49,445] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:40:49,468] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bash_operator_dag.py took 0.038 seconds
+[2021-04-24 23:41:20,177] {scheduler_job.py:182} INFO - Started process (PID=258) to work on /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:41:20,178] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bash_operator_dag.py for tasks to queue
+[2021-04-24 23:41:20,179] {logging_mixin.py:104} INFO - [2021-04-24 23:41:20,179] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:41:20,186] {logging_mixin.py:104} INFO - [2021-04-24 23:41:20,185] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/bash_operator_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bash_operator_dag.py", line 10, in <module>
+    'start_date': datetime(2021, 1, 1),
+NameError: name 'datetime' is not defined
+[2021-04-24 23:41:20,186] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:41:20,207] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bash_operator_dag.py took 0.034 seconds
+[2021-04-24 23:41:50,582] {scheduler_job.py:182} INFO - Started process (PID=285) to work on /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:41:50,583] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bash_operator_dag.py for tasks to queue
+[2021-04-24 23:41:50,584] {logging_mixin.py:104} INFO - [2021-04-24 23:41:50,584] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:41:50,588] {logging_mixin.py:104} INFO - [2021-04-24 23:41:50,587] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/bash_operator_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bash_operator_dag.py", line 10, in <module>
+    'start_date': datetime(2021, 1, 1),
+NameError: name 'datetime' is not defined
+[2021-04-24 23:41:50,588] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:41:50,609] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bash_operator_dag.py took 0.031 seconds
+[2021-04-24 23:42:21,273] {scheduler_job.py:182} INFO - Started process (PID=314) to work on /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:42:21,274] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bash_operator_dag.py for tasks to queue
+[2021-04-24 23:42:21,276] {logging_mixin.py:104} INFO - [2021-04-24 23:42:21,275] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:42:21,283] {logging_mixin.py:104} INFO - [2021-04-24 23:42:21,282] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/bash_operator_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bash_operator_dag.py", line 10, in <module>
+    'start_date': datetime(2021, 1, 1),
+NameError: name 'datetime' is not defined
+[2021-04-24 23:42:21,284] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:42:21,313] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bash_operator_dag.py took 0.045 seconds
+[2021-04-24 23:42:52,047] {scheduler_job.py:182} INFO - Started process (PID=341) to work on /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:42:52,049] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bash_operator_dag.py for tasks to queue
+[2021-04-24 23:42:52,050] {logging_mixin.py:104} INFO - [2021-04-24 23:42:52,049] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:42:52,056] {logging_mixin.py:104} INFO - [2021-04-24 23:42:52,055] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/bash_operator_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bash_operator_dag.py", line 10, in <module>
+    'start_date': datetime(2021, 1, 1),
+NameError: name 'datetime' is not defined
+[2021-04-24 23:42:52,057] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:42:52,085] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bash_operator_dag.py took 0.042 seconds
+[2021-04-24 23:43:22,810] {scheduler_job.py:182} INFO - Started process (PID=369) to work on /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:43:22,812] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bash_operator_dag.py for tasks to queue
+[2021-04-24 23:43:22,813] {logging_mixin.py:104} INFO - [2021-04-24 23:43:22,813] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:43:22,823] {logging_mixin.py:104} INFO - [2021-04-24 23:43:22,823] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/bash_operator_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bash_operator_dag.py", line 7, in <module>
+    from date import datetime
+ModuleNotFoundError: No module named 'date'
+[2021-04-24 23:43:22,824] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:43:22,847] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bash_operator_dag.py took 0.043 seconds
+[2021-04-24 23:43:53,807] {scheduler_job.py:182} INFO - Started process (PID=396) to work on /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:43:53,809] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bash_operator_dag.py for tasks to queue
+[2021-04-24 23:43:53,810] {logging_mixin.py:104} INFO - [2021-04-24 23:43:53,810] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:43:53,830] {logging_mixin.py:104} INFO - [2021-04-24 23:43:53,823] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/bash_operator_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bash_operator_dag.py", line 24, in <module>
+    dag=dag
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py", line 89, in __call__
+    obj: BaseOperator = type.__call__(cls, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py", line 94, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/bash.py", line 122, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py", line 94, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py", line 520, in __init__
+    self.dag = dag or DagContext.get_current_dag()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py", line 626, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py", line 677, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dag.py", line 1595, in add_task
+    raise AirflowException("Task is missing the start_date parameter")
+airflow.exceptions.AirflowException: Task is missing the start_date parameter
+[2021-04-24 23:43:53,830] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:43:53,859] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bash_operator_dag.py took 0.064 seconds
+[2021-04-24 23:44:24,173] {scheduler_job.py:182} INFO - Started process (PID=423) to work on /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:44:24,176] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bash_operator_dag.py for tasks to queue
+[2021-04-24 23:44:24,177] {logging_mixin.py:104} INFO - [2021-04-24 23:44:24,177] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:44:24,189] {logging_mixin.py:104} INFO - [2021-04-24 23:44:24,187] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/bash_operator_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bash_operator_dag.py", line 24, in <module>
+    dag=dag
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py", line 89, in __call__
+    obj: BaseOperator = type.__call__(cls, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py", line 94, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/bash.py", line 122, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py", line 94, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py", line 520, in __init__
+    self.dag = dag or DagContext.get_current_dag()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py", line 626, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py", line 677, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dag.py", line 1595, in add_task
+    raise AirflowException("Task is missing the start_date parameter")
+airflow.exceptions.AirflowException: Task is missing the start_date parameter
+[2021-04-24 23:44:24,189] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:44:24,220] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bash_operator_dag.py took 0.052 seconds
+[2021-04-24 23:44:54,287] {scheduler_job.py:182} INFO - Started process (PID=449) to work on /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:44:54,288] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bash_operator_dag.py for tasks to queue
+[2021-04-24 23:44:54,290] {logging_mixin.py:104} INFO - [2021-04-24 23:44:54,289] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:44:54,303] {logging_mixin.py:104} INFO - [2021-04-24 23:44:54,300] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/bash_operator_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bash_operator_dag.py", line 24, in <module>
+    dag=dag
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py", line 89, in __call__
+    obj: BaseOperator = type.__call__(cls, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py", line 94, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/bash.py", line 122, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py", line 94, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py", line 520, in __init__
+    self.dag = dag or DagContext.get_current_dag()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py", line 626, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py", line 677, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dag.py", line 1595, in add_task
+    raise AirflowException("Task is missing the start_date parameter")
+airflow.exceptions.AirflowException: Task is missing the start_date parameter
+[2021-04-24 23:44:54,304] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:44:54,338] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bash_operator_dag.py took 0.061 seconds
+[2021-04-24 23:45:24,406] {scheduler_job.py:182} INFO - Started process (PID=475) to work on /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:45:24,408] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bash_operator_dag.py for tasks to queue
+[2021-04-24 23:45:24,409] {logging_mixin.py:104} INFO - [2021-04-24 23:45:24,409] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:45:24,417] {logging_mixin.py:104} INFO - [2021-04-24 23:45:24,415] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/bash_operator_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bash_operator_dag.py", line 24, in <module>
+    dag=dag
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py", line 89, in __call__
+    obj: BaseOperator = type.__call__(cls, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py", line 94, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/bash.py", line 122, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py", line 94, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py", line 520, in __init__
+    self.dag = dag or DagContext.get_current_dag()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py", line 626, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py", line 677, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dag.py", line 1595, in add_task
+    raise AirflowException("Task is missing the start_date parameter")
+airflow.exceptions.AirflowException: Task is missing the start_date parameter
+[2021-04-24 23:45:24,417] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:45:24,443] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bash_operator_dag.py took 0.042 seconds
+[2021-04-24 23:45:55,335] {scheduler_job.py:182} INFO - Started process (PID=504) to work on /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:45:55,337] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bash_operator_dag.py for tasks to queue
+[2021-04-24 23:45:55,338] {logging_mixin.py:104} INFO - [2021-04-24 23:45:55,338] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:45:55,350] {logging_mixin.py:104} INFO - [2021-04-24 23:45:55,348] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/bash_operator_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bash_operator_dag.py", line 24, in <module>
+    dag=dag
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py", line 89, in __call__
+    obj: BaseOperator = type.__call__(cls, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py", line 94, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/bash.py", line 122, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py", line 94, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py", line 520, in __init__
+    self.dag = dag or DagContext.get_current_dag()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py", line 626, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py", line 677, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dag.py", line 1595, in add_task
+    raise AirflowException("Task is missing the start_date parameter")
+airflow.exceptions.AirflowException: Task is missing the start_date parameter
+[2021-04-24 23:45:55,351] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:45:55,384] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bash_operator_dag.py took 0.055 seconds
+[2021-04-24 23:46:26,451] {scheduler_job.py:182} INFO - Started process (PID=531) to work on /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:46:26,453] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bash_operator_dag.py for tasks to queue
+[2021-04-24 23:46:26,455] {logging_mixin.py:104} INFO - [2021-04-24 23:46:26,454] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:46:26,467] {logging_mixin.py:104} INFO - [2021-04-24 23:46:26,464] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/bash_operator_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bash_operator_dag.py", line 24, in <module>
+    dag=dag
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py", line 89, in __call__
+    obj: BaseOperator = type.__call__(cls, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py", line 94, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/bash.py", line 122, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py", line 94, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py", line 520, in __init__
+    self.dag = dag or DagContext.get_current_dag()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py", line 626, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py", line 677, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dag.py", line 1595, in add_task
+    raise AirflowException("Task is missing the start_date parameter")
+airflow.exceptions.AirflowException: Task is missing the start_date parameter
+[2021-04-24 23:46:26,468] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:46:26,507] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bash_operator_dag.py took 0.070 seconds
+[2021-04-24 23:46:57,476] {scheduler_job.py:182} INFO - Started process (PID=560) to work on /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:46:57,477] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bash_operator_dag.py for tasks to queue
+[2021-04-24 23:46:57,478] {logging_mixin.py:104} INFO - [2021-04-24 23:46:57,478] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:46:57,485] {logging_mixin.py:104} INFO - [2021-04-24 23:46:57,484] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/bash_operator_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bash_operator_dag.py", line 24, in <module>
+    dag=dag
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py", line 89, in __call__
+    obj: BaseOperator = type.__call__(cls, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py", line 94, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/bash.py", line 122, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py", line 94, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py", line 520, in __init__
+    self.dag = dag or DagContext.get_current_dag()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py", line 626, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py", line 677, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dag.py", line 1595, in add_task
+    raise AirflowException("Task is missing the start_date parameter")
+airflow.exceptions.AirflowException: Task is missing the start_date parameter
+[2021-04-24 23:46:57,486] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:46:57,511] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bash_operator_dag.py took 0.039 seconds
+[2021-04-24 23:47:28,064] {scheduler_job.py:182} INFO - Started process (PID=587) to work on /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:47:28,065] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bash_operator_dag.py for tasks to queue
+[2021-04-24 23:47:28,067] {logging_mixin.py:104} INFO - [2021-04-24 23:47:28,066] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:47:28,084] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['bash_operator_dag']) retrieved from /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:47:28,121] {logging_mixin.py:104} INFO - [2021-04-24 23:47:28,120] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-24 23:47:28,148] {logging_mixin.py:104} INFO - [2021-04-24 23:47:28,148] {dag.py:1843} INFO - Creating ORM DAG for bash_operator_dag
+[2021-04-24 23:47:28,162] {logging_mixin.py:104} INFO - [2021-04-24 23:47:28,162] {dag.py:2280} INFO - Setting next_dagrun for bash_operator_dag to 2021-01-01T00:00:00+00:00
+[2021-04-24 23:47:28,193] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bash_operator_dag.py took 0.138 seconds
+[2021-04-24 23:47:58,305] {scheduler_job.py:182} INFO - Started process (PID=608) to work on /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:47:58,306] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bash_operator_dag.py for tasks to queue
+[2021-04-24 23:47:58,307] {logging_mixin.py:104} INFO - [2021-04-24 23:47:58,307] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:47:58,325] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['bash_operator_dag']) retrieved from /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:47:58,358] {logging_mixin.py:104} INFO - [2021-04-24 23:47:58,358] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-24 23:47:58,382] {logging_mixin.py:104} INFO - [2021-04-24 23:47:58,382] {dag.py:2280} INFO - Setting next_dagrun for bash_operator_dag to 2021-01-01T00:00:00+00:00
+[2021-04-24 23:47:58,399] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bash_operator_dag.py took 0.099 seconds
+[2021-04-24 23:48:29,771] {scheduler_job.py:182} INFO - Started process (PID=641) to work on /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:48:29,774] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bash_operator_dag.py for tasks to queue
+[2021-04-24 23:48:29,775] {logging_mixin.py:104} INFO - [2021-04-24 23:48:29,775] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:48:29,794] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['bash_operator_dag']) retrieved from /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:48:29,827] {logging_mixin.py:104} INFO - [2021-04-24 23:48:29,827] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-24 23:48:29,862] {logging_mixin.py:104} INFO - [2021-04-24 23:48:29,862] {dag.py:2280} INFO - Setting next_dagrun for bash_operator_dag to 2021-01-01T00:00:00+00:00
+[2021-04-24 23:48:29,877] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bash_operator_dag.py took 0.112 seconds
+[2021-04-24 23:49:00,665] {scheduler_job.py:182} INFO - Started process (PID=668) to work on /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:49:00,667] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bash_operator_dag.py for tasks to queue
+[2021-04-24 23:49:00,668] {logging_mixin.py:104} INFO - [2021-04-24 23:49:00,668] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:49:00,693] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['bash_operator_dag']) retrieved from /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:49:00,744] {logging_mixin.py:104} INFO - [2021-04-24 23:49:00,744] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-24 23:49:00,780] {logging_mixin.py:104} INFO - [2021-04-24 23:49:00,780] {dag.py:2280} INFO - Setting next_dagrun for bash_operator_dag to 2021-01-01T00:00:00+00:00
+[2021-04-24 23:49:00,815] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bash_operator_dag.py took 0.155 seconds
+[2021-04-24 23:49:31,723] {scheduler_job.py:182} INFO - Started process (PID=695) to work on /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:49:31,725] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bash_operator_dag.py for tasks to queue
+[2021-04-24 23:49:31,726] {logging_mixin.py:104} INFO - [2021-04-24 23:49:31,726] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:49:31,726] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:49:31,727] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bash_operator_dag.py took 0.010 seconds
+[2021-04-24 23:50:02,421] {scheduler_job.py:182} INFO - Started process (PID=722) to work on /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:50:02,422] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bash_operator_dag.py for tasks to queue
+[2021-04-24 23:50:02,424] {logging_mixin.py:104} INFO - [2021-04-24 23:50:02,423] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:50:02,424] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:50:02,425] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bash_operator_dag.py took 0.011 seconds
+[2021-04-24 23:50:33,276] {scheduler_job.py:182} INFO - Started process (PID=749) to work on /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:50:33,277] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bash_operator_dag.py for tasks to queue
+[2021-04-24 23:50:33,279] {logging_mixin.py:104} INFO - [2021-04-24 23:50:33,278] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:50:33,279] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:50:33,280] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bash_operator_dag.py took 0.008 seconds
+[2021-04-24 23:51:03,998] {scheduler_job.py:182} INFO - Started process (PID=777) to work on /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:51:03,999] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bash_operator_dag.py for tasks to queue
+[2021-04-24 23:51:04,000] {logging_mixin.py:104} INFO - [2021-04-24 23:51:04,000] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:51:04,001] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:51:04,002] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bash_operator_dag.py took 0.012 seconds
+[2021-04-24 23:51:34,598] {scheduler_job.py:182} INFO - Started process (PID=803) to work on /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:51:34,599] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bash_operator_dag.py for tasks to queue
+[2021-04-24 23:51:34,600] {logging_mixin.py:104} INFO - [2021-04-24 23:51:34,600] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:51:34,600] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:51:34,601] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bash_operator_dag.py took 0.007 seconds
+[2021-04-24 23:52:05,739] {scheduler_job.py:182} INFO - Started process (PID=830) to work on /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:52:05,742] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bash_operator_dag.py for tasks to queue
+[2021-04-24 23:52:05,745] {logging_mixin.py:104} INFO - [2021-04-24 23:52:05,744] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:52:05,745] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/bash_operator_dag.py
+[2021-04-24 23:52:05,753] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bash_operator_dag.py took 0.032 seconds

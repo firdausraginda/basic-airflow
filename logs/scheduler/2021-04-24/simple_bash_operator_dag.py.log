@@ -1,0 +1,147 @@
+[2021-04-24 23:52:13,882] {scheduler_job.py:182} INFO - Started process (PID=843) to work on /opt/airflow/dags/simple_bash_operator_dag.py
+[2021-04-24 23:52:13,884] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/simple_bash_operator_dag.py for tasks to queue
+[2021-04-24 23:52:13,886] {logging_mixin.py:104} INFO - [2021-04-24 23:52:13,885] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/simple_bash_operator_dag.py
+[2021-04-24 23:52:13,894] {logging_mixin.py:104} INFO - [2021-04-24 23:52:13,893] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/simple_bash_operator_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/simple_bash_operator_dag.py", line 20, in <module>
+    tag=['explore-airflow']
+TypeError: __init__() got an unexpected keyword argument 'tag'
+[2021-04-24 23:52:13,895] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/simple_bash_operator_dag.py
+[2021-04-24 23:52:13,928] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/simple_bash_operator_dag.py took 0.052 seconds
+[2021-04-24 23:53:22,077] {scheduler_job.py:182} INFO - Started process (PID=43) to work on /opt/airflow/dags/simple_bash_operator_dag.py
+[2021-04-24 23:53:22,084] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/simple_bash_operator_dag.py for tasks to queue
+[2021-04-24 23:53:22,087] {logging_mixin.py:104} INFO - [2021-04-24 23:53:22,086] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/simple_bash_operator_dag.py
+[2021-04-24 23:53:22,100] {logging_mixin.py:104} INFO - [2021-04-24 23:53:22,097] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/simple_bash_operator_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/simple_bash_operator_dag.py", line 20, in <module>
+    tag=['explore-airflow']
+TypeError: __init__() got an unexpected keyword argument 'tag'
+[2021-04-24 23:53:22,101] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/simple_bash_operator_dag.py
+[2021-04-24 23:53:22,200] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/simple_bash_operator_dag.py took 0.140 seconds
+[2021-04-24 23:53:52,628] {scheduler_job.py:182} INFO - Started process (PID=69) to work on /opt/airflow/dags/simple_bash_operator_dag.py
+[2021-04-24 23:53:52,630] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/simple_bash_operator_dag.py for tasks to queue
+[2021-04-24 23:53:52,640] {logging_mixin.py:104} INFO - [2021-04-24 23:53:52,639] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/simple_bash_operator_dag.py
+[2021-04-24 23:53:52,656] {logging_mixin.py:104} INFO - [2021-04-24 23:53:52,654] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/simple_bash_operator_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/simple_bash_operator_dag.py", line 20, in <module>
+    tag=['explore-airflow']
+TypeError: __init__() got an unexpected keyword argument 'tag'
+[2021-04-24 23:53:52,666] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/simple_bash_operator_dag.py
+[2021-04-24 23:53:52,785] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/simple_bash_operator_dag.py took 0.176 seconds
+[2021-04-24 23:54:22,860] {scheduler_job.py:182} INFO - Started process (PID=95) to work on /opt/airflow/dags/simple_bash_operator_dag.py
+[2021-04-24 23:54:22,862] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/simple_bash_operator_dag.py for tasks to queue
+[2021-04-24 23:54:22,863] {logging_mixin.py:104} INFO - [2021-04-24 23:54:22,862] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/simple_bash_operator_dag.py
+[2021-04-24 23:54:22,868] {logging_mixin.py:104} INFO - [2021-04-24 23:54:22,867] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/simple_bash_operator_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/simple_bash_operator_dag.py", line 20, in <module>
+    tag=['explore-airflow']
+TypeError: __init__() got an unexpected keyword argument 'tag'
+[2021-04-24 23:54:22,869] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/simple_bash_operator_dag.py
+[2021-04-24 23:54:22,889] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/simple_bash_operator_dag.py took 0.033 seconds
+[2021-04-24 23:54:53,967] {scheduler_job.py:182} INFO - Started process (PID=123) to work on /opt/airflow/dags/simple_bash_operator_dag.py
+[2021-04-24 23:54:53,968] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/simple_bash_operator_dag.py for tasks to queue
+[2021-04-24 23:54:53,969] {logging_mixin.py:104} INFO - [2021-04-24 23:54:53,969] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/simple_bash_operator_dag.py
+[2021-04-24 23:54:53,973] {logging_mixin.py:104} INFO - [2021-04-24 23:54:53,972] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/simple_bash_operator_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/simple_bash_operator_dag.py", line 20, in <module>
+    tag=['explore-airflow']
+TypeError: __init__() got an unexpected keyword argument 'tag'
+[2021-04-24 23:54:53,974] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/simple_bash_operator_dag.py
+[2021-04-24 23:54:53,991] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/simple_bash_operator_dag.py took 0.027 seconds
+[2021-04-24 23:55:24,767] {scheduler_job.py:182} INFO - Started process (PID=150) to work on /opt/airflow/dags/simple_bash_operator_dag.py
+[2021-04-24 23:55:24,768] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/simple_bash_operator_dag.py for tasks to queue
+[2021-04-24 23:55:24,769] {logging_mixin.py:104} INFO - [2021-04-24 23:55:24,769] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/simple_bash_operator_dag.py
+[2021-04-24 23:55:24,774] {logging_mixin.py:104} INFO - [2021-04-24 23:55:24,773] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/simple_bash_operator_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/simple_bash_operator_dag.py", line 20, in <module>
+    tag=['explore-airflow']
+TypeError: __init__() got an unexpected keyword argument 'tag'
+[2021-04-24 23:55:24,774] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/simple_bash_operator_dag.py
+[2021-04-24 23:55:24,792] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/simple_bash_operator_dag.py took 0.029 seconds
+[2021-04-24 23:55:55,539] {scheduler_job.py:182} INFO - Started process (PID=177) to work on /opt/airflow/dags/simple_bash_operator_dag.py
+[2021-04-24 23:55:55,541] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/simple_bash_operator_dag.py for tasks to queue
+[2021-04-24 23:55:55,543] {logging_mixin.py:104} INFO - [2021-04-24 23:55:55,543] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/simple_bash_operator_dag.py
+[2021-04-24 23:55:55,558] {logging_mixin.py:104} INFO - [2021-04-24 23:55:55,557] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/simple_bash_operator_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/simple_bash_operator_dag.py", line 20, in <module>
+    tag=['explore-airflow']
+TypeError: __init__() got an unexpected keyword argument 'tag'
+[2021-04-24 23:55:55,559] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/simple_bash_operator_dag.py
+[2021-04-24 23:55:55,598] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/simple_bash_operator_dag.py took 0.065 seconds
+[2021-04-24 23:56:26,453] {scheduler_job.py:182} INFO - Started process (PID=203) to work on /opt/airflow/dags/simple_bash_operator_dag.py
+[2021-04-24 23:56:26,456] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/simple_bash_operator_dag.py for tasks to queue
+[2021-04-24 23:56:26,458] {logging_mixin.py:104} INFO - [2021-04-24 23:56:26,458] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/simple_bash_operator_dag.py
+[2021-04-24 23:56:26,518] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['bash_operator_dag']) retrieved from /opt/airflow/dags/simple_bash_operator_dag.py
+[2021-04-24 23:56:26,608] {logging_mixin.py:104} INFO - [2021-04-24 23:56:26,608] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-24 23:56:26,704] {logging_mixin.py:104} INFO - [2021-04-24 23:56:26,704] {dag.py:2280} INFO - Setting next_dagrun for bash_operator_dag to 2021-01-01T00:00:00+00:00
+[2021-04-24 23:56:26,768] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/simple_bash_operator_dag.py took 0.329 seconds
+[2021-04-24 23:56:56,955] {scheduler_job.py:182} INFO - Started process (PID=230) to work on /opt/airflow/dags/simple_bash_operator_dag.py
+[2021-04-24 23:56:56,956] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/simple_bash_operator_dag.py for tasks to queue
+[2021-04-24 23:56:56,957] {logging_mixin.py:104} INFO - [2021-04-24 23:56:56,957] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/simple_bash_operator_dag.py
+[2021-04-24 23:56:56,971] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['bash_operator_dag']) retrieved from /opt/airflow/dags/simple_bash_operator_dag.py
+[2021-04-24 23:56:57,008] {logging_mixin.py:104} INFO - [2021-04-24 23:56:57,007] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-24 23:56:57,033] {logging_mixin.py:104} INFO - [2021-04-24 23:56:57,033] {dag.py:2280} INFO - Setting next_dagrun for bash_operator_dag to 2021-01-01T00:00:00+00:00
+[2021-04-24 23:56:57,046] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/simple_bash_operator_dag.py took 0.095 seconds
+[2021-04-24 23:57:28,266] {scheduler_job.py:182} INFO - Started process (PID=262) to work on /opt/airflow/dags/simple_bash_operator_dag.py
+[2021-04-24 23:57:28,267] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/simple_bash_operator_dag.py for tasks to queue
+[2021-04-24 23:57:28,268] {logging_mixin.py:104} INFO - [2021-04-24 23:57:28,268] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/simple_bash_operator_dag.py
+[2021-04-24 23:57:28,285] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['bash_operator_dag']) retrieved from /opt/airflow/dags/simple_bash_operator_dag.py
+[2021-04-24 23:57:28,312] {logging_mixin.py:104} INFO - [2021-04-24 23:57:28,311] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-24 23:57:28,333] {logging_mixin.py:104} INFO - [2021-04-24 23:57:28,333] {dag.py:2280} INFO - Setting next_dagrun for bash_operator_dag to 2021-01-01T00:00:00+00:00
+[2021-04-24 23:57:28,348] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/simple_bash_operator_dag.py took 0.087 seconds
+[2021-04-24 23:57:59,026] {scheduler_job.py:182} INFO - Started process (PID=290) to work on /opt/airflow/dags/simple_bash_operator_dag.py
+[2021-04-24 23:57:59,027] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/simple_bash_operator_dag.py for tasks to queue
+[2021-04-24 23:57:59,028] {logging_mixin.py:104} INFO - [2021-04-24 23:57:59,028] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/simple_bash_operator_dag.py
+[2021-04-24 23:57:59,044] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['bash_operator_dag']) retrieved from /opt/airflow/dags/simple_bash_operator_dag.py
+[2021-04-24 23:57:59,071] {logging_mixin.py:104} INFO - [2021-04-24 23:57:59,070] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-24 23:57:59,095] {logging_mixin.py:104} INFO - [2021-04-24 23:57:59,095] {dag.py:2280} INFO - Setting next_dagrun for bash_operator_dag to 2021-01-01T00:00:00+00:00
+[2021-04-24 23:57:59,111] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/simple_bash_operator_dag.py took 0.090 seconds
+[2021-04-24 23:58:29,953] {scheduler_job.py:182} INFO - Started process (PID=317) to work on /opt/airflow/dags/simple_bash_operator_dag.py
+[2021-04-24 23:58:29,957] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/simple_bash_operator_dag.py for tasks to queue
+[2021-04-24 23:58:29,958] {logging_mixin.py:104} INFO - [2021-04-24 23:58:29,958] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/simple_bash_operator_dag.py
+[2021-04-24 23:58:29,973] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['bash_operator_dag']) retrieved from /opt/airflow/dags/simple_bash_operator_dag.py
+[2021-04-24 23:58:30,003] {logging_mixin.py:104} INFO - [2021-04-24 23:58:30,003] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-24 23:58:30,028] {logging_mixin.py:104} INFO - [2021-04-24 23:58:30,027] {dag.py:2280} INFO - Setting next_dagrun for bash_operator_dag to 2021-01-01T00:00:00+00:00
+[2021-04-24 23:58:30,041] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/simple_bash_operator_dag.py took 0.091 seconds
+[2021-04-24 23:59:00,588] {scheduler_job.py:182} INFO - Started process (PID=343) to work on /opt/airflow/dags/simple_bash_operator_dag.py
+[2021-04-24 23:59:00,591] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/simple_bash_operator_dag.py for tasks to queue
+[2021-04-24 23:59:00,592] {logging_mixin.py:104} INFO - [2021-04-24 23:59:00,592] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/simple_bash_operator_dag.py
+[2021-04-24 23:59:00,629] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['bash_operator_dag']) retrieved from /opt/airflow/dags/simple_bash_operator_dag.py
+[2021-04-24 23:59:00,685] {logging_mixin.py:104} INFO - [2021-04-24 23:59:00,685] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-24 23:59:00,723] {logging_mixin.py:104} INFO - [2021-04-24 23:59:00,722] {dag.py:2280} INFO - Setting next_dagrun for bash_operator_dag to 2021-01-01T00:00:00+00:00
+[2021-04-24 23:59:00,745] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/simple_bash_operator_dag.py took 0.165 seconds
+[2021-04-24 23:59:31,481] {scheduler_job.py:182} INFO - Started process (PID=370) to work on /opt/airflow/dags/simple_bash_operator_dag.py
+[2021-04-24 23:59:31,483] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/simple_bash_operator_dag.py for tasks to queue
+[2021-04-24 23:59:31,486] {logging_mixin.py:104} INFO - [2021-04-24 23:59:31,485] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/simple_bash_operator_dag.py
+[2021-04-24 23:59:31,504] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['bash_operator_dag']) retrieved from /opt/airflow/dags/simple_bash_operator_dag.py
+[2021-04-24 23:59:31,577] {logging_mixin.py:104} INFO - [2021-04-24 23:59:31,576] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-24 23:59:31,621] {logging_mixin.py:104} INFO - [2021-04-24 23:59:31,621] {dag.py:2280} INFO - Setting next_dagrun for bash_operator_dag to 2021-01-01T00:00:00+00:00
+[2021-04-24 23:59:31,641] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/simple_bash_operator_dag.py took 0.169 seconds

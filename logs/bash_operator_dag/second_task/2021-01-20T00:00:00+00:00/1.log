@@ -1,0 +1,54 @@
+[2021-04-25 00:07:32,057] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: bash_operator_dag.second_task 2021-01-20T00:00:00+00:00 [queued]>
+[2021-04-25 00:07:32,081] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: bash_operator_dag.second_task 2021-01-20T00:00:00+00:00 [queued]>
+[2021-04-25 00:07:32,082] {taskinstance.py:1068} INFO - 
+--------------------------------------------------------------------------------
+[2021-04-25 00:07:32,083] {taskinstance.py:1069} INFO - Starting attempt 1 of 3
+[2021-04-25 00:07:32,083] {taskinstance.py:1070} INFO - 
+--------------------------------------------------------------------------------
+[2021-04-25 00:07:32,117] {taskinstance.py:1089} INFO - Executing <Task(BashOperator): second_task> on 2021-01-20T00:00:00+00:00
+[2021-04-25 00:07:32,123] {standard_task_runner.py:52} INFO - Started process 1421 to run task
+[2021-04-25 00:07:32,135] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'bash_operator_dag', 'second_task', '2021-01-20T00:00:00+00:00', '--job-id', '508', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/simple_bash_operator_dag.py', '--cfg-path', '/tmp/tmpgaj0mxo_', '--error-file', '/tmp/tmpo1f3wdek']
+[2021-04-25 00:07:32,136] {standard_task_runner.py:77} INFO - Job 508: Subtask second_task
+[2021-04-25 00:07:32,260] {logging_mixin.py:104} INFO - Running <TaskInstance: bash_operator_dag.second_task 2021-01-20T00:00:00+00:00 [running]> on host 4a00a306afdc
+[2021-04-25 00:07:32,369] {taskinstance.py:1283} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=bash_operator_dag
+AIRFLOW_CTX_TASK_ID=second_task
+AIRFLOW_CTX_EXECUTION_DATE=2021-01-20T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-01-20T00:00:00+00:00
+[2021-04-25 00:07:32,370] {bash.py:135} INFO - Tmp dir root location: 
+ /tmp
+[2021-04-25 00:07:32,373] {bash.py:158} INFO - Running command: echo "testing second bash operator"
+[2021-04-25 00:07:32,405] {bash.py:169} INFO - Output:
+[2021-04-25 00:07:32,409] {bash.py:173} INFO - testing second bash operator
+[2021-04-25 00:07:32,410] {bash.py:177} INFO - Command exited with return code 0
+[2021-04-25 00:07:32,501] {taskinstance.py:1192} INFO - Marking task as SUCCESS. dag_id=bash_operator_dag, task_id=second_task, execution_date=20210120T000000, start_date=20210425T000732, end_date=20210425T000732
+[2021-04-25 00:07:32,595] {taskinstance.py:1246} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2021-04-25 00:07:32,633] {local_task_job.py:146} INFO - Task exited with return code 0
+[2021-04-25 00:43:59,264] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: bash_operator_dag.second_task 2021-01-20T00:00:00+00:00 [queued]>
+[2021-04-25 00:43:59,329] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: bash_operator_dag.second_task 2021-01-20T00:00:00+00:00 [queued]>
+[2021-04-25 00:43:59,330] {taskinstance.py:1068} INFO - 
+--------------------------------------------------------------------------------
+[2021-04-25 00:43:59,330] {taskinstance.py:1069} INFO - Starting attempt 1 of 3
+[2021-04-25 00:43:59,330] {taskinstance.py:1070} INFO - 
+--------------------------------------------------------------------------------
+[2021-04-25 00:43:59,395] {taskinstance.py:1089} INFO - Executing <Task(BashOperator): second_task> on 2021-01-20T00:00:00+00:00
+[2021-04-25 00:43:59,415] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'bash_operator_dag', 'second_task', '2021-01-20T00:00:00+00:00', '--job-id', '736', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/simple_bash_operator_dag.py', '--cfg-path', '/tmp/tmpyv1eketb', '--error-file', '/tmp/tmp2mb2dgf8']
+[2021-04-25 00:43:59,417] {standard_task_runner.py:77} INFO - Job 736: Subtask second_task
+[2021-04-25 00:43:59,402] {standard_task_runner.py:52} INFO - Started process 2106 to run task
+[2021-04-25 00:43:59,641] {logging_mixin.py:104} INFO - Running <TaskInstance: bash_operator_dag.second_task 2021-01-20T00:00:00+00:00 [running]> on host 4a00a306afdc
+[2021-04-25 00:43:59,835] {taskinstance.py:1283} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=bash_operator_dag
+AIRFLOW_CTX_TASK_ID=second_task
+AIRFLOW_CTX_EXECUTION_DATE=2021-01-20T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-01-20T00:00:00+00:00
+[2021-04-25 00:43:59,839] {bash.py:135} INFO - Tmp dir root location: 
+ /tmp
+[2021-04-25 00:43:59,843] {bash.py:158} INFO - Running command: echo "testing second bash operator"
+[2021-04-25 00:43:59,877] {bash.py:169} INFO - Output:
+[2021-04-25 00:43:59,881] {bash.py:173} INFO - testing second bash operator
+[2021-04-25 00:43:59,882] {bash.py:177} INFO - Command exited with return code 0
+[2021-04-25 00:44:00,018] {taskinstance.py:1192} INFO - Marking task as SUCCESS. dag_id=bash_operator_dag, task_id=second_task, execution_date=20210120T000000, start_date=20210425T004359, end_date=20210425T004400
+[2021-04-25 00:44:00,216] {taskinstance.py:1246} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2021-04-25 00:44:00,277] {local_task_job.py:146} INFO - Task exited with return code 0
