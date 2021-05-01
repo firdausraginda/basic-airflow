@@ -16,10 +16,10 @@ default_args = {
 
 with DAG(
     # Define DAG id
-    'file_sensor_dag',
+    'file_sensor',
     default_args=default_args,
     description='check if a file is exists inside a dir',
-    tags=['explore-airflow'],
+    tags=['explore-airflow', 'sensor'],
     # To enabled/disabled backfilling, set the catchup property
     catchup=False,
     # schedule interval every 6 minutes

@@ -36,7 +36,7 @@ with DAG(
     'write_file_python_operator',
     default_args=default_args,
     description='write a json/txt file',
-    tags=['explore-airflow'],
+    tags=['explore-airflow', 'python-operator'],
     # To enabled/disabled backfilling, set the catchup property
     catchup=False,
     # schedule interval every 2 minutes

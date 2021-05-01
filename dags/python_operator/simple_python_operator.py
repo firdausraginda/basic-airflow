@@ -16,10 +16,10 @@ def print_string(message):
 
 with DAG(
     # Define DAG id
-    'python_operator_dag',
+    'simple_python_operator',
     default_args=default_args,
     description='echoing simple string',
-    tags=['explore-airflow'],
+    tags=['explore-airflow', 'python-operator'],
     # To enabled/disabled backfilling, set the catchup property
     catchup=False,
     schedule_interval='@daily'

@@ -1,0 +1,23 @@
+[2021-05-01 05:48:01,353] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: file_sensor.file_sensor_task 2021-05-01T05:42:00+00:00 [queued]>
+[2021-05-01 05:48:01,392] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: file_sensor.file_sensor_task 2021-05-01T05:42:00+00:00 [queued]>
+[2021-05-01 05:48:01,393] {taskinstance.py:1068} INFO - 
+--------------------------------------------------------------------------------
+[2021-05-01 05:48:01,393] {taskinstance.py:1069} INFO - Starting attempt 1 of 3
+[2021-05-01 05:48:01,393] {taskinstance.py:1070} INFO - 
+--------------------------------------------------------------------------------
+[2021-05-01 05:48:01,419] {taskinstance.py:1089} INFO - Executing <Task(FileSensor): file_sensor_task> on 2021-05-01T05:42:00+00:00
+[2021-05-01 05:48:01,426] {standard_task_runner.py:52} INFO - Started process 103 to run task
+[2021-05-01 05:48:01,446] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'file_sensor', 'file_sensor_task', '2021-05-01T05:42:00+00:00', '--job-id', '1053', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/sensor/file_sensor.py', '--cfg-path', '/tmp/tmp0u8ksssd', '--error-file', '/tmp/tmpmgo46v03']
+[2021-05-01 05:48:01,450] {standard_task_runner.py:77} INFO - Job 1053: Subtask file_sensor_task
+[2021-05-01 05:48:01,609] {logging_mixin.py:104} INFO - Running <TaskInstance: file_sensor.file_sensor_task 2021-05-01T05:42:00+00:00 [running]> on host d6e2455ef0ec
+[2021-05-01 05:48:01,749] {taskinstance.py:1283} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=file_sensor
+AIRFLOW_CTX_TASK_ID=file_sensor_task
+AIRFLOW_CTX_EXECUTION_DATE=2021-05-01T05:42:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-05-01T05:42:00+00:00
+[2021-05-01 05:48:01,783] {filesystem.py:56} INFO - Poking for file /opt/airflow/dags/python_operator/todo.json
+[2021-05-01 05:48:01,784] {base.py:245} INFO - Success criteria met. Exiting.
+[2021-05-01 05:48:01,815] {taskinstance.py:1192} INFO - Marking task as SUCCESS. dag_id=file_sensor, task_id=file_sensor_task, execution_date=20210501T054200, start_date=20210501T054801, end_date=20210501T054801
+[2021-05-01 05:48:02,005] {taskinstance.py:1246} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-05-01 05:48:02,036] {local_task_job.py:146} INFO - Task exited with return code 0

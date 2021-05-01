@@ -1,0 +1,24 @@
+[2021-05-01 05:34:58,313] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: branch_python_operator.branch_task 2021-04-30T00:00:00+00:00 [queued]>
+[2021-05-01 05:34:58,338] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: branch_python_operator.branch_task 2021-04-30T00:00:00+00:00 [queued]>
+[2021-05-01 05:34:58,338] {taskinstance.py:1068} INFO - 
+--------------------------------------------------------------------------------
+[2021-05-01 05:34:58,338] {taskinstance.py:1069} INFO - Starting attempt 1 of 3
+[2021-05-01 05:34:58,338] {taskinstance.py:1070} INFO - 
+--------------------------------------------------------------------------------
+[2021-05-01 05:34:58,349] {taskinstance.py:1089} INFO - Executing <Task(BranchPythonOperator): branch_task> on 2021-04-30T00:00:00+00:00
+[2021-05-01 05:34:58,353] {standard_task_runner.py:52} INFO - Started process 55 to run task
+[2021-05-01 05:34:58,357] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'branch_python_operator', 'branch_task', '2021-04-30T00:00:00+00:00', '--job-id', '1033', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/python_operator/branch_python_operator.py', '--cfg-path', '/tmp/tmp456g9ka8', '--error-file', '/tmp/tmplmr6t852']
+[2021-05-01 05:34:58,358] {standard_task_runner.py:77} INFO - Job 1033: Subtask branch_task
+[2021-05-01 05:34:58,412] {logging_mixin.py:104} INFO - Running <TaskInstance: branch_python_operator.branch_task 2021-04-30T00:00:00+00:00 [running]> on host d6e2455ef0ec
+[2021-05-01 05:34:58,468] {taskinstance.py:1283} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=branch_python_operator
+AIRFLOW_CTX_TASK_ID=branch_task
+AIRFLOW_CTX_EXECUTION_DATE=2021-04-30T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-04-30T00:00:00+00:00
+[2021-05-01 05:34:58,470] {python.py:118} INFO - Done. Returned value was: even_day_task
+[2021-05-01 05:34:58,470] {skipmixin.py:124} INFO - Following branch even_day_task
+[2021-05-01 05:34:58,479] {skipmixin.py:155} INFO - Skipping tasks ['odd_day_task']
+[2021-05-01 05:34:58,541] {taskinstance.py:1192} INFO - Marking task as SUCCESS. dag_id=branch_python_operator, task_id=branch_task, execution_date=20210430T000000, start_date=20210501T053458, end_date=20210501T053458
+[2021-05-01 05:34:58,583] {taskinstance.py:1246} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-05-01 05:34:58,613] {local_task_job.py:146} INFO - Task exited with return code 0

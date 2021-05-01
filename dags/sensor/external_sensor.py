@@ -15,10 +15,10 @@ default_args = {
 
 with DAG(
     # Define DAG id
-    'external_sensor_dag',
+    'external_sensor',
     default_args=default_args,
     description='check if a task from other DAG already run',
-    tags=['explore-airflow'],
+    tags=['explore-airflow', 'sensor'],
     # To enabled/disabled backfilling, set the catchup property
     catchup=False,
     # schedule interval every 2 minutes
