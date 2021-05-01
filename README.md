@@ -21,8 +21,8 @@ Need to add new connection with following params to make the FileSensor DAG work
 | Conn Id | my_file_system |
 | Conn Type | File (path) |
 | Extra | ```{"path": "/opt/airflow/dags/python_operator"}``` |
-| Login | <username> |
-| Password | <Password> |
+| Login | `<username>` |
+| Password | `<Password>` |
 
 -------------
 

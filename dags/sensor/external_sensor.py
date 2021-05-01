@@ -32,7 +32,7 @@ with DAG(
         # wait 300 between checks
         poke_interval=300,
         external_dag_id='write_file_python_operator',
-        external_task_id='fetch_and_write_a_file_task',
+        external_task_id='write_studio_ghibli_data_task',
         dag=dag
     )
 
