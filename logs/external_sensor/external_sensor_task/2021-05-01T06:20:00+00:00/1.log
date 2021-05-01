@@ -1,0 +1,24 @@
+[2021-05-01 06:22:02,386] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: external_sensor.external_sensor_task 2021-05-01T06:20:00+00:00 [queued]>
+[2021-05-01 06:22:02,431] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: external_sensor.external_sensor_task 2021-05-01T06:20:00+00:00 [queued]>
+[2021-05-01 06:22:02,432] {taskinstance.py:1068} INFO - 
+--------------------------------------------------------------------------------
+[2021-05-01 06:22:02,432] {taskinstance.py:1069} INFO - Starting attempt 1 of 3
+[2021-05-01 06:22:02,432] {taskinstance.py:1070} INFO - 
+--------------------------------------------------------------------------------
+[2021-05-01 06:22:02,465] {taskinstance.py:1089} INFO - Executing <Task(ExternalTaskSensor): external_sensor_task> on 2021-05-01T06:20:00+00:00
+[2021-05-01 06:22:02,477] {standard_task_runner.py:52} INFO - Started process 284 to run task
+[2021-05-01 06:22:02,489] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'external_sensor', 'external_sensor_task', '2021-05-01T06:20:00+00:00', '--job-id', '1141', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/sensor/external_sensor.py', '--cfg-path', '/tmp/tmp9chmpiq6', '--error-file', '/tmp/tmpg0g900z_']
+[2021-05-01 06:22:02,493] {standard_task_runner.py:77} INFO - Job 1141: Subtask external_sensor_task
+[2021-05-01 06:22:02,654] {logging_mixin.py:104} INFO - Running <TaskInstance: external_sensor.external_sensor_task 2021-05-01T06:20:00+00:00 [running]> on host d6e2455ef0ec
+[2021-05-01 06:22:02,755] {taskinstance.py:1283} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=external_sensor
+AIRFLOW_CTX_TASK_ID=external_sensor_task
+AIRFLOW_CTX_EXECUTION_DATE=2021-05-01T06:20:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-05-01T06:20:00+00:00
+[2021-05-01 06:22:02,756] {external_task.py:154} INFO - Poking for write_file_python_operator.write_studio_ghibli_data_task on 2021-05-01T06:20:00+00:00 ... 
+[2021-05-01 06:24:02,875] {external_task.py:154} INFO - Poking for write_file_python_operator.write_studio_ghibli_data_task on 2021-05-01T06:20:00+00:00 ... 
+[2021-05-01 06:24:02,885] {base.py:245} INFO - Success criteria met. Exiting.
+[2021-05-01 06:24:02,901] {taskinstance.py:1192} INFO - Marking task as SUCCESS. dag_id=external_sensor, task_id=external_sensor_task, execution_date=20210501T062000, start_date=20210501T062202, end_date=20210501T062402
+[2021-05-01 06:24:02,965] {taskinstance.py:1246} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-05-01 06:24:02,987] {local_task_job.py:146} INFO - Task exited with return code 0

@@ -29,8 +29,8 @@ with DAG(
         task_id='external_sensor_task',
         # by default mode set to 'poke', which means run repeatedly
         mode='poke',
-        # wait 300 between checks
-        poke_interval=300,
+        # wait 120 seconds between checks
+        poke_interval=120,
         external_dag_id='write_file_python_operator',
         external_task_id='write_studio_ghibli_data_task',
         dag=dag

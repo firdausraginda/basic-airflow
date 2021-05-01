@@ -36,5 +36,5 @@ This repository contains a few DAGs type, select DAG tag `explore-airflow` to sh
 | 3 | python operator | `simple_python_operator.py` | print out string from python callable function with specified argument |
 | 4 | python operator | `write_file_python_operator.py` | write a json file contains data fetched from URL if URL is provided, or a text file if not |
 | 5 | branch python operator | `branch_python_operator.py` | determine which task to run using branch python operator |
-| 6 | external sensor | `external_sensor.py` | only run a task after task `fetch_and_write_a_file_task` from `write_file_python_operator` DAG already run first |
+| 6 | external sensor | `external_sensor.py` | only run a task after task `write_studio_ghibli_data_task` from `write_file_python_operator` DAG already run first. Run repeatedly, wait 2 minutes between checks |
 | 7 | file sensor | `file_sensor.py` | check if a file already exist inside a directory before run a task |

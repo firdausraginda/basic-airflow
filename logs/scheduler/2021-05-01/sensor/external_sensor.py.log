@@ -1,590 +1,169 @@
-[2021-05-01 05:17:17,853] {scheduler_job.py:182} INFO - Started process (PID=2184) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:17:17,854] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:17:17,855] {logging_mixin.py:104} INFO - [2021-05-01 05:17:17,854] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:17:17,867] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor_dag']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:17:17,890] {logging_mixin.py:104} INFO - [2021-05-01 05:17:17,890] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:17:17,922] {logging_mixin.py:104} INFO - [2021-05-01 05:17:17,922] {dag.py:2280} INFO - Setting next_dagrun for external_sensor_dag to 2021-05-01T05:14:00+00:00
-[2021-05-01 05:17:17,934] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.085 seconds
-[2021-05-01 05:18:20,127] {scheduler_job.py:182} INFO - Started process (PID=58) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:18:20,133] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:18:20,142] {logging_mixin.py:104} INFO - [2021-05-01 05:18:20,142] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:18:20,206] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor_dag']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:18:20,304] {logging_mixin.py:104} INFO - [2021-05-01 05:18:20,303] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:18:20,433] {logging_mixin.py:104} INFO - [2021-05-01 05:18:20,433] {dag.py:2280} INFO - Setting next_dagrun for external_sensor_dag to 2021-05-01T05:16:00+00:00
-[2021-05-01 05:18:20,479] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.365 seconds
-[2021-05-01 05:18:51,577] {scheduler_job.py:182} INFO - Started process (PID=96) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:18:51,578] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:18:51,579] {logging_mixin.py:104} INFO - [2021-05-01 05:18:51,579] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:18:51,592] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor_dag']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:18:51,616] {logging_mixin.py:104} INFO - [2021-05-01 05:18:51,616] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:18:51,647] {logging_mixin.py:104} INFO - [2021-05-01 05:18:51,647] {dag.py:2280} INFO - Setting next_dagrun for external_sensor_dag to 2021-05-01T05:16:00+00:00
-[2021-05-01 05:18:51,658] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.084 seconds
-[2021-05-01 05:19:22,089] {scheduler_job.py:182} INFO - Started process (PID=130) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:19:22,090] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:19:22,092] {logging_mixin.py:104} INFO - [2021-05-01 05:19:22,091] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:19:22,105] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor_dag']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:19:22,128] {logging_mixin.py:104} INFO - [2021-05-01 05:19:22,128] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:19:22,159] {logging_mixin.py:104} INFO - [2021-05-01 05:19:22,159] {dag.py:2280} INFO - Setting next_dagrun for external_sensor_dag to 2021-05-01T05:16:00+00:00
-[2021-05-01 05:19:22,171] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.086 seconds
-[2021-05-01 05:19:52,507] {scheduler_job.py:182} INFO - Started process (PID=163) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:19:52,509] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:19:52,509] {logging_mixin.py:104} INFO - [2021-05-01 05:19:52,509] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:19:52,523] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor_dag']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:19:52,544] {logging_mixin.py:104} INFO - [2021-05-01 05:19:52,543] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:19:52,577] {logging_mixin.py:104} INFO - [2021-05-01 05:19:52,577] {dag.py:2280} INFO - Setting next_dagrun for external_sensor_dag to 2021-05-01T05:16:00+00:00
-[2021-05-01 05:19:52,590] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.087 seconds
-[2021-05-01 05:20:22,961] {scheduler_job.py:182} INFO - Started process (PID=196) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:20:22,962] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:20:22,962] {logging_mixin.py:104} INFO - [2021-05-01 05:20:22,962] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:20:22,976] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor_dag']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:20:22,996] {logging_mixin.py:104} INFO - [2021-05-01 05:20:22,996] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:20:23,030] {logging_mixin.py:104} INFO - [2021-05-01 05:20:23,030] {dag.py:2280} INFO - Setting next_dagrun for external_sensor_dag to 2021-05-01T05:18:00+00:00
-[2021-05-01 05:20:23,044] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.089 seconds
-[2021-05-01 05:20:53,398] {scheduler_job.py:182} INFO - Started process (PID=229) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:20:53,400] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:20:53,401] {logging_mixin.py:104} INFO - [2021-05-01 05:20:53,400] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:20:53,417] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor_dag']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:20:53,440] {logging_mixin.py:104} INFO - [2021-05-01 05:20:53,440] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:20:53,477] {logging_mixin.py:104} INFO - [2021-05-01 05:20:53,477] {dag.py:2280} INFO - Setting next_dagrun for external_sensor_dag to 2021-05-01T05:18:00+00:00
-[2021-05-01 05:20:53,488] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.094 seconds
-[2021-05-01 05:21:23,809] {scheduler_job.py:182} INFO - Started process (PID=262) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:21:23,810] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:21:23,811] {logging_mixin.py:104} INFO - [2021-05-01 05:21:23,811] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:21:23,823] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor_dag']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:21:23,843] {logging_mixin.py:104} INFO - [2021-05-01 05:21:23,843] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:21:23,874] {logging_mixin.py:104} INFO - [2021-05-01 05:21:23,873] {dag.py:2280} INFO - Setting next_dagrun for external_sensor_dag to 2021-05-01T05:18:00+00:00
-[2021-05-01 05:21:23,885] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.078 seconds
-[2021-05-01 05:21:54,210] {scheduler_job.py:182} INFO - Started process (PID=295) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:21:54,211] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:21:54,212] {logging_mixin.py:104} INFO - [2021-05-01 05:21:54,212] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:21:54,225] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor_dag']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:21:54,244] {logging_mixin.py:104} INFO - [2021-05-01 05:21:54,244] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:21:54,272] {logging_mixin.py:104} INFO - [2021-05-01 05:21:54,272] {dag.py:2280} INFO - Setting next_dagrun for external_sensor_dag to 2021-05-01T05:18:00+00:00
-[2021-05-01 05:21:54,283] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.076 seconds
-[2021-05-01 05:22:24,650] {scheduler_job.py:182} INFO - Started process (PID=328) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:22:24,651] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:22:24,652] {logging_mixin.py:104} INFO - [2021-05-01 05:22:24,652] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:22:24,665] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor_dag']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:22:24,687] {logging_mixin.py:104} INFO - [2021-05-01 05:22:24,687] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:22:24,715] {logging_mixin.py:104} INFO - [2021-05-01 05:22:24,715] {dag.py:2280} INFO - Setting next_dagrun for external_sensor_dag to 2021-05-01T05:20:00+00:00
-[2021-05-01 05:22:24,729] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.082 seconds
-[2021-05-01 05:22:55,137] {scheduler_job.py:182} INFO - Started process (PID=361) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:22:55,139] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:22:55,140] {logging_mixin.py:104} INFO - [2021-05-01 05:22:55,140] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:22:55,156] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor_dag']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:22:55,183] {logging_mixin.py:104} INFO - [2021-05-01 05:22:55,183] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:22:55,213] {logging_mixin.py:104} INFO - [2021-05-01 05:22:55,213] {dag.py:2280} INFO - Setting next_dagrun for external_sensor_dag to 2021-05-01T05:20:00+00:00
-[2021-05-01 05:22:55,228] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.095 seconds
-[2021-05-01 05:23:25,662] {scheduler_job.py:182} INFO - Started process (PID=394) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:23:25,663] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:23:25,663] {logging_mixin.py:104} INFO - [2021-05-01 05:23:25,663] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:23:25,676] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor_dag']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:23:25,700] {logging_mixin.py:104} INFO - [2021-05-01 05:23:25,700] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:23:25,733] {logging_mixin.py:104} INFO - [2021-05-01 05:23:25,733] {dag.py:2280} INFO - Setting next_dagrun for external_sensor_dag to 2021-05-01T05:20:00+00:00
-[2021-05-01 05:23:25,747] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.089 seconds
-[2021-05-01 05:23:56,314] {scheduler_job.py:182} INFO - Started process (PID=427) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:23:56,315] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:23:56,316] {logging_mixin.py:104} INFO - [2021-05-01 05:23:56,316] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:23:56,329] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor_dag']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:23:56,352] {logging_mixin.py:104} INFO - [2021-05-01 05:23:56,352] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:23:56,381] {logging_mixin.py:104} INFO - [2021-05-01 05:23:56,380] {dag.py:2280} INFO - Setting next_dagrun for external_sensor_dag to 2021-05-01T05:20:00+00:00
-[2021-05-01 05:23:56,393] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.082 seconds
-[2021-05-01 05:24:26,640] {scheduler_job.py:182} INFO - Started process (PID=460) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:24:26,641] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:24:26,642] {logging_mixin.py:104} INFO - [2021-05-01 05:24:26,642] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:24:26,655] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor_dag']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:24:26,679] {logging_mixin.py:104} INFO - [2021-05-01 05:24:26,679] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:24:26,706] {logging_mixin.py:104} INFO - [2021-05-01 05:24:26,706] {dag.py:2280} INFO - Setting next_dagrun for external_sensor_dag to 2021-05-01T05:22:00+00:00
-[2021-05-01 05:24:26,717] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.080 seconds
-[2021-05-01 05:24:57,089] {scheduler_job.py:182} INFO - Started process (PID=493) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:24:57,090] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:24:57,091] {logging_mixin.py:104} INFO - [2021-05-01 05:24:57,091] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:24:57,105] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor_dag']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:24:57,126] {logging_mixin.py:104} INFO - [2021-05-01 05:24:57,125] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:24:57,156] {logging_mixin.py:104} INFO - [2021-05-01 05:24:57,156] {dag.py:2280} INFO - Setting next_dagrun for external_sensor_dag to 2021-05-01T05:22:00+00:00
-[2021-05-01 05:24:57,170] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.084 seconds
-[2021-05-01 05:25:27,783] {scheduler_job.py:182} INFO - Started process (PID=526) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:25:27,787] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:25:27,788] {logging_mixin.py:104} INFO - [2021-05-01 05:25:27,788] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:25:27,803] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor_dag']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:25:27,823] {logging_mixin.py:104} INFO - [2021-05-01 05:25:27,823] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:25:27,859] {logging_mixin.py:104} INFO - [2021-05-01 05:25:27,858] {dag.py:2280} INFO - Setting next_dagrun for external_sensor_dag to 2021-05-01T05:22:00+00:00
-[2021-05-01 05:25:27,872] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.094 seconds
-[2021-05-01 05:25:58,698] {scheduler_job.py:182} INFO - Started process (PID=559) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:25:58,700] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:25:58,701] {logging_mixin.py:104} INFO - [2021-05-01 05:25:58,701] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:25:58,722] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor_dag']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:25:58,748] {logging_mixin.py:104} INFO - [2021-05-01 05:25:58,748] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:25:58,790] {logging_mixin.py:104} INFO - [2021-05-01 05:25:58,789] {dag.py:2280} INFO - Setting next_dagrun for external_sensor_dag to 2021-05-01T05:22:00+00:00
-[2021-05-01 05:25:58,810] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.116 seconds
-[2021-05-01 05:26:29,691] {scheduler_job.py:182} INFO - Started process (PID=592) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:26:29,692] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:26:29,693] {logging_mixin.py:104} INFO - [2021-05-01 05:26:29,693] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:26:29,716] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor_dag']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:26:29,742] {logging_mixin.py:104} INFO - [2021-05-01 05:26:29,742] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:26:29,788] {logging_mixin.py:104} INFO - [2021-05-01 05:26:29,788] {dag.py:2280} INFO - Setting next_dagrun for external_sensor_dag to 2021-05-01T05:24:00+00:00
-[2021-05-01 05:26:29,806] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.120 seconds
-[2021-05-01 05:27:00,199] {scheduler_job.py:182} INFO - Started process (PID=625) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:27:00,201] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:27:00,201] {logging_mixin.py:104} INFO - [2021-05-01 05:27:00,201] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:27:00,217] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor_dag']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:27:00,239] {logging_mixin.py:104} INFO - [2021-05-01 05:27:00,239] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:27:00,274] {logging_mixin.py:104} INFO - [2021-05-01 05:27:00,274] {dag.py:2280} INFO - Setting next_dagrun for external_sensor_dag to 2021-05-01T05:24:00+00:00
-[2021-05-01 05:27:00,287] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.091 seconds
-[2021-05-01 05:27:30,631] {scheduler_job.py:182} INFO - Started process (PID=658) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:27:30,632] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:27:30,633] {logging_mixin.py:104} INFO - [2021-05-01 05:27:30,633] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:27:30,648] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor_dag']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:27:30,669] {logging_mixin.py:104} INFO - [2021-05-01 05:27:30,668] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:27:30,699] {logging_mixin.py:104} INFO - [2021-05-01 05:27:30,699] {dag.py:2280} INFO - Setting next_dagrun for external_sensor_dag to 2021-05-01T05:24:00+00:00
-[2021-05-01 05:27:30,709] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.082 seconds
-[2021-05-01 05:28:01,135] {scheduler_job.py:182} INFO - Started process (PID=691) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:28:01,136] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:28:01,137] {logging_mixin.py:104} INFO - [2021-05-01 05:28:01,137] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:28:01,152] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor_dag']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:28:01,171] {logging_mixin.py:104} INFO - [2021-05-01 05:28:01,171] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:28:01,206] {logging_mixin.py:104} INFO - [2021-05-01 05:28:01,206] {dag.py:2280} INFO - Setting next_dagrun for external_sensor_dag to 2021-05-01T05:26:00+00:00
-[2021-05-01 05:28:01,221] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.089 seconds
-[2021-05-01 05:28:31,705] {scheduler_job.py:182} INFO - Started process (PID=724) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:28:31,706] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:28:31,707] {logging_mixin.py:104} INFO - [2021-05-01 05:28:31,707] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:28:31,724] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor_dag']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:28:31,751] {logging_mixin.py:104} INFO - [2021-05-01 05:28:31,750] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:28:31,785] {logging_mixin.py:104} INFO - [2021-05-01 05:28:31,785] {dag.py:2280} INFO - Setting next_dagrun for external_sensor_dag to 2021-05-01T05:26:00+00:00
-[2021-05-01 05:28:31,795] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.094 seconds
-[2021-05-01 05:29:02,264] {scheduler_job.py:182} INFO - Started process (PID=757) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:29:02,265] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:29:02,266] {logging_mixin.py:104} INFO - [2021-05-01 05:29:02,266] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:29:02,281] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor_dag']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:29:02,302] {logging_mixin.py:104} INFO - [2021-05-01 05:29:02,301] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:29:02,341] {logging_mixin.py:104} INFO - [2021-05-01 05:29:02,341] {dag.py:2280} INFO - Setting next_dagrun for external_sensor_dag to 2021-05-01T05:26:00+00:00
-[2021-05-01 05:29:02,351] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.091 seconds
-[2021-05-01 05:29:32,770] {scheduler_job.py:182} INFO - Started process (PID=790) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:29:32,771] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:29:32,772] {logging_mixin.py:104} INFO - [2021-05-01 05:29:32,772] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:29:32,786] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor_dag']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:29:32,809] {logging_mixin.py:104} INFO - [2021-05-01 05:29:32,809] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:29:32,859] {logging_mixin.py:104} INFO - [2021-05-01 05:29:32,859] {dag.py:2280} INFO - Setting next_dagrun for external_sensor_dag to 2021-05-01T05:26:00+00:00
-[2021-05-01 05:29:32,871] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.104 seconds
-[2021-05-01 05:30:03,345] {scheduler_job.py:182} INFO - Started process (PID=823) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:30:03,346] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:30:03,347] {logging_mixin.py:104} INFO - [2021-05-01 05:30:03,347] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:30:03,361] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor_dag']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:30:03,382] {logging_mixin.py:104} INFO - [2021-05-01 05:30:03,382] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:30:03,410] {logging_mixin.py:104} INFO - [2021-05-01 05:30:03,409] {dag.py:2280} INFO - Setting next_dagrun for external_sensor_dag to 2021-05-01T05:28:00+00:00
-[2021-05-01 05:30:03,422] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.081 seconds
-[2021-05-01 05:30:34,041] {scheduler_job.py:182} INFO - Started process (PID=856) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:30:34,043] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:30:34,044] {logging_mixin.py:104} INFO - [2021-05-01 05:30:34,044] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:30:34,057] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor_dag']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:30:34,079] {logging_mixin.py:104} INFO - [2021-05-01 05:30:34,079] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:30:34,113] {logging_mixin.py:104} INFO - [2021-05-01 05:30:34,113] {dag.py:2280} INFO - Setting next_dagrun for external_sensor_dag to 2021-05-01T05:28:00+00:00
-[2021-05-01 05:30:34,128] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.091 seconds
-[2021-05-01 05:31:04,791] {scheduler_job.py:182} INFO - Started process (PID=889) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:31:04,792] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:31:04,793] {logging_mixin.py:104} INFO - [2021-05-01 05:31:04,793] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:31:04,811] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor_dag']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:31:04,839] {logging_mixin.py:104} INFO - [2021-05-01 05:31:04,839] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:31:04,873] {logging_mixin.py:104} INFO - [2021-05-01 05:31:04,873] {dag.py:2280} INFO - Setting next_dagrun for external_sensor_dag to 2021-05-01T05:28:00+00:00
-[2021-05-01 05:31:04,887] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.100 seconds
-[2021-05-01 05:31:35,320] {scheduler_job.py:182} INFO - Started process (PID=922) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:31:35,322] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:31:35,322] {logging_mixin.py:104} INFO - [2021-05-01 05:31:35,322] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:31:35,338] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor_dag']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:31:35,364] {logging_mixin.py:104} INFO - [2021-05-01 05:31:35,363] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:31:35,397] {logging_mixin.py:104} INFO - [2021-05-01 05:31:35,397] {dag.py:2280} INFO - Setting next_dagrun for external_sensor_dag to 2021-05-01T05:28:00+00:00
-[2021-05-01 05:31:35,411] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.095 seconds
-[2021-05-01 05:32:05,910] {scheduler_job.py:182} INFO - Started process (PID=955) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:32:05,912] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:32:05,913] {logging_mixin.py:104} INFO - [2021-05-01 05:32:05,912] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:32:05,926] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor_dag']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:32:05,948] {logging_mixin.py:104} INFO - [2021-05-01 05:32:05,948] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:32:05,978] {logging_mixin.py:104} INFO - [2021-05-01 05:32:05,977] {dag.py:2280} INFO - Setting next_dagrun for external_sensor_dag to 2021-05-01T05:30:00+00:00
-[2021-05-01 05:32:05,989] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.082 seconds
-[2021-05-01 05:32:36,522] {scheduler_job.py:182} INFO - Started process (PID=988) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:32:36,524] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:32:36,524] {logging_mixin.py:104} INFO - [2021-05-01 05:32:36,524] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:32:36,539] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor_dag']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:32:36,566] {logging_mixin.py:104} INFO - [2021-05-01 05:32:36,566] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:32:36,599] {logging_mixin.py:104} INFO - [2021-05-01 05:32:36,599] {dag.py:2280} INFO - Setting next_dagrun for external_sensor_dag to 2021-05-01T05:30:00+00:00
-[2021-05-01 05:32:36,611] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.093 seconds
-[2021-05-01 05:33:06,975] {scheduler_job.py:182} INFO - Started process (PID=1021) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:33:06,976] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:33:06,977] {logging_mixin.py:104} INFO - [2021-05-01 05:33:06,977] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:33:06,993] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:33:07,023] {logging_mixin.py:104} INFO - [2021-05-01 05:33:07,023] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:33:07,034] {logging_mixin.py:104} INFO - [2021-05-01 05:33:07,034] {dag.py:1843} INFO - Creating ORM DAG for external_sensor
-[2021-05-01 05:33:07,058] {logging_mixin.py:104} INFO - [2021-05-01 05:33:07,058] {dag.py:2280} INFO - Setting next_dagrun for external_sensor to 2021-05-01T05:30:00+00:00
-[2021-05-01 05:33:07,072] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.100 seconds
-[2021-05-01 05:33:37,795] {scheduler_job.py:182} INFO - Started process (PID=1054) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:33:37,796] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:33:37,797] {logging_mixin.py:104} INFO - [2021-05-01 05:33:37,797] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:33:37,813] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:33:37,843] {logging_mixin.py:104} INFO - [2021-05-01 05:33:37,843] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:33:37,890] {logging_mixin.py:104} INFO - [2021-05-01 05:33:37,890] {dag.py:2280} INFO - Setting next_dagrun for external_sensor to 2021-05-01T05:30:00+00:00
-[2021-05-01 05:33:37,903] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.112 seconds
-[2021-05-01 05:34:08,412] {scheduler_job.py:182} INFO - Started process (PID=1087) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:34:08,414] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:34:08,415] {logging_mixin.py:104} INFO - [2021-05-01 05:34:08,415] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:34:08,432] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:34:08,460] {logging_mixin.py:104} INFO - [2021-05-01 05:34:08,460] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:34:08,498] {logging_mixin.py:104} INFO - [2021-05-01 05:34:08,498] {dag.py:2280} INFO - Setting next_dagrun for external_sensor to 2021-05-01T05:32:00+00:00
-[2021-05-01 05:34:08,514] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.105 seconds
-[2021-05-01 05:34:38,900] {scheduler_job.py:182} INFO - Started process (PID=1120) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:34:38,902] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:34:38,903] {logging_mixin.py:104} INFO - [2021-05-01 05:34:38,903] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:34:38,921] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:34:38,943] {logging_mixin.py:104} INFO - [2021-05-01 05:34:38,943] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:34:38,982] {logging_mixin.py:104} INFO - [2021-05-01 05:34:38,982] {dag.py:2280} INFO - Setting next_dagrun for external_sensor to 2021-05-01T05:32:00+00:00
-[2021-05-01 05:34:38,991] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.099 seconds
-[2021-05-01 05:35:09,865] {scheduler_job.py:182} INFO - Started process (PID=1153) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:35:09,868] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:35:09,869] {logging_mixin.py:104} INFO - [2021-05-01 05:35:09,869] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:35:09,883] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:35:09,909] {logging_mixin.py:104} INFO - [2021-05-01 05:35:09,909] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:35:09,942] {logging_mixin.py:104} INFO - [2021-05-01 05:35:09,942] {dag.py:2280} INFO - Setting next_dagrun for external_sensor to 2021-05-01T05:32:00+00:00
-[2021-05-01 05:35:09,956] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.096 seconds
-[2021-05-01 05:35:40,508] {scheduler_job.py:182} INFO - Started process (PID=1186) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:35:40,509] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:35:40,510] {logging_mixin.py:104} INFO - [2021-05-01 05:35:40,510] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:35:40,528] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:35:40,553] {logging_mixin.py:104} INFO - [2021-05-01 05:35:40,553] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:35:40,600] {logging_mixin.py:104} INFO - [2021-05-01 05:35:40,600] {dag.py:2280} INFO - Setting next_dagrun for external_sensor to 2021-05-01T05:32:00+00:00
-[2021-05-01 05:35:40,611] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.107 seconds
-[2021-05-01 05:36:11,148] {scheduler_job.py:182} INFO - Started process (PID=1219) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:36:11,149] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:36:11,150] {logging_mixin.py:104} INFO - [2021-05-01 05:36:11,150] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:36:11,168] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:36:11,188] {logging_mixin.py:104} INFO - [2021-05-01 05:36:11,188] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:36:11,219] {logging_mixin.py:104} INFO - [2021-05-01 05:36:11,219] {dag.py:2280} INFO - Setting next_dagrun for external_sensor to 2021-05-01T05:34:00+00:00
-[2021-05-01 05:36:11,233] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.091 seconds
-[2021-05-01 05:36:41,771] {scheduler_job.py:182} INFO - Started process (PID=1252) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:36:41,773] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:36:41,773] {logging_mixin.py:104} INFO - [2021-05-01 05:36:41,773] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:36:41,789] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:36:41,809] {logging_mixin.py:104} INFO - [2021-05-01 05:36:41,809] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:36:41,841] {logging_mixin.py:104} INFO - [2021-05-01 05:36:41,841] {dag.py:2280} INFO - Setting next_dagrun for external_sensor to 2021-05-01T05:34:00+00:00
-[2021-05-01 05:36:41,853] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.085 seconds
-[2021-05-01 05:37:12,381] {scheduler_job.py:182} INFO - Started process (PID=1285) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:37:12,382] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:37:12,383] {logging_mixin.py:104} INFO - [2021-05-01 05:37:12,383] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:37:12,398] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:37:12,422] {logging_mixin.py:104} INFO - [2021-05-01 05:37:12,422] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:37:12,455] {logging_mixin.py:104} INFO - [2021-05-01 05:37:12,455] {dag.py:2280} INFO - Setting next_dagrun for external_sensor to 2021-05-01T05:34:00+00:00
-[2021-05-01 05:37:12,467] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.090 seconds
-[2021-05-01 05:37:42,820] {scheduler_job.py:182} INFO - Started process (PID=1318) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:37:42,821] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:37:42,822] {logging_mixin.py:104} INFO - [2021-05-01 05:37:42,822] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:37:42,835] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:37:42,857] {logging_mixin.py:104} INFO - [2021-05-01 05:37:42,857] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:37:42,889] {logging_mixin.py:104} INFO - [2021-05-01 05:37:42,889] {dag.py:2280} INFO - Setting next_dagrun for external_sensor to 2021-05-01T05:34:00+00:00
-[2021-05-01 05:37:42,903] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.086 seconds
-[2021-05-01 05:38:13,310] {scheduler_job.py:182} INFO - Started process (PID=1351) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:38:13,312] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:38:13,313] {logging_mixin.py:104} INFO - [2021-05-01 05:38:13,312] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:38:13,326] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:38:13,349] {logging_mixin.py:104} INFO - [2021-05-01 05:38:13,349] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:38:13,381] {logging_mixin.py:104} INFO - [2021-05-01 05:38:13,381] {dag.py:2280} INFO - Setting next_dagrun for external_sensor to 2021-05-01T05:36:00+00:00
-[2021-05-01 05:38:13,394] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.088 seconds
-[2021-05-01 05:38:43,910] {scheduler_job.py:182} INFO - Started process (PID=1384) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:38:43,912] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:38:43,913] {logging_mixin.py:104} INFO - [2021-05-01 05:38:43,913] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:38:43,928] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:38:43,946] {logging_mixin.py:104} INFO - [2021-05-01 05:38:43,946] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:38:43,984] {logging_mixin.py:104} INFO - [2021-05-01 05:38:43,983] {dag.py:2280} INFO - Setting next_dagrun for external_sensor to 2021-05-01T05:36:00+00:00
-[2021-05-01 05:38:44,002] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.096 seconds
-[2021-05-01 05:39:14,675] {scheduler_job.py:182} INFO - Started process (PID=1417) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:39:14,676] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:39:14,677] {logging_mixin.py:104} INFO - [2021-05-01 05:39:14,677] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:39:14,697] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:39:14,721] {logging_mixin.py:104} INFO - [2021-05-01 05:39:14,721] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:39:14,757] {logging_mixin.py:104} INFO - [2021-05-01 05:39:14,757] {dag.py:2280} INFO - Setting next_dagrun for external_sensor to 2021-05-01T05:36:00+00:00
-[2021-05-01 05:39:14,772] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.101 seconds
-[2021-05-01 05:39:45,469] {scheduler_job.py:182} INFO - Started process (PID=1450) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:39:45,470] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:39:45,471] {logging_mixin.py:104} INFO - [2021-05-01 05:39:45,471] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:39:45,486] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:39:45,506] {logging_mixin.py:104} INFO - [2021-05-01 05:39:45,506] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:39:45,540] {logging_mixin.py:104} INFO - [2021-05-01 05:39:45,540] {dag.py:2280} INFO - Setting next_dagrun for external_sensor to 2021-05-01T05:36:00+00:00
-[2021-05-01 05:39:45,554] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.091 seconds
-[2021-05-01 05:40:16,225] {scheduler_job.py:182} INFO - Started process (PID=1483) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:40:16,227] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:40:16,227] {logging_mixin.py:104} INFO - [2021-05-01 05:40:16,227] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:40:16,243] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:40:16,273] {logging_mixin.py:104} INFO - [2021-05-01 05:40:16,273] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:40:16,307] {logging_mixin.py:104} INFO - [2021-05-01 05:40:16,307] {dag.py:2280} INFO - Setting next_dagrun for external_sensor to 2021-05-01T05:38:00+00:00
-[2021-05-01 05:40:16,324] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.103 seconds
-[2021-05-01 05:40:46,936] {scheduler_job.py:182} INFO - Started process (PID=1516) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:40:46,937] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:40:46,938] {logging_mixin.py:104} INFO - [2021-05-01 05:40:46,938] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:40:46,955] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:40:46,986] {logging_mixin.py:104} INFO - [2021-05-01 05:40:46,986] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:40:47,022] {logging_mixin.py:104} INFO - [2021-05-01 05:40:47,022] {dag.py:2280} INFO - Setting next_dagrun for external_sensor to 2021-05-01T05:38:00+00:00
-[2021-05-01 05:40:47,034] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.104 seconds
-[2021-05-01 05:41:17,583] {scheduler_job.py:182} INFO - Started process (PID=1549) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:41:17,584] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:41:17,585] {logging_mixin.py:104} INFO - [2021-05-01 05:41:17,585] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:41:17,602] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:41:17,624] {logging_mixin.py:104} INFO - [2021-05-01 05:41:17,624] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:41:17,656] {logging_mixin.py:104} INFO - [2021-05-01 05:41:17,655] {dag.py:2280} INFO - Setting next_dagrun for external_sensor to 2021-05-01T05:38:00+00:00
-[2021-05-01 05:41:17,669] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.091 seconds
-[2021-05-01 05:41:49,286] {scheduler_job.py:182} INFO - Started process (PID=1582) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:41:49,289] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:41:49,291] {logging_mixin.py:104} INFO - [2021-05-01 05:41:49,290] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:41:49,336] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:41:49,379] {logging_mixin.py:104} INFO - [2021-05-01 05:41:49,379] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:41:49,450] {logging_mixin.py:104} INFO - [2021-05-01 05:41:49,450] {dag.py:2280} INFO - Setting next_dagrun for external_sensor to 2021-05-01T05:38:00+00:00
-[2021-05-01 05:41:49,470] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.197 seconds
-[2021-05-01 05:42:20,212] {scheduler_job.py:182} INFO - Started process (PID=1615) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:42:20,215] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:42:20,216] {logging_mixin.py:104} INFO - [2021-05-01 05:42:20,216] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:42:20,247] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:42:20,297] {logging_mixin.py:104} INFO - [2021-05-01 05:42:20,297] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:42:20,390] {logging_mixin.py:104} INFO - [2021-05-01 05:42:20,389] {dag.py:2280} INFO - Setting next_dagrun for external_sensor to 2021-05-01T05:40:00+00:00
-[2021-05-01 05:42:20,422] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.220 seconds
-[2021-05-01 05:42:51,009] {scheduler_job.py:182} INFO - Started process (PID=1648) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:42:51,010] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:42:51,011] {logging_mixin.py:104} INFO - [2021-05-01 05:42:51,011] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:42:51,032] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:42:51,060] {logging_mixin.py:104} INFO - [2021-05-01 05:42:51,060] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:42:51,124] {logging_mixin.py:104} INFO - [2021-05-01 05:42:51,124] {dag.py:2280} INFO - Setting next_dagrun for external_sensor to 2021-05-01T05:40:00+00:00
-[2021-05-01 05:42:51,174] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.170 seconds
-[2021-05-01 05:43:21,719] {scheduler_job.py:182} INFO - Started process (PID=1687) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:43:21,721] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:43:21,723] {logging_mixin.py:104} INFO - [2021-05-01 05:43:21,722] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:43:21,747] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:43:21,794] {logging_mixin.py:104} INFO - [2021-05-01 05:43:21,793] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:43:21,875] {logging_mixin.py:104} INFO - [2021-05-01 05:43:21,875] {dag.py:2280} INFO - Setting next_dagrun for external_sensor to 2021-05-01T05:40:00+00:00
-[2021-05-01 05:43:21,897] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.184 seconds
-[2021-05-01 05:43:52,849] {scheduler_job.py:182} INFO - Started process (PID=1720) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:43:52,851] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:43:52,852] {logging_mixin.py:104} INFO - [2021-05-01 05:43:52,852] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:43:52,876] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:43:52,914] {logging_mixin.py:104} INFO - [2021-05-01 05:43:52,913] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:43:52,964] {logging_mixin.py:104} INFO - [2021-05-01 05:43:52,964] {dag.py:2280} INFO - Setting next_dagrun for external_sensor to 2021-05-01T05:40:00+00:00
-[2021-05-01 05:43:52,987] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.143 seconds
-[2021-05-01 05:44:23,678] {scheduler_job.py:182} INFO - Started process (PID=1759) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:44:23,679] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:44:23,680] {logging_mixin.py:104} INFO - [2021-05-01 05:44:23,680] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:44:23,696] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:44:23,718] {logging_mixin.py:104} INFO - [2021-05-01 05:44:23,718] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:44:23,757] {logging_mixin.py:104} INFO - [2021-05-01 05:44:23,756] {dag.py:2280} INFO - Setting next_dagrun for external_sensor to 2021-05-01T05:42:00+00:00
-[2021-05-01 05:44:23,771] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.096 seconds
-[2021-05-01 05:44:54,622] {scheduler_job.py:182} INFO - Started process (PID=1792) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:44:54,624] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:44:54,627] {logging_mixin.py:104} INFO - [2021-05-01 05:44:54,627] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:44:54,657] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:44:54,703] {logging_mixin.py:104} INFO - [2021-05-01 05:44:54,703] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:44:54,783] {logging_mixin.py:104} INFO - [2021-05-01 05:44:54,782] {dag.py:2280} INFO - Setting next_dagrun for external_sensor to 2021-05-01T05:42:00+00:00
-[2021-05-01 05:44:54,813] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.200 seconds
-[2021-05-01 05:45:25,050] {scheduler_job.py:182} INFO - Started process (PID=1825) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:45:25,052] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:45:25,053] {logging_mixin.py:104} INFO - [2021-05-01 05:45:25,052] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:45:25,065] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:45:25,091] {logging_mixin.py:104} INFO - [2021-05-01 05:45:25,091] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:45:25,125] {logging_mixin.py:104} INFO - [2021-05-01 05:45:25,125] {dag.py:2280} INFO - Setting next_dagrun for external_sensor to 2021-05-01T05:42:00+00:00
-[2021-05-01 05:45:25,141] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.095 seconds
-[2021-05-01 05:45:55,619] {scheduler_job.py:182} INFO - Started process (PID=1858) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:45:55,620] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:45:55,621] {logging_mixin.py:104} INFO - [2021-05-01 05:45:55,621] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:45:55,638] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:45:55,665] {logging_mixin.py:104} INFO - [2021-05-01 05:45:55,665] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:45:55,697] {logging_mixin.py:104} INFO - [2021-05-01 05:45:55,697] {dag.py:2280} INFO - Setting next_dagrun for external_sensor to 2021-05-01T05:44:00+00:00
-[2021-05-01 05:45:55,710] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.095 seconds
-[2021-05-01 05:46:26,351] {scheduler_job.py:182} INFO - Started process (PID=1891) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:46:26,353] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:46:26,354] {logging_mixin.py:104} INFO - [2021-05-01 05:46:26,354] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:46:26,368] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:46:26,395] {logging_mixin.py:104} INFO - [2021-05-01 05:46:26,395] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:46:26,426] {logging_mixin.py:104} INFO - [2021-05-01 05:46:26,426] {dag.py:2280} INFO - Setting next_dagrun for external_sensor to 2021-05-01T05:46:00+00:00
-[2021-05-01 05:46:26,441] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.095 seconds
-[2021-05-01 05:46:57,110] {scheduler_job.py:182} INFO - Started process (PID=1924) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:46:57,111] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:46:57,112] {logging_mixin.py:104} INFO - [2021-05-01 05:46:57,112] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:46:57,126] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:46:57,148] {logging_mixin.py:104} INFO - [2021-05-01 05:46:57,148] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:46:57,173] {logging_mixin.py:104} INFO - [2021-05-01 05:46:57,173] {dag.py:2280} INFO - Setting next_dagrun for external_sensor to 2021-05-01T05:46:00+00:00
-[2021-05-01 05:46:57,187] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.081 seconds
-[2021-05-01 05:47:28,035] {scheduler_job.py:182} INFO - Started process (PID=1957) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:47:28,036] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:47:28,036] {logging_mixin.py:104} INFO - [2021-05-01 05:47:28,036] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:47:28,050] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:47:28,074] {logging_mixin.py:104} INFO - [2021-05-01 05:47:28,074] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:47:28,112] {logging_mixin.py:104} INFO - [2021-05-01 05:47:28,111] {dag.py:2280} INFO - Setting next_dagrun for external_sensor to 2021-05-01T05:46:00+00:00
-[2021-05-01 05:47:28,130] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.099 seconds
-[2021-05-01 05:47:58,427] {scheduler_job.py:182} INFO - Started process (PID=1996) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:47:58,429] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:47:58,432] {logging_mixin.py:104} INFO - [2021-05-01 05:47:58,431] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:47:58,452] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:47:58,488] {logging_mixin.py:104} INFO - [2021-05-01 05:47:58,488] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:47:58,524] {logging_mixin.py:104} INFO - [2021-05-01 05:47:58,524] {dag.py:2280} INFO - Setting next_dagrun for external_sensor to 2021-05-01T05:46:00+00:00
-[2021-05-01 05:47:58,548] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.126 seconds
-[2021-05-01 05:48:28,676] {scheduler_job.py:182} INFO - Started process (PID=2037) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:48:28,677] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:48:28,678] {logging_mixin.py:104} INFO - [2021-05-01 05:48:28,678] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:48:28,691] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:48:28,725] {logging_mixin.py:104} INFO - [2021-05-01 05:48:28,725] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:48:28,754] {logging_mixin.py:104} INFO - [2021-05-01 05:48:28,754] {dag.py:2280} INFO - Setting next_dagrun for external_sensor to 2021-05-01T05:48:00+00:00
-[2021-05-01 05:48:28,769] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.096 seconds
-[2021-05-01 05:48:59,370] {scheduler_job.py:182} INFO - Started process (PID=2070) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:48:59,371] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:48:59,371] {logging_mixin.py:104} INFO - [2021-05-01 05:48:59,371] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:48:59,387] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:48:59,414] {logging_mixin.py:104} INFO - [2021-05-01 05:48:59,413] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:48:59,451] {logging_mixin.py:104} INFO - [2021-05-01 05:48:59,450] {dag.py:2280} INFO - Setting next_dagrun for external_sensor to 2021-05-01T05:48:00+00:00
-[2021-05-01 05:48:59,465] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.099 seconds
-[2021-05-01 05:49:30,128] {scheduler_job.py:182} INFO - Started process (PID=2103) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:49:30,129] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:49:30,130] {logging_mixin.py:104} INFO - [2021-05-01 05:49:30,130] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:49:30,143] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:49:30,168] {logging_mixin.py:104} INFO - [2021-05-01 05:49:30,168] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:49:30,198] {logging_mixin.py:104} INFO - [2021-05-01 05:49:30,198] {dag.py:2280} INFO - Setting next_dagrun for external_sensor to 2021-05-01T05:48:00+00:00
-[2021-05-01 05:49:30,214] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.089 seconds
-[2021-05-01 05:50:00,820] {scheduler_job.py:182} INFO - Started process (PID=2136) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:50:00,822] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:50:00,823] {logging_mixin.py:104} INFO - [2021-05-01 05:50:00,822] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:50:00,837] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:50:00,862] {logging_mixin.py:104} INFO - [2021-05-01 05:50:00,862] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:50:00,896] {logging_mixin.py:104} INFO - [2021-05-01 05:50:00,896] {dag.py:2280} INFO - Setting next_dagrun for external_sensor to 2021-05-01T05:48:00+00:00
-[2021-05-01 05:50:00,921] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.104 seconds
-[2021-05-01 05:50:31,526] {scheduler_job.py:182} INFO - Started process (PID=2176) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:50:31,528] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:50:31,529] {logging_mixin.py:104} INFO - [2021-05-01 05:50:31,528] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:50:31,543] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:50:31,569] {logging_mixin.py:104} INFO - [2021-05-01 05:50:31,569] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:50:31,597] {logging_mixin.py:104} INFO - [2021-05-01 05:50:31,597] {dag.py:2280} INFO - Setting next_dagrun for external_sensor to 2021-05-01T05:50:00+00:00
-[2021-05-01 05:50:31,614] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.091 seconds
-[2021-05-01 05:51:02,317] {scheduler_job.py:182} INFO - Started process (PID=2209) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:51:02,319] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:51:02,320] {logging_mixin.py:104} INFO - [2021-05-01 05:51:02,320] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:51:02,338] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:51:02,367] {logging_mixin.py:104} INFO - [2021-05-01 05:51:02,367] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:51:02,396] {logging_mixin.py:104} INFO - [2021-05-01 05:51:02,396] {dag.py:2280} INFO - Setting next_dagrun for external_sensor to 2021-05-01T05:50:00+00:00
-[2021-05-01 05:51:02,410] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.098 seconds
-[2021-05-01 05:51:32,707] {scheduler_job.py:182} INFO - Started process (PID=2242) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:51:32,709] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:51:32,716] {logging_mixin.py:104} INFO - [2021-05-01 05:51:32,710] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:51:32,765] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:51:32,840] {logging_mixin.py:104} INFO - [2021-05-01 05:51:32,840] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:51:32,857] {logging_mixin.py:104} INFO - [2021-05-01 05:51:32,857] {dag.py:1843} INFO - Creating ORM DAG for external_sensor
-[2021-05-01 05:51:32,884] {logging_mixin.py:104} INFO - [2021-05-01 05:51:32,884] {dag.py:2280} INFO - Setting next_dagrun for external_sensor to 2021-05-01T05:48:00+00:00
-[2021-05-01 05:51:32,905] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.228 seconds
-[2021-05-01 05:52:03,409] {scheduler_job.py:182} INFO - Started process (PID=2275) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:52:03,410] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:52:03,411] {logging_mixin.py:104} INFO - [2021-05-01 05:52:03,411] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:52:03,433] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:52:03,456] {logging_mixin.py:104} INFO - [2021-05-01 05:52:03,456] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:52:03,500] {logging_mixin.py:104} INFO - [2021-05-01 05:52:03,500] {dag.py:2280} INFO - Setting next_dagrun for external_sensor to 2021-05-01T05:50:00+00:00
-[2021-05-01 05:52:03,528] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.122 seconds
-[2021-05-01 05:52:18,033] {scheduler_job.py:182} INFO - Started process (PID=2279) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:52:18,034] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:52:18,035] {logging_mixin.py:104} INFO - [2021-05-01 05:52:18,035] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:52:18,052] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:52:18,084] {logging_mixin.py:104} INFO - [2021-05-01 05:52:18,084] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:52:18,142] {logging_mixin.py:104} INFO - [2021-05-01 05:52:18,142] {dag.py:2280} INFO - Setting next_dagrun for external_sensor to 2021-05-01T05:50:00+00:00
-[2021-05-01 05:52:18,161] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.133 seconds
-[2021-05-01 05:52:19,208] {scheduler_job.py:182} INFO - Started process (PID=2280) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:52:19,209] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:52:19,210] {logging_mixin.py:104} INFO - [2021-05-01 05:52:19,210] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:52:19,223] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:52:19,253] {logging_mixin.py:104} INFO - [2021-05-01 05:52:19,253] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:52:19,292] {logging_mixin.py:104} INFO - [2021-05-01 05:52:19,291] {dag.py:2280} INFO - Setting next_dagrun for external_sensor to 2021-05-01T05:50:00+00:00
-[2021-05-01 05:52:19,306] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.101 seconds
-[2021-05-01 05:52:50,129] {scheduler_job.py:182} INFO - Started process (PID=2325) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:52:50,132] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:52:50,133] {logging_mixin.py:104} INFO - [2021-05-01 05:52:50,133] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:52:50,156] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:52:50,192] {logging_mixin.py:104} INFO - [2021-05-01 05:52:50,192] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:52:50,255] {logging_mixin.py:104} INFO - [2021-05-01 05:52:50,255] {dag.py:2280} INFO - Setting next_dagrun for external_sensor to 2021-05-01T05:50:00+00:00
-[2021-05-01 05:52:50,270] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.149 seconds
-[2021-05-01 05:53:21,024] {scheduler_job.py:182} INFO - Started process (PID=2358) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:53:21,025] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:53:21,025] {logging_mixin.py:104} INFO - [2021-05-01 05:53:21,025] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:53:21,037] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:53:21,064] {logging_mixin.py:104} INFO - [2021-05-01 05:53:21,064] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:53:21,099] {logging_mixin.py:104} INFO - [2021-05-01 05:53:21,099] {dag.py:2280} INFO - Setting next_dagrun for external_sensor to 2021-05-01T05:50:00+00:00
-[2021-05-01 05:53:21,112] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.091 seconds
-[2021-05-01 05:53:51,650] {scheduler_job.py:182} INFO - Started process (PID=2391) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:53:51,652] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:53:51,653] {logging_mixin.py:104} INFO - [2021-05-01 05:53:51,653] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:53:51,678] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:53:51,702] {logging_mixin.py:104} INFO - [2021-05-01 05:53:51,702] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:53:51,736] {logging_mixin.py:104} INFO - [2021-05-01 05:53:51,735] {dag.py:2280} INFO - Setting next_dagrun for external_sensor to 2021-05-01T05:50:00+00:00
-[2021-05-01 05:53:51,750] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.107 seconds
-[2021-05-01 05:54:01,345] {scheduler_job.py:182} INFO - Started process (PID=2418) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:54:01,347] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:54:01,348] {logging_mixin.py:104} INFO - [2021-05-01 05:54:01,348] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:54:01,367] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:54:01,399] {logging_mixin.py:104} INFO - [2021-05-01 05:54:01,399] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:54:01,439] {logging_mixin.py:104} INFO - [2021-05-01 05:54:01,439] {dag.py:2280} INFO - Setting next_dagrun for external_sensor to 2021-05-01T05:52:00+00:00
-[2021-05-01 05:54:01,454] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.114 seconds
-[2021-05-01 05:54:32,187] {scheduler_job.py:182} INFO - Started process (PID=2453) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:54:32,188] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:54:32,189] {logging_mixin.py:104} INFO - [2021-05-01 05:54:32,189] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:54:32,206] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:54:32,238] {logging_mixin.py:104} INFO - [2021-05-01 05:54:32,238] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:54:32,287] {logging_mixin.py:104} INFO - [2021-05-01 05:54:32,287] {dag.py:2280} INFO - Setting next_dagrun for external_sensor to 2021-05-01T05:52:00+00:00
-[2021-05-01 05:54:32,302] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.119 seconds
-[2021-05-01 05:55:02,886] {scheduler_job.py:182} INFO - Started process (PID=2486) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:55:02,888] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:55:02,889] {logging_mixin.py:104} INFO - [2021-05-01 05:55:02,889] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:55:02,913] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:55:02,940] {logging_mixin.py:104} INFO - [2021-05-01 05:55:02,939] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:55:02,983] {logging_mixin.py:104} INFO - [2021-05-01 05:55:02,983] {dag.py:2280} INFO - Setting next_dagrun for external_sensor to 2021-05-01T05:52:00+00:00
-[2021-05-01 05:55:03,001] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.122 seconds
-[2021-05-01 05:55:33,540] {scheduler_job.py:182} INFO - Started process (PID=2519) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:55:33,542] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:55:33,543] {logging_mixin.py:104} INFO - [2021-05-01 05:55:33,543] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:55:33,558] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:55:33,587] {logging_mixin.py:104} INFO - [2021-05-01 05:55:33,586] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:55:33,625] {logging_mixin.py:104} INFO - [2021-05-01 05:55:33,624] {dag.py:2280} INFO - Setting next_dagrun for external_sensor to 2021-05-01T05:52:00+00:00
-[2021-05-01 05:55:33,640] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.106 seconds
-[2021-05-01 05:56:00,492] {scheduler_job.py:182} INFO - Started process (PID=2547) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:56:00,494] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:56:00,495] {logging_mixin.py:104} INFO - [2021-05-01 05:56:00,495] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:56:00,515] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:56:00,550] {logging_mixin.py:104} INFO - [2021-05-01 05:56:00,549] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:56:00,626] {logging_mixin.py:104} INFO - [2021-05-01 05:56:00,626] {dag.py:2280} INFO - Setting next_dagrun for external_sensor to 2021-05-01T05:54:00+00:00
-[2021-05-01 05:56:00,657] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.168 seconds
-[2021-05-01 05:56:30,720] {scheduler_job.py:182} INFO - Started process (PID=2580) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:56:30,721] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:56:30,722] {logging_mixin.py:104} INFO - [2021-05-01 05:56:30,722] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:56:30,735] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:56:30,756] {logging_mixin.py:104} INFO - [2021-05-01 05:56:30,756] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:56:30,789] {logging_mixin.py:104} INFO - [2021-05-01 05:56:30,789] {dag.py:2280} INFO - Setting next_dagrun for external_sensor to 2021-05-01T05:54:00+00:00
-[2021-05-01 05:56:30,805] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.090 seconds
-[2021-05-01 05:57:01,638] {scheduler_job.py:182} INFO - Started process (PID=2613) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:57:01,639] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:57:01,640] {logging_mixin.py:104} INFO - [2021-05-01 05:57:01,639] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:57:01,655] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:57:01,677] {logging_mixin.py:104} INFO - [2021-05-01 05:57:01,677] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:57:01,706] {logging_mixin.py:104} INFO - [2021-05-01 05:57:01,706] {dag.py:2280} INFO - Setting next_dagrun for external_sensor to 2021-05-01T05:56:00+00:00
-[2021-05-01 05:57:01,720] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.090 seconds
-[2021-05-01 05:57:32,422] {scheduler_job.py:182} INFO - Started process (PID=2646) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:57:32,423] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:57:32,424] {logging_mixin.py:104} INFO - [2021-05-01 05:57:32,424] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:57:32,437] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:57:32,458] {logging_mixin.py:104} INFO - [2021-05-01 05:57:32,458] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:57:32,486] {logging_mixin.py:104} INFO - [2021-05-01 05:57:32,486] {dag.py:2280} INFO - Setting next_dagrun for external_sensor to 2021-05-01T05:56:00+00:00
-[2021-05-01 05:57:32,502] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.083 seconds
-[2021-05-01 05:58:03,338] {scheduler_job.py:182} INFO - Started process (PID=2686) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:58:03,340] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:58:03,341] {logging_mixin.py:104} INFO - [2021-05-01 05:58:03,341] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:58:03,362] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:58:03,389] {logging_mixin.py:104} INFO - [2021-05-01 05:58:03,389] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:58:03,438] {logging_mixin.py:104} INFO - [2021-05-01 05:58:03,437] {dag.py:2280} INFO - Setting next_dagrun for external_sensor to 2021-05-01T05:58:00+00:00
-[2021-05-01 05:58:03,453] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.119 seconds
-[2021-05-01 05:58:34,331] {scheduler_job.py:182} INFO - Started process (PID=2719) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:58:34,334] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:58:34,335] {logging_mixin.py:104} INFO - [2021-05-01 05:58:34,335] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:58:34,360] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:58:34,399] {logging_mixin.py:104} INFO - [2021-05-01 05:58:34,398] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:58:34,441] {logging_mixin.py:104} INFO - [2021-05-01 05:58:34,441] {dag.py:2280} INFO - Setting next_dagrun for external_sensor to 2021-05-01T05:58:00+00:00
-[2021-05-01 05:58:34,464] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.141 seconds
-[2021-05-01 05:59:05,049] {scheduler_job.py:182} INFO - Started process (PID=2754) to work on /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:59:05,050] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
-[2021-05-01 05:59:05,051] {logging_mixin.py:104} INFO - [2021-05-01 05:59:05,051] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:59:05,066] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
-[2021-05-01 05:59:05,088] {logging_mixin.py:104} INFO - [2021-05-01 05:59:05,088] {dag.py:1824} INFO - Sync 1 DAGs
-[2021-05-01 05:59:05,117] {logging_mixin.py:104} INFO - [2021-05-01 05:59:05,117] {dag.py:2280} INFO - Setting next_dagrun for external_sensor to 2021-05-01T05:58:00+00:00
-[2021-05-01 05:59:05,132] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.089 seconds
+[2021-05-01 06:12:25,444] {scheduler_job.py:182} INFO - Started process (PID=3703) to work on /opt/airflow/dags/sensor/external_sensor.py
+[2021-05-01 06:12:25,445] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
+[2021-05-01 06:12:25,446] {logging_mixin.py:104} INFO - [2021-05-01 06:12:25,446] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
+[2021-05-01 06:12:25,461] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
+[2021-05-01 06:12:25,488] {logging_mixin.py:104} INFO - [2021-05-01 06:12:25,487] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 06:12:25,522] {logging_mixin.py:104} INFO - [2021-05-01 06:12:25,521] {dag.py:2280} INFO - Setting next_dagrun for external_sensor to 2021-05-01T06:12:00+00:00
+[2021-05-01 06:12:25,541] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.100 seconds
+[2021-05-01 06:12:56,642] {scheduler_job.py:182} INFO - Started process (PID=3736) to work on /opt/airflow/dags/sensor/external_sensor.py
+[2021-05-01 06:12:56,645] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
+[2021-05-01 06:12:56,648] {logging_mixin.py:104} INFO - [2021-05-01 06:12:56,647] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
+[2021-05-01 06:12:56,678] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
+[2021-05-01 06:12:56,763] {logging_mixin.py:104} INFO - [2021-05-01 06:12:56,763] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 06:12:56,795] {logging_mixin.py:104} INFO - [2021-05-01 06:12:56,795] {dag.py:1843} INFO - Creating ORM DAG for external_sensor
+[2021-05-01 06:12:56,911] {logging_mixin.py:104} INFO - [2021-05-01 06:12:56,910] {dag.py:2280} INFO - Setting next_dagrun for external_sensor to 2021-05-01T06:10:00+00:00
+[2021-05-01 06:12:56,985] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.354 seconds
+[2021-05-01 06:13:27,081] {scheduler_job.py:182} INFO - Started process (PID=3769) to work on /opt/airflow/dags/sensor/external_sensor.py
+[2021-05-01 06:13:27,083] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
+[2021-05-01 06:13:27,085] {logging_mixin.py:104} INFO - [2021-05-01 06:13:27,084] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
+[2021-05-01 06:13:27,105] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
+[2021-05-01 06:13:27,129] {logging_mixin.py:104} INFO - [2021-05-01 06:13:27,129] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 06:13:27,165] {logging_mixin.py:104} INFO - [2021-05-01 06:13:27,165] {dag.py:2280} INFO - Setting next_dagrun for external_sensor to 2021-05-01T06:10:00+00:00
+[2021-05-01 06:13:27,182] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.105 seconds
+[2021-05-01 06:13:57,217] {scheduler_job.py:182} INFO - Started process (PID=3802) to work on /opt/airflow/dags/sensor/external_sensor.py
+[2021-05-01 06:13:57,218] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
+[2021-05-01 06:13:57,219] {logging_mixin.py:104} INFO - [2021-05-01 06:13:57,218] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
+[2021-05-01 06:13:57,230] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
+[2021-05-01 06:13:57,249] {logging_mixin.py:104} INFO - [2021-05-01 06:13:57,249] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 06:13:57,280] {logging_mixin.py:104} INFO - [2021-05-01 06:13:57,280] {dag.py:2280} INFO - Setting next_dagrun for external_sensor to 2021-05-01T06:10:00+00:00
+[2021-05-01 06:13:57,294] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.082 seconds
+[2021-05-01 06:14:28,017] {scheduler_job.py:182} INFO - Started process (PID=3836) to work on /opt/airflow/dags/sensor/external_sensor.py
+[2021-05-01 06:14:28,018] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
+[2021-05-01 06:14:28,019] {logging_mixin.py:104} INFO - [2021-05-01 06:14:28,019] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
+[2021-05-01 06:14:28,035] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
+[2021-05-01 06:14:28,058] {logging_mixin.py:104} INFO - [2021-05-01 06:14:28,058] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 06:14:28,091] {logging_mixin.py:104} INFO - [2021-05-01 06:14:28,091] {dag.py:2280} INFO - Setting next_dagrun for external_sensor to 2021-05-01T06:12:00+00:00
+[2021-05-01 06:14:28,108] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.095 seconds
+[2021-05-01 06:14:58,521] {scheduler_job.py:182} INFO - Started process (PID=3869) to work on /opt/airflow/dags/sensor/external_sensor.py
+[2021-05-01 06:14:58,522] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
+[2021-05-01 06:14:58,522] {logging_mixin.py:104} INFO - [2021-05-01 06:14:58,522] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
+[2021-05-01 06:14:58,536] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
+[2021-05-01 06:14:58,557] {logging_mixin.py:104} INFO - [2021-05-01 06:14:58,557] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 06:14:58,587] {logging_mixin.py:104} INFO - [2021-05-01 06:14:58,586] {dag.py:2280} INFO - Setting next_dagrun for external_sensor to 2021-05-01T06:12:00+00:00
+[2021-05-01 06:14:58,599] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.081 seconds
+[2021-05-01 06:15:29,063] {scheduler_job.py:182} INFO - Started process (PID=3902) to work on /opt/airflow/dags/sensor/external_sensor.py
+[2021-05-01 06:15:29,065] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
+[2021-05-01 06:15:29,066] {logging_mixin.py:104} INFO - [2021-05-01 06:15:29,065] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
+[2021-05-01 06:15:29,080] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
+[2021-05-01 06:15:29,099] {logging_mixin.py:104} INFO - [2021-05-01 06:15:29,099] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 06:15:29,132] {logging_mixin.py:104} INFO - [2021-05-01 06:15:29,132] {dag.py:2280} INFO - Setting next_dagrun for external_sensor to 2021-05-01T06:12:00+00:00
+[2021-05-01 06:15:29,145] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.086 seconds
+[2021-05-01 06:15:59,668] {scheduler_job.py:182} INFO - Started process (PID=3935) to work on /opt/airflow/dags/sensor/external_sensor.py
+[2021-05-01 06:15:59,669] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
+[2021-05-01 06:15:59,670] {logging_mixin.py:104} INFO - [2021-05-01 06:15:59,670] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
+[2021-05-01 06:15:59,686] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
+[2021-05-01 06:15:59,708] {logging_mixin.py:104} INFO - [2021-05-01 06:15:59,708] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 06:15:59,741] {logging_mixin.py:104} INFO - [2021-05-01 06:15:59,741] {dag.py:2280} INFO - Setting next_dagrun for external_sensor to 2021-05-01T06:12:00+00:00
+[2021-05-01 06:15:59,758] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.094 seconds
+[2021-05-01 06:16:30,306] {scheduler_job.py:182} INFO - Started process (PID=3968) to work on /opt/airflow/dags/sensor/external_sensor.py
+[2021-05-01 06:16:30,307] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
+[2021-05-01 06:16:30,308] {logging_mixin.py:104} INFO - [2021-05-01 06:16:30,308] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
+[2021-05-01 06:16:30,323] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
+[2021-05-01 06:16:30,350] {logging_mixin.py:104} INFO - [2021-05-01 06:16:30,350] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 06:16:30,387] {logging_mixin.py:104} INFO - [2021-05-01 06:16:30,387] {dag.py:2280} INFO - Setting next_dagrun for external_sensor to 2021-05-01T06:14:00+00:00
+[2021-05-01 06:16:30,401] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.098 seconds
+[2021-05-01 06:17:00,906] {scheduler_job.py:182} INFO - Started process (PID=4001) to work on /opt/airflow/dags/sensor/external_sensor.py
+[2021-05-01 06:17:00,907] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
+[2021-05-01 06:17:00,908] {logging_mixin.py:104} INFO - [2021-05-01 06:17:00,908] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
+[2021-05-01 06:17:00,922] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
+[2021-05-01 06:17:00,949] {logging_mixin.py:104} INFO - [2021-05-01 06:17:00,949] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 06:17:00,984] {logging_mixin.py:104} INFO - [2021-05-01 06:17:00,983] {dag.py:2280} INFO - Setting next_dagrun for external_sensor to 2021-05-01T06:14:00+00:00
+[2021-05-01 06:17:00,997] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.094 seconds
+[2021-05-01 06:17:31,733] {scheduler_job.py:182} INFO - Started process (PID=4034) to work on /opt/airflow/dags/sensor/external_sensor.py
+[2021-05-01 06:17:31,734] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
+[2021-05-01 06:17:31,735] {logging_mixin.py:104} INFO - [2021-05-01 06:17:31,735] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
+[2021-05-01 06:17:31,751] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
+[2021-05-01 06:17:31,772] {logging_mixin.py:104} INFO - [2021-05-01 06:17:31,772] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 06:17:31,797] {logging_mixin.py:104} INFO - [2021-05-01 06:17:31,797] {dag.py:2280} INFO - Setting next_dagrun for external_sensor to 2021-05-01T06:16:00+00:00
+[2021-05-01 06:17:31,810] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.081 seconds
+[2021-05-01 06:18:02,976] {scheduler_job.py:182} INFO - Started process (PID=4080) to work on /opt/airflow/dags/sensor/external_sensor.py
+[2021-05-01 06:18:02,979] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
+[2021-05-01 06:18:02,986] {logging_mixin.py:104} INFO - [2021-05-01 06:18:02,985] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
+[2021-05-01 06:18:03,070] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
+[2021-05-01 06:18:03,146] {logging_mixin.py:104} INFO - [2021-05-01 06:18:03,145] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 06:18:03,229] {logging_mixin.py:104} INFO - [2021-05-01 06:18:03,228] {dag.py:2280} INFO - Setting next_dagrun for external_sensor to 2021-05-01T06:18:00+00:00
+[2021-05-01 06:18:03,257] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.298 seconds
+[2021-05-01 06:18:33,407] {scheduler_job.py:182} INFO - Started process (PID=4113) to work on /opt/airflow/dags/sensor/external_sensor.py
+[2021-05-01 06:18:33,410] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
+[2021-05-01 06:18:33,411] {logging_mixin.py:104} INFO - [2021-05-01 06:18:33,411] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
+[2021-05-01 06:18:33,445] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
+[2021-05-01 06:18:33,488] {logging_mixin.py:104} INFO - [2021-05-01 06:18:33,488] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 06:18:33,541] {logging_mixin.py:104} INFO - [2021-05-01 06:18:33,541] {dag.py:2280} INFO - Setting next_dagrun for external_sensor to 2021-05-01T06:18:00+00:00
+[2021-05-01 06:18:33,569] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.172 seconds
+[2021-05-01 06:19:03,668] {scheduler_job.py:182} INFO - Started process (PID=4145) to work on /opt/airflow/dags/sensor/external_sensor.py
+[2021-05-01 06:19:03,669] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
+[2021-05-01 06:19:03,670] {logging_mixin.py:104} INFO - [2021-05-01 06:19:03,670] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
+[2021-05-01 06:19:03,684] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
+[2021-05-01 06:19:03,708] {logging_mixin.py:104} INFO - [2021-05-01 06:19:03,708] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 06:19:03,734] {logging_mixin.py:104} INFO - [2021-05-01 06:19:03,734] {dag.py:2280} INFO - Setting next_dagrun for external_sensor to 2021-05-01T06:18:00+00:00
+[2021-05-01 06:19:03,745] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.081 seconds
+[2021-05-01 06:19:34,395] {scheduler_job.py:182} INFO - Started process (PID=4180) to work on /opt/airflow/dags/sensor/external_sensor.py
+[2021-05-01 06:19:34,396] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
+[2021-05-01 06:19:34,397] {logging_mixin.py:104} INFO - [2021-05-01 06:19:34,397] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
+[2021-05-01 06:19:34,409] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
+[2021-05-01 06:19:34,431] {logging_mixin.py:104} INFO - [2021-05-01 06:19:34,431] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 06:19:34,458] {logging_mixin.py:104} INFO - [2021-05-01 06:19:34,458] {dag.py:2280} INFO - Setting next_dagrun for external_sensor to 2021-05-01T06:18:00+00:00
+[2021-05-01 06:19:34,469] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.077 seconds
+[2021-05-01 06:20:05,008] {scheduler_job.py:182} INFO - Started process (PID=4220) to work on /opt/airflow/dags/sensor/external_sensor.py
+[2021-05-01 06:20:05,009] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
+[2021-05-01 06:20:05,010] {logging_mixin.py:104} INFO - [2021-05-01 06:20:05,009] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
+[2021-05-01 06:20:05,022] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
+[2021-05-01 06:20:05,043] {logging_mixin.py:104} INFO - [2021-05-01 06:20:05,042] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 06:20:05,069] {logging_mixin.py:104} INFO - [2021-05-01 06:20:05,069] {dag.py:2280} INFO - Setting next_dagrun for external_sensor to 2021-05-01T06:20:00+00:00
+[2021-05-01 06:20:05,083] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.078 seconds
+[2021-05-01 06:20:35,441] {scheduler_job.py:182} INFO - Started process (PID=4253) to work on /opt/airflow/dags/sensor/external_sensor.py
+[2021-05-01 06:20:35,443] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
+[2021-05-01 06:20:35,444] {logging_mixin.py:104} INFO - [2021-05-01 06:20:35,444] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
+[2021-05-01 06:20:35,458] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
+[2021-05-01 06:20:35,479] {logging_mixin.py:104} INFO - [2021-05-01 06:20:35,478] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 06:20:35,504] {logging_mixin.py:104} INFO - [2021-05-01 06:20:35,504] {dag.py:2280} INFO - Setting next_dagrun for external_sensor to 2021-05-01T06:20:00+00:00
+[2021-05-01 06:20:35,515] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.077 seconds
+[2021-05-01 06:21:05,729] {scheduler_job.py:182} INFO - Started process (PID=4286) to work on /opt/airflow/dags/sensor/external_sensor.py
+[2021-05-01 06:21:05,730] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
+[2021-05-01 06:21:05,730] {logging_mixin.py:104} INFO - [2021-05-01 06:21:05,730] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
+[2021-05-01 06:21:05,747] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
+[2021-05-01 06:21:05,770] {logging_mixin.py:104} INFO - [2021-05-01 06:21:05,770] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 06:21:05,801] {logging_mixin.py:104} INFO - [2021-05-01 06:21:05,800] {dag.py:2280} INFO - Setting next_dagrun for external_sensor to 2021-05-01T06:20:00+00:00
+[2021-05-01 06:21:05,815] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.090 seconds
+[2021-05-01 06:21:37,215] {scheduler_job.py:182} INFO - Started process (PID=4319) to work on /opt/airflow/dags/sensor/external_sensor.py
+[2021-05-01 06:21:37,217] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
+[2021-05-01 06:21:37,218] {logging_mixin.py:104} INFO - [2021-05-01 06:21:37,217] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
+[2021-05-01 06:21:37,236] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
+[2021-05-01 06:21:37,263] {logging_mixin.py:104} INFO - [2021-05-01 06:21:37,263] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 06:21:37,298] {logging_mixin.py:104} INFO - [2021-05-01 06:21:37,297] {dag.py:2280} INFO - Setting next_dagrun for external_sensor to 2021-05-01T06:20:00+00:00
+[2021-05-01 06:21:37,314] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.103 seconds
+[2021-05-01 06:22:09,174] {scheduler_job.py:182} INFO - Started process (PID=4363) to work on /opt/airflow/dags/sensor/external_sensor.py
+[2021-05-01 06:22:09,180] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
+[2021-05-01 06:22:09,183] {logging_mixin.py:104} INFO - [2021-05-01 06:22:09,182] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
+[2021-05-01 06:22:09,218] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
+[2021-05-01 06:22:09,269] {logging_mixin.py:104} INFO - [2021-05-01 06:22:09,269] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 06:22:09,333] {logging_mixin.py:104} INFO - [2021-05-01 06:22:09,332] {dag.py:2280} INFO - Setting next_dagrun for external_sensor to 2021-05-01T06:22:00+00:00
+[2021-05-01 06:22:09,359] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.194 seconds
+[2021-05-01 06:22:39,429] {scheduler_job.py:182} INFO - Started process (PID=4396) to work on /opt/airflow/dags/sensor/external_sensor.py
+[2021-05-01 06:22:39,432] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
+[2021-05-01 06:22:39,433] {logging_mixin.py:104} INFO - [2021-05-01 06:22:39,433] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
+[2021-05-01 06:22:39,465] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
+[2021-05-01 06:22:39,517] {logging_mixin.py:104} INFO - [2021-05-01 06:22:39,517] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 06:22:39,582] {logging_mixin.py:104} INFO - [2021-05-01 06:22:39,582] {dag.py:2280} INFO - Setting next_dagrun for external_sensor to 2021-05-01T06:22:00+00:00
+[2021-05-01 06:22:39,606] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.188 seconds
+[2021-05-01 06:23:10,428] {scheduler_job.py:182} INFO - Started process (PID=4431) to work on /opt/airflow/dags/sensor/external_sensor.py
+[2021-05-01 06:23:10,429] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
+[2021-05-01 06:23:10,430] {logging_mixin.py:104} INFO - [2021-05-01 06:23:10,430] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
+[2021-05-01 06:23:10,444] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
+[2021-05-01 06:23:10,475] {logging_mixin.py:104} INFO - [2021-05-01 06:23:10,475] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 06:23:10,508] {logging_mixin.py:104} INFO - [2021-05-01 06:23:10,508] {dag.py:2280} INFO - Setting next_dagrun for external_sensor to 2021-05-01T06:22:00+00:00
+[2021-05-01 06:23:10,523] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.099 seconds
+[2021-05-01 06:23:40,626] {scheduler_job.py:182} INFO - Started process (PID=4464) to work on /opt/airflow/dags/sensor/external_sensor.py
+[2021-05-01 06:23:40,627] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
+[2021-05-01 06:23:40,628] {logging_mixin.py:104} INFO - [2021-05-01 06:23:40,628] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
+[2021-05-01 06:23:40,641] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
+[2021-05-01 06:23:40,662] {logging_mixin.py:104} INFO - [2021-05-01 06:23:40,662] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 06:23:40,692] {logging_mixin.py:104} INFO - [2021-05-01 06:23:40,692] {dag.py:2280} INFO - Setting next_dagrun for external_sensor to 2021-05-01T06:22:00+00:00
+[2021-05-01 06:23:40,707] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.084 seconds
+[2021-05-01 06:24:11,045] {scheduler_job.py:182} INFO - Started process (PID=4497) to work on /opt/airflow/dags/sensor/external_sensor.py
+[2021-05-01 06:24:11,046] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/sensor/external_sensor.py for tasks to queue
+[2021-05-01 06:24:11,047] {logging_mixin.py:104} INFO - [2021-05-01 06:24:11,047] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/sensor/external_sensor.py
+[2021-05-01 06:24:11,062] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['external_sensor']) retrieved from /opt/airflow/dags/sensor/external_sensor.py
+[2021-05-01 06:24:11,085] {logging_mixin.py:104} INFO - [2021-05-01 06:24:11,084] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 06:24:11,122] {logging_mixin.py:104} INFO - [2021-05-01 06:24:11,122] {dag.py:2280} INFO - Setting next_dagrun for external_sensor to 2021-05-01T06:22:00+00:00
+[2021-05-01 06:24:11,137] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/sensor/external_sensor.py took 0.096 seconds
