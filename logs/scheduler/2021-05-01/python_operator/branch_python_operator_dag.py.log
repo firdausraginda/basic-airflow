@@ -1,0 +1,520 @@
+[2021-05-01 04:42:47,632] {scheduler_job.py:182} INFO - Started process (PID=17766) to work on /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:42:47,634] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/python_operator/branch_python_operator_dag.py for tasks to queue
+[2021-05-01 04:42:47,635] {logging_mixin.py:104} INFO - [2021-05-01 04:42:47,635] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:42:48,187] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-01 04:42:48,191] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['branch_python_operator_dag']) retrieved from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:42:48,254] {logging_mixin.py:104} INFO - [2021-05-01 04:42:48,253] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 04:42:48,312] {logging_mixin.py:104} INFO - [2021-05-01 04:42:48,312] {dag.py:2280} INFO - Setting next_dagrun for branch_python_operator_dag to 2021-05-01 00:00:00+00:00
+[2021-05-01 04:42:48,354] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/python_operator/branch_python_operator_dag.py took 0.727 seconds
+[2021-05-01 04:44:07,506] {scheduler_job.py:182} INFO - Started process (PID=63) to work on /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:44:07,509] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/python_operator/branch_python_operator_dag.py for tasks to queue
+[2021-05-01 04:44:07,511] {logging_mixin.py:104} INFO - [2021-05-01 04:44:07,511] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:44:07,713] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-01 04:44:07,728] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['branch_python_operator_dag']) retrieved from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:44:07,776] {logging_mixin.py:104} INFO - [2021-05-01 04:44:07,776] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 04:44:07,838] {logging_mixin.py:104} INFO - [2021-05-01 04:44:07,838] {dag.py:2280} INFO - Setting next_dagrun for branch_python_operator_dag to 2021-05-01 00:00:00+00:00
+[2021-05-01 04:44:07,859] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/python_operator/branch_python_operator_dag.py took 0.361 seconds
+[2021-05-01 04:44:38,059] {scheduler_job.py:182} INFO - Started process (PID=97) to work on /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:44:38,060] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/python_operator/branch_python_operator_dag.py for tasks to queue
+[2021-05-01 04:44:38,061] {logging_mixin.py:104} INFO - [2021-05-01 04:44:38,061] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:44:38,139] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-01 04:44:38,147] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['branch_python_operator_dag']) retrieved from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:44:38,180] {logging_mixin.py:104} INFO - [2021-05-01 04:44:38,179] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 04:44:38,211] {logging_mixin.py:104} INFO - [2021-05-01 04:44:38,211] {dag.py:2280} INFO - Setting next_dagrun for branch_python_operator_dag to 2021-05-01 00:00:00+00:00
+[2021-05-01 04:44:38,223] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/python_operator/branch_python_operator_dag.py took 0.168 seconds
+[2021-05-01 04:45:08,700] {scheduler_job.py:182} INFO - Started process (PID=131) to work on /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:45:08,715] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/python_operator/branch_python_operator_dag.py for tasks to queue
+[2021-05-01 04:45:08,716] {logging_mixin.py:104} INFO - [2021-05-01 04:45:08,715] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:45:08,835] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-01 04:45:08,846] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['branch_python_operator_dag']) retrieved from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:45:08,876] {logging_mixin.py:104} INFO - [2021-05-01 04:45:08,876] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 04:45:08,919] {logging_mixin.py:104} INFO - [2021-05-01 04:45:08,918] {dag.py:2280} INFO - Setting next_dagrun for branch_python_operator_dag to 2021-05-01 00:00:00+00:00
+[2021-05-01 04:45:08,933] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/python_operator/branch_python_operator_dag.py took 0.241 seconds
+[2021-05-01 04:45:39,315] {scheduler_job.py:182} INFO - Started process (PID=164) to work on /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:45:39,316] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/python_operator/branch_python_operator_dag.py for tasks to queue
+[2021-05-01 04:45:39,316] {logging_mixin.py:104} INFO - [2021-05-01 04:45:39,316] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:45:39,365] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-01 04:45:39,372] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['branch_python_operator_dag']) retrieved from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:45:39,391] {logging_mixin.py:104} INFO - [2021-05-01 04:45:39,391] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 04:45:39,413] {logging_mixin.py:104} INFO - [2021-05-01 04:45:39,413] {dag.py:2280} INFO - Setting next_dagrun for branch_python_operator_dag to 2021-05-01 00:00:00+00:00
+[2021-05-01 04:45:39,423] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/python_operator/branch_python_operator_dag.py took 0.111 seconds
+[2021-05-01 04:46:09,841] {scheduler_job.py:182} INFO - Started process (PID=195) to work on /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:46:09,842] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/python_operator/branch_python_operator_dag.py for tasks to queue
+[2021-05-01 04:46:09,842] {logging_mixin.py:104} INFO - [2021-05-01 04:46:09,842] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:46:09,891] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-01 04:46:09,897] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['branch_python_operator_dag']) retrieved from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:46:09,923] {logging_mixin.py:104} INFO - [2021-05-01 04:46:09,922] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 04:46:09,945] {logging_mixin.py:104} INFO - [2021-05-01 04:46:09,945] {dag.py:2280} INFO - Setting next_dagrun for branch_python_operator_dag to 2021-05-01 00:00:00+00:00
+[2021-05-01 04:46:09,956] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/python_operator/branch_python_operator_dag.py took 0.118 seconds
+[2021-05-01 04:46:40,458] {scheduler_job.py:182} INFO - Started process (PID=228) to work on /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:46:40,461] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/python_operator/branch_python_operator_dag.py for tasks to queue
+[2021-05-01 04:46:40,462] {logging_mixin.py:104} INFO - [2021-05-01 04:46:40,462] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:46:40,512] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-01 04:46:40,518] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['branch_python_operator_dag']) retrieved from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:46:40,541] {logging_mixin.py:104} INFO - [2021-05-01 04:46:40,541] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 04:46:40,563] {logging_mixin.py:104} INFO - [2021-05-01 04:46:40,563] {dag.py:2280} INFO - Setting next_dagrun for branch_python_operator_dag to 2021-05-01 00:00:00+00:00
+[2021-05-01 04:46:40,574] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/python_operator/branch_python_operator_dag.py took 0.123 seconds
+[2021-05-01 04:47:11,058] {scheduler_job.py:182} INFO - Started process (PID=261) to work on /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:47:11,059] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/python_operator/branch_python_operator_dag.py for tasks to queue
+[2021-05-01 04:47:11,059] {logging_mixin.py:104} INFO - [2021-05-01 04:47:11,059] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:47:11,112] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-01 04:47:11,117] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['branch_python_operator_dag']) retrieved from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:47:11,138] {logging_mixin.py:104} INFO - [2021-05-01 04:47:11,138] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 04:47:11,156] {logging_mixin.py:104} INFO - [2021-05-01 04:47:11,155] {dag.py:2280} INFO - Setting next_dagrun for branch_python_operator_dag to 2021-05-01 00:00:00+00:00
+[2021-05-01 04:47:11,164] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/python_operator/branch_python_operator_dag.py took 0.109 seconds
+[2021-05-01 04:47:41,907] {scheduler_job.py:182} INFO - Started process (PID=294) to work on /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:47:41,908] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/python_operator/branch_python_operator_dag.py for tasks to queue
+[2021-05-01 04:47:41,908] {logging_mixin.py:104} INFO - [2021-05-01 04:47:41,908] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:47:41,956] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-01 04:47:41,961] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['branch_python_operator_dag']) retrieved from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:47:41,980] {logging_mixin.py:104} INFO - [2021-05-01 04:47:41,980] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 04:47:42,002] {logging_mixin.py:104} INFO - [2021-05-01 04:47:42,002] {dag.py:2280} INFO - Setting next_dagrun for branch_python_operator_dag to 2021-05-01 00:00:00+00:00
+[2021-05-01 04:47:42,015] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/python_operator/branch_python_operator_dag.py took 0.113 seconds
+[2021-05-01 04:48:14,494] {scheduler_job.py:182} INFO - Started process (PID=327) to work on /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:48:14,497] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/python_operator/branch_python_operator_dag.py for tasks to queue
+[2021-05-01 04:48:14,507] {logging_mixin.py:104} INFO - [2021-05-01 04:48:14,499] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:48:14,750] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-01 04:48:14,773] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['branch_python_operator_dag']) retrieved from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:48:14,875] {logging_mixin.py:104} INFO - [2021-05-01 04:48:14,875] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 04:48:14,991] {logging_mixin.py:104} INFO - [2021-05-01 04:48:14,991] {dag.py:2280} INFO - Setting next_dagrun for branch_python_operator_dag to 2021-05-01 00:00:00+00:00
+[2021-05-01 04:48:15,061] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/python_operator/branch_python_operator_dag.py took 0.590 seconds
+[2021-05-01 04:48:45,718] {scheduler_job.py:182} INFO - Started process (PID=360) to work on /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:48:45,720] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/python_operator/branch_python_operator_dag.py for tasks to queue
+[2021-05-01 04:48:45,721] {logging_mixin.py:104} INFO - [2021-05-01 04:48:45,721] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:48:45,789] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-01 04:48:45,795] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['branch_python_operator_dag']) retrieved from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:48:45,821] {logging_mixin.py:104} INFO - [2021-05-01 04:48:45,821] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 04:48:45,848] {logging_mixin.py:104} INFO - [2021-05-01 04:48:45,848] {dag.py:2280} INFO - Setting next_dagrun for branch_python_operator_dag to 2021-05-01 00:00:00+00:00
+[2021-05-01 04:48:45,864] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/python_operator/branch_python_operator_dag.py took 0.150 seconds
+[2021-05-01 04:49:16,586] {scheduler_job.py:182} INFO - Started process (PID=393) to work on /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:49:16,587] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/python_operator/branch_python_operator_dag.py for tasks to queue
+[2021-05-01 04:49:16,588] {logging_mixin.py:104} INFO - [2021-05-01 04:49:16,588] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:49:16,651] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-01 04:49:16,659] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['branch_python_operator_dag']) retrieved from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:49:16,690] {logging_mixin.py:104} INFO - [2021-05-01 04:49:16,690] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 04:49:16,723] {logging_mixin.py:104} INFO - [2021-05-01 04:49:16,723] {dag.py:2280} INFO - Setting next_dagrun for branch_python_operator_dag to 2021-05-01 00:00:00+00:00
+[2021-05-01 04:49:16,737] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/python_operator/branch_python_operator_dag.py took 0.157 seconds
+[2021-05-01 04:49:46,860] {scheduler_job.py:182} INFO - Started process (PID=427) to work on /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:49:46,861] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/python_operator/branch_python_operator_dag.py for tasks to queue
+[2021-05-01 04:49:46,861] {logging_mixin.py:104} INFO - [2021-05-01 04:49:46,861] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:49:46,918] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-01 04:49:46,925] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['branch_python_operator_dag']) retrieved from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:49:46,969] {logging_mixin.py:104} INFO - [2021-05-01 04:49:46,968] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 04:49:47,007] {logging_mixin.py:104} INFO - [2021-05-01 04:49:47,007] {dag.py:2280} INFO - Setting next_dagrun for branch_python_operator_dag to 2021-05-01 00:00:00+00:00
+[2021-05-01 04:49:47,019] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/python_operator/branch_python_operator_dag.py took 0.162 seconds
+[2021-05-01 04:50:17,663] {scheduler_job.py:182} INFO - Started process (PID=459) to work on /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:50:17,664] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/python_operator/branch_python_operator_dag.py for tasks to queue
+[2021-05-01 04:50:17,665] {logging_mixin.py:104} INFO - [2021-05-01 04:50:17,665] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:50:17,730] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-01 04:50:17,738] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['branch_python_operator_dag']) retrieved from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:50:17,763] {logging_mixin.py:104} INFO - [2021-05-01 04:50:17,763] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 04:50:17,789] {logging_mixin.py:104} INFO - [2021-05-01 04:50:17,788] {dag.py:2280} INFO - Setting next_dagrun for branch_python_operator_dag to 2021-05-01 00:00:00+00:00
+[2021-05-01 04:50:17,801] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/python_operator/branch_python_operator_dag.py took 0.142 seconds
+[2021-05-01 04:50:48,375] {scheduler_job.py:182} INFO - Started process (PID=492) to work on /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:50:48,375] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/python_operator/branch_python_operator_dag.py for tasks to queue
+[2021-05-01 04:50:48,376] {logging_mixin.py:104} INFO - [2021-05-01 04:50:48,376] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:50:48,427] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-01 04:50:48,433] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['branch_python_operator_dag']) retrieved from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:50:48,455] {logging_mixin.py:104} INFO - [2021-05-01 04:50:48,455] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 04:50:48,474] {logging_mixin.py:104} INFO - [2021-05-01 04:50:48,474] {dag.py:2280} INFO - Setting next_dagrun for branch_python_operator_dag to 2021-05-01 00:00:00+00:00
+[2021-05-01 04:50:48,484] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/python_operator/branch_python_operator_dag.py took 0.112 seconds
+[2021-05-01 04:51:19,147] {scheduler_job.py:182} INFO - Started process (PID=525) to work on /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:51:19,149] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/python_operator/branch_python_operator_dag.py for tasks to queue
+[2021-05-01 04:51:19,149] {logging_mixin.py:104} INFO - [2021-05-01 04:51:19,149] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:51:19,227] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-01 04:51:19,234] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['branch_python_operator_dag']) retrieved from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:51:19,266] {logging_mixin.py:104} INFO - [2021-05-01 04:51:19,266] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 04:51:19,300] {logging_mixin.py:104} INFO - [2021-05-01 04:51:19,300] {dag.py:2280} INFO - Setting next_dagrun for branch_python_operator_dag to 2021-05-01 00:00:00+00:00
+[2021-05-01 04:51:19,313] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/python_operator/branch_python_operator_dag.py took 0.170 seconds
+[2021-05-01 04:51:49,983] {scheduler_job.py:182} INFO - Started process (PID=558) to work on /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:51:49,984] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/python_operator/branch_python_operator_dag.py for tasks to queue
+[2021-05-01 04:51:49,985] {logging_mixin.py:104} INFO - [2021-05-01 04:51:49,985] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:51:50,045] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-01 04:51:50,052] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['branch_python_operator_dag']) retrieved from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:51:50,079] {logging_mixin.py:104} INFO - [2021-05-01 04:51:50,079] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 04:51:50,103] {logging_mixin.py:104} INFO - [2021-05-01 04:51:50,103] {dag.py:2280} INFO - Setting next_dagrun for branch_python_operator_dag to 2021-05-01 00:00:00+00:00
+[2021-05-01 04:51:50,114] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/python_operator/branch_python_operator_dag.py took 0.136 seconds
+[2021-05-01 04:52:20,326] {scheduler_job.py:182} INFO - Started process (PID=589) to work on /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:52:20,327] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/python_operator/branch_python_operator_dag.py for tasks to queue
+[2021-05-01 04:52:20,328] {logging_mixin.py:104} INFO - [2021-05-01 04:52:20,328] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:52:20,383] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-01 04:52:20,388] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['branch_python_operator_dag']) retrieved from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:52:20,421] {logging_mixin.py:104} INFO - [2021-05-01 04:52:20,420] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 04:52:20,453] {logging_mixin.py:104} INFO - [2021-05-01 04:52:20,452] {dag.py:2280} INFO - Setting next_dagrun for branch_python_operator_dag to 2021-05-01 00:00:00+00:00
+[2021-05-01 04:52:20,469] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/python_operator/branch_python_operator_dag.py took 0.146 seconds
+[2021-05-01 04:52:51,405] {scheduler_job.py:182} INFO - Started process (PID=624) to work on /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:52:51,406] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/python_operator/branch_python_operator_dag.py for tasks to queue
+[2021-05-01 04:52:51,407] {logging_mixin.py:104} INFO - [2021-05-01 04:52:51,406] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:52:51,457] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-01 04:52:51,463] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['branch_python_operator_dag']) retrieved from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:52:51,487] {logging_mixin.py:104} INFO - [2021-05-01 04:52:51,486] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 04:52:51,510] {logging_mixin.py:104} INFO - [2021-05-01 04:52:51,510] {dag.py:2280} INFO - Setting next_dagrun for branch_python_operator_dag to 2021-05-01 00:00:00+00:00
+[2021-05-01 04:52:51,522] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/python_operator/branch_python_operator_dag.py took 0.120 seconds
+[2021-05-01 04:53:22,094] {scheduler_job.py:182} INFO - Started process (PID=657) to work on /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:53:22,095] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/python_operator/branch_python_operator_dag.py for tasks to queue
+[2021-05-01 04:53:22,096] {logging_mixin.py:104} INFO - [2021-05-01 04:53:22,096] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:53:22,149] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-01 04:53:22,156] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['branch_python_operator_dag']) retrieved from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:53:22,184] {logging_mixin.py:104} INFO - [2021-05-01 04:53:22,183] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 04:53:22,215] {logging_mixin.py:104} INFO - [2021-05-01 04:53:22,214] {dag.py:2280} INFO - Setting next_dagrun for branch_python_operator_dag to 2021-05-01 00:00:00+00:00
+[2021-05-01 04:53:22,228] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/python_operator/branch_python_operator_dag.py took 0.139 seconds
+[2021-05-01 04:53:52,786] {scheduler_job.py:182} INFO - Started process (PID=690) to work on /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:53:52,788] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/python_operator/branch_python_operator_dag.py for tasks to queue
+[2021-05-01 04:53:52,789] {logging_mixin.py:104} INFO - [2021-05-01 04:53:52,789] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:53:52,844] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-01 04:53:52,850] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['branch_python_operator_dag']) retrieved from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:53:52,873] {logging_mixin.py:104} INFO - [2021-05-01 04:53:52,873] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 04:53:52,895] {logging_mixin.py:104} INFO - [2021-05-01 04:53:52,895] {dag.py:2280} INFO - Setting next_dagrun for branch_python_operator_dag to 2021-05-01 00:00:00+00:00
+[2021-05-01 04:53:52,907] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/python_operator/branch_python_operator_dag.py took 0.126 seconds
+[2021-05-01 04:54:23,625] {scheduler_job.py:182} INFO - Started process (PID=723) to work on /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:54:23,626] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/python_operator/branch_python_operator_dag.py for tasks to queue
+[2021-05-01 04:54:23,627] {logging_mixin.py:104} INFO - [2021-05-01 04:54:23,626] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:54:23,690] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-01 04:54:23,696] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['branch_python_operator_dag']) retrieved from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:54:23,720] {logging_mixin.py:104} INFO - [2021-05-01 04:54:23,720] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 04:54:23,742] {logging_mixin.py:104} INFO - [2021-05-01 04:54:23,742] {dag.py:2280} INFO - Setting next_dagrun for branch_python_operator_dag to 2021-05-01 00:00:00+00:00
+[2021-05-01 04:54:23,757] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/python_operator/branch_python_operator_dag.py took 0.137 seconds
+[2021-05-01 04:54:54,308] {scheduler_job.py:182} INFO - Started process (PID=756) to work on /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:54:54,310] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/python_operator/branch_python_operator_dag.py for tasks to queue
+[2021-05-01 04:54:54,311] {logging_mixin.py:104} INFO - [2021-05-01 04:54:54,310] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:54:54,372] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-01 04:54:54,378] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['branch_python_operator_dag']) retrieved from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:54:54,399] {logging_mixin.py:104} INFO - [2021-05-01 04:54:54,399] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 04:54:54,426] {logging_mixin.py:104} INFO - [2021-05-01 04:54:54,426] {dag.py:2280} INFO - Setting next_dagrun for branch_python_operator_dag to 2021-05-01 00:00:00+00:00
+[2021-05-01 04:54:54,440] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/python_operator/branch_python_operator_dag.py took 0.136 seconds
+[2021-05-01 04:55:24,945] {scheduler_job.py:182} INFO - Started process (PID=789) to work on /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:55:24,946] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/python_operator/branch_python_operator_dag.py for tasks to queue
+[2021-05-01 04:55:24,947] {logging_mixin.py:104} INFO - [2021-05-01 04:55:24,946] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:55:25,004] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-01 04:55:25,009] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['branch_python_operator_dag']) retrieved from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:55:25,031] {logging_mixin.py:104} INFO - [2021-05-01 04:55:25,031] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 04:55:25,052] {logging_mixin.py:104} INFO - [2021-05-01 04:55:25,052] {dag.py:2280} INFO - Setting next_dagrun for branch_python_operator_dag to 2021-05-01 00:00:00+00:00
+[2021-05-01 04:55:25,062] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/python_operator/branch_python_operator_dag.py took 0.121 seconds
+[2021-05-01 04:55:55,898] {scheduler_job.py:182} INFO - Started process (PID=822) to work on /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:55:55,900] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/python_operator/branch_python_operator_dag.py for tasks to queue
+[2021-05-01 04:55:55,902] {logging_mixin.py:104} INFO - [2021-05-01 04:55:55,902] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:55:55,959] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-01 04:55:55,965] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['branch_python_operator_dag']) retrieved from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:55:55,992] {logging_mixin.py:104} INFO - [2021-05-01 04:55:55,992] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 04:55:56,023] {logging_mixin.py:104} INFO - [2021-05-01 04:55:56,023] {dag.py:2280} INFO - Setting next_dagrun for branch_python_operator_dag to 2021-05-01 00:00:00+00:00
+[2021-05-01 04:55:56,037] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/python_operator/branch_python_operator_dag.py took 0.144 seconds
+[2021-05-01 04:56:26,587] {scheduler_job.py:182} INFO - Started process (PID=855) to work on /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:56:26,589] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/python_operator/branch_python_operator_dag.py for tasks to queue
+[2021-05-01 04:56:26,590] {logging_mixin.py:104} INFO - [2021-05-01 04:56:26,590] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:56:26,672] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-01 04:56:26,679] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['branch_python_operator_dag']) retrieved from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:56:26,706] {logging_mixin.py:104} INFO - [2021-05-01 04:56:26,706] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 04:56:26,740] {logging_mixin.py:104} INFO - [2021-05-01 04:56:26,740] {dag.py:2280} INFO - Setting next_dagrun for branch_python_operator_dag to 2021-05-01 00:00:00+00:00
+[2021-05-01 04:56:26,759] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/python_operator/branch_python_operator_dag.py took 0.178 seconds
+[2021-05-01 04:56:57,323] {scheduler_job.py:182} INFO - Started process (PID=888) to work on /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:56:57,324] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/python_operator/branch_python_operator_dag.py for tasks to queue
+[2021-05-01 04:56:57,325] {logging_mixin.py:104} INFO - [2021-05-01 04:56:57,324] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:56:57,373] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-01 04:56:57,382] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['branch_python_operator_dag']) retrieved from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:56:57,403] {logging_mixin.py:104} INFO - [2021-05-01 04:56:57,403] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 04:56:57,424] {logging_mixin.py:104} INFO - [2021-05-01 04:56:57,423] {dag.py:2280} INFO - Setting next_dagrun for branch_python_operator_dag to 2021-05-01 00:00:00+00:00
+[2021-05-01 04:56:57,435] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/python_operator/branch_python_operator_dag.py took 0.116 seconds
+[2021-05-01 04:57:28,057] {scheduler_job.py:182} INFO - Started process (PID=921) to work on /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:57:28,058] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/python_operator/branch_python_operator_dag.py for tasks to queue
+[2021-05-01 04:57:28,059] {logging_mixin.py:104} INFO - [2021-05-01 04:57:28,059] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:57:28,133] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-01 04:57:28,146] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['branch_python_operator_dag']) retrieved from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:57:28,170] {logging_mixin.py:104} INFO - [2021-05-01 04:57:28,170] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 04:57:28,189] {logging_mixin.py:104} INFO - [2021-05-01 04:57:28,189] {dag.py:2280} INFO - Setting next_dagrun for branch_python_operator_dag to 2021-05-01 00:00:00+00:00
+[2021-05-01 04:57:28,199] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/python_operator/branch_python_operator_dag.py took 0.146 seconds
+[2021-05-01 04:57:58,480] {scheduler_job.py:182} INFO - Started process (PID=952) to work on /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:57:58,481] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/python_operator/branch_python_operator_dag.py for tasks to queue
+[2021-05-01 04:57:58,482] {logging_mixin.py:104} INFO - [2021-05-01 04:57:58,482] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:57:58,547] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-01 04:57:58,557] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['branch_python_operator_dag']) retrieved from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:57:58,588] {logging_mixin.py:104} INFO - [2021-05-01 04:57:58,588] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 04:57:58,614] {logging_mixin.py:104} INFO - [2021-05-01 04:57:58,614] {dag.py:2280} INFO - Setting next_dagrun for branch_python_operator_dag to 2021-05-01 00:00:00+00:00
+[2021-05-01 04:57:58,628] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/python_operator/branch_python_operator_dag.py took 0.151 seconds
+[2021-05-01 04:58:29,606] {scheduler_job.py:182} INFO - Started process (PID=987) to work on /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:58:29,607] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/python_operator/branch_python_operator_dag.py for tasks to queue
+[2021-05-01 04:58:29,607] {logging_mixin.py:104} INFO - [2021-05-01 04:58:29,607] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:58:29,662] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-01 04:58:29,669] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['branch_python_operator_dag']) retrieved from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:58:29,691] {logging_mixin.py:104} INFO - [2021-05-01 04:58:29,691] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 04:58:29,715] {logging_mixin.py:104} INFO - [2021-05-01 04:58:29,715] {dag.py:2280} INFO - Setting next_dagrun for branch_python_operator_dag to 2021-05-01 00:00:00+00:00
+[2021-05-01 04:58:29,727] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/python_operator/branch_python_operator_dag.py took 0.124 seconds
+[2021-05-01 04:58:59,990] {scheduler_job.py:182} INFO - Started process (PID=1022) to work on /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:58:59,991] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/python_operator/branch_python_operator_dag.py for tasks to queue
+[2021-05-01 04:58:59,992] {logging_mixin.py:104} INFO - [2021-05-01 04:58:59,992] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:59:00,061] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-01 04:59:00,069] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['branch_python_operator_dag']) retrieved from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:59:00,091] {logging_mixin.py:104} INFO - [2021-05-01 04:59:00,091] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 04:59:00,117] {logging_mixin.py:104} INFO - [2021-05-01 04:59:00,117] {dag.py:2280} INFO - Setting next_dagrun for branch_python_operator_dag to 2021-05-01 00:00:00+00:00
+[2021-05-01 04:59:00,127] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/python_operator/branch_python_operator_dag.py took 0.141 seconds
+[2021-05-01 04:59:30,206] {scheduler_job.py:182} INFO - Started process (PID=1055) to work on /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:59:30,207] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/python_operator/branch_python_operator_dag.py for tasks to queue
+[2021-05-01 04:59:30,209] {logging_mixin.py:104} INFO - [2021-05-01 04:59:30,208] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:59:30,282] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-01 04:59:30,296] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['branch_python_operator_dag']) retrieved from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 04:59:30,338] {logging_mixin.py:104} INFO - [2021-05-01 04:59:30,338] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 04:59:30,374] {logging_mixin.py:104} INFO - [2021-05-01 04:59:30,374] {dag.py:2280} INFO - Setting next_dagrun for branch_python_operator_dag to 2021-05-01 00:00:00+00:00
+[2021-05-01 04:59:30,395] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/python_operator/branch_python_operator_dag.py took 0.197 seconds
+[2021-05-01 05:00:01,069] {scheduler_job.py:182} INFO - Started process (PID=1086) to work on /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:00:01,071] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/python_operator/branch_python_operator_dag.py for tasks to queue
+[2021-05-01 05:00:01,072] {logging_mixin.py:104} INFO - [2021-05-01 05:00:01,071] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:00:01,139] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-01 05:00:01,147] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['branch_python_operator_dag']) retrieved from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:00:01,169] {logging_mixin.py:104} INFO - [2021-05-01 05:00:01,169] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 05:00:01,193] {logging_mixin.py:104} INFO - [2021-05-01 05:00:01,193] {dag.py:2280} INFO - Setting next_dagrun for branch_python_operator_dag to 2021-05-01 00:00:00+00:00
+[2021-05-01 05:00:01,205] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/python_operator/branch_python_operator_dag.py took 0.140 seconds
+[2021-05-01 05:00:31,935] {scheduler_job.py:182} INFO - Started process (PID=1119) to work on /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:00:31,936] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/python_operator/branch_python_operator_dag.py for tasks to queue
+[2021-05-01 05:00:31,937] {logging_mixin.py:104} INFO - [2021-05-01 05:00:31,937] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:00:31,999] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-01 05:00:32,007] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['branch_python_operator_dag']) retrieved from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:00:32,028] {logging_mixin.py:104} INFO - [2021-05-01 05:00:32,028] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 05:00:32,050] {logging_mixin.py:104} INFO - [2021-05-01 05:00:32,050] {dag.py:2280} INFO - Setting next_dagrun for branch_python_operator_dag to 2021-05-01 00:00:00+00:00
+[2021-05-01 05:00:32,061] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/python_operator/branch_python_operator_dag.py took 0.131 seconds
+[2021-05-01 05:01:02,648] {scheduler_job.py:182} INFO - Started process (PID=1152) to work on /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:01:02,649] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/python_operator/branch_python_operator_dag.py for tasks to queue
+[2021-05-01 05:01:02,650] {logging_mixin.py:104} INFO - [2021-05-01 05:01:02,650] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:01:02,712] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-01 05:01:02,718] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['branch_python_operator_dag']) retrieved from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:01:02,737] {logging_mixin.py:104} INFO - [2021-05-01 05:01:02,737] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 05:01:02,761] {logging_mixin.py:104} INFO - [2021-05-01 05:01:02,761] {dag.py:2280} INFO - Setting next_dagrun for branch_python_operator_dag to 2021-05-01 00:00:00+00:00
+[2021-05-01 05:01:02,774] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/python_operator/branch_python_operator_dag.py took 0.129 seconds
+[2021-05-01 05:01:33,351] {scheduler_job.py:182} INFO - Started process (PID=1185) to work on /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:01:33,355] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/python_operator/branch_python_operator_dag.py for tasks to queue
+[2021-05-01 05:01:33,356] {logging_mixin.py:104} INFO - [2021-05-01 05:01:33,356] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:01:33,419] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-01 05:01:33,425] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['branch_python_operator_dag']) retrieved from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:01:33,445] {logging_mixin.py:104} INFO - [2021-05-01 05:01:33,445] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 05:01:33,469] {logging_mixin.py:104} INFO - [2021-05-01 05:01:33,469] {dag.py:2280} INFO - Setting next_dagrun for branch_python_operator_dag to 2021-05-01 00:00:00+00:00
+[2021-05-01 05:01:33,483] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/python_operator/branch_python_operator_dag.py took 0.136 seconds
+[2021-05-01 05:02:04,106] {scheduler_job.py:182} INFO - Started process (PID=1218) to work on /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:02:04,108] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/python_operator/branch_python_operator_dag.py for tasks to queue
+[2021-05-01 05:02:04,108] {logging_mixin.py:104} INFO - [2021-05-01 05:02:04,108] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:02:04,163] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-01 05:02:04,169] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['branch_python_operator_dag']) retrieved from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:02:04,192] {logging_mixin.py:104} INFO - [2021-05-01 05:02:04,192] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 05:02:04,216] {logging_mixin.py:104} INFO - [2021-05-01 05:02:04,215] {dag.py:2280} INFO - Setting next_dagrun for branch_python_operator_dag to 2021-05-01 00:00:00+00:00
+[2021-05-01 05:02:04,228] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/python_operator/branch_python_operator_dag.py took 0.126 seconds
+[2021-05-01 05:02:34,861] {scheduler_job.py:182} INFO - Started process (PID=1251) to work on /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:02:34,862] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/python_operator/branch_python_operator_dag.py for tasks to queue
+[2021-05-01 05:02:34,863] {logging_mixin.py:104} INFO - [2021-05-01 05:02:34,863] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:02:34,913] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-01 05:02:34,918] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['branch_python_operator_dag']) retrieved from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:02:34,941] {logging_mixin.py:104} INFO - [2021-05-01 05:02:34,941] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 05:02:34,970] {logging_mixin.py:104} INFO - [2021-05-01 05:02:34,969] {dag.py:2280} INFO - Setting next_dagrun for branch_python_operator_dag to 2021-05-01 00:00:00+00:00
+[2021-05-01 05:02:34,984] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/python_operator/branch_python_operator_dag.py took 0.127 seconds
+[2021-05-01 05:03:05,570] {scheduler_job.py:182} INFO - Started process (PID=1284) to work on /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:03:05,572] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/python_operator/branch_python_operator_dag.py for tasks to queue
+[2021-05-01 05:03:05,573] {logging_mixin.py:104} INFO - [2021-05-01 05:03:05,573] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:03:05,634] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-01 05:03:05,646] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['branch_python_operator_dag']) retrieved from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:03:05,677] {logging_mixin.py:104} INFO - [2021-05-01 05:03:05,676] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 05:03:05,701] {logging_mixin.py:104} INFO - [2021-05-01 05:03:05,701] {dag.py:2280} INFO - Setting next_dagrun for branch_python_operator_dag to 2021-05-01 00:00:00+00:00
+[2021-05-01 05:03:05,712] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/python_operator/branch_python_operator_dag.py took 0.145 seconds
+[2021-05-01 05:03:36,249] {scheduler_job.py:182} INFO - Started process (PID=1317) to work on /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:03:36,250] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/python_operator/branch_python_operator_dag.py for tasks to queue
+[2021-05-01 05:03:36,251] {logging_mixin.py:104} INFO - [2021-05-01 05:03:36,250] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:03:36,330] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-01 05:03:36,339] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['branch_python_operator_dag']) retrieved from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:03:36,364] {logging_mixin.py:104} INFO - [2021-05-01 05:03:36,364] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 05:03:36,387] {logging_mixin.py:104} INFO - [2021-05-01 05:03:36,387] {dag.py:2280} INFO - Setting next_dagrun for branch_python_operator_dag to 2021-05-01 00:00:00+00:00
+[2021-05-01 05:03:36,399] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/python_operator/branch_python_operator_dag.py took 0.155 seconds
+[2021-05-01 05:04:06,998] {scheduler_job.py:182} INFO - Started process (PID=1350) to work on /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:04:07,000] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/python_operator/branch_python_operator_dag.py for tasks to queue
+[2021-05-01 05:04:07,001] {logging_mixin.py:104} INFO - [2021-05-01 05:04:07,000] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:04:07,056] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-01 05:04:07,065] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['branch_python_operator_dag']) retrieved from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:04:07,090] {logging_mixin.py:104} INFO - [2021-05-01 05:04:07,090] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 05:04:07,115] {logging_mixin.py:104} INFO - [2021-05-01 05:04:07,115] {dag.py:2280} INFO - Setting next_dagrun for branch_python_operator_dag to 2021-05-01 00:00:00+00:00
+[2021-05-01 05:04:07,126] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/python_operator/branch_python_operator_dag.py took 0.132 seconds
+[2021-05-01 05:04:37,398] {scheduler_job.py:182} INFO - Started process (PID=1385) to work on /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:04:37,400] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/python_operator/branch_python_operator_dag.py for tasks to queue
+[2021-05-01 05:04:37,401] {logging_mixin.py:104} INFO - [2021-05-01 05:04:37,400] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:04:37,461] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-01 05:04:37,467] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['branch_python_operator_dag']) retrieved from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:04:37,490] {logging_mixin.py:104} INFO - [2021-05-01 05:04:37,489] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 05:04:37,509] {logging_mixin.py:104} INFO - [2021-05-01 05:04:37,509] {dag.py:2280} INFO - Setting next_dagrun for branch_python_operator_dag to 2021-05-01 00:00:00+00:00
+[2021-05-01 05:04:37,521] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/python_operator/branch_python_operator_dag.py took 0.127 seconds
+[2021-05-01 05:05:07,560] {scheduler_job.py:182} INFO - Started process (PID=1418) to work on /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:05:07,562] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/python_operator/branch_python_operator_dag.py for tasks to queue
+[2021-05-01 05:05:07,563] {logging_mixin.py:104} INFO - [2021-05-01 05:05:07,563] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:05:07,622] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-01 05:05:07,630] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['branch_python_operator_dag']) retrieved from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:05:07,651] {logging_mixin.py:104} INFO - [2021-05-01 05:05:07,651] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 05:05:07,670] {logging_mixin.py:104} INFO - [2021-05-01 05:05:07,670] {dag.py:2280} INFO - Setting next_dagrun for branch_python_operator_dag to 2021-05-01 00:00:00+00:00
+[2021-05-01 05:05:07,682] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/python_operator/branch_python_operator_dag.py took 0.125 seconds
+[2021-05-01 05:05:38,182] {scheduler_job.py:182} INFO - Started process (PID=1449) to work on /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:05:38,183] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/python_operator/branch_python_operator_dag.py for tasks to queue
+[2021-05-01 05:05:38,183] {logging_mixin.py:104} INFO - [2021-05-01 05:05:38,183] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:05:38,234] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-01 05:05:38,240] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['branch_python_operator_dag']) retrieved from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:05:38,260] {logging_mixin.py:104} INFO - [2021-05-01 05:05:38,260] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 05:05:38,282] {logging_mixin.py:104} INFO - [2021-05-01 05:05:38,282] {dag.py:2280} INFO - Setting next_dagrun for branch_python_operator_dag to 2021-05-01 00:00:00+00:00
+[2021-05-01 05:05:38,294] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/python_operator/branch_python_operator_dag.py took 0.115 seconds
+[2021-05-01 05:06:08,977] {scheduler_job.py:182} INFO - Started process (PID=1482) to work on /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:06:08,980] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/python_operator/branch_python_operator_dag.py for tasks to queue
+[2021-05-01 05:06:08,981] {logging_mixin.py:104} INFO - [2021-05-01 05:06:08,981] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:06:09,056] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-01 05:06:09,064] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['branch_python_operator_dag']) retrieved from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:06:09,089] {logging_mixin.py:104} INFO - [2021-05-01 05:06:09,088] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 05:06:09,111] {logging_mixin.py:104} INFO - [2021-05-01 05:06:09,111] {dag.py:2280} INFO - Setting next_dagrun for branch_python_operator_dag to 2021-05-01 00:00:00+00:00
+[2021-05-01 05:06:09,126] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/python_operator/branch_python_operator_dag.py took 0.163 seconds
+[2021-05-01 05:06:39,579] {scheduler_job.py:182} INFO - Started process (PID=1515) to work on /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:06:39,580] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/python_operator/branch_python_operator_dag.py for tasks to queue
+[2021-05-01 05:06:39,581] {logging_mixin.py:104} INFO - [2021-05-01 05:06:39,581] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:06:39,643] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-01 05:06:39,650] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['branch_python_operator_dag']) retrieved from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:06:39,673] {logging_mixin.py:104} INFO - [2021-05-01 05:06:39,673] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 05:06:39,702] {logging_mixin.py:104} INFO - [2021-05-01 05:06:39,701] {dag.py:2280} INFO - Setting next_dagrun for branch_python_operator_dag to 2021-05-01 00:00:00+00:00
+[2021-05-01 05:06:39,721] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/python_operator/branch_python_operator_dag.py took 0.146 seconds
+[2021-05-01 05:07:10,319] {scheduler_job.py:182} INFO - Started process (PID=1548) to work on /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:07:10,320] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/python_operator/branch_python_operator_dag.py for tasks to queue
+[2021-05-01 05:07:10,320] {logging_mixin.py:104} INFO - [2021-05-01 05:07:10,320] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:07:10,371] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-01 05:07:10,377] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['branch_python_operator_dag']) retrieved from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:07:10,401] {logging_mixin.py:104} INFO - [2021-05-01 05:07:10,401] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 05:07:10,424] {logging_mixin.py:104} INFO - [2021-05-01 05:07:10,423] {dag.py:2280} INFO - Setting next_dagrun for branch_python_operator_dag to 2021-05-01 00:00:00+00:00
+[2021-05-01 05:07:10,438] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/python_operator/branch_python_operator_dag.py took 0.124 seconds
+[2021-05-01 05:07:41,016] {scheduler_job.py:182} INFO - Started process (PID=1581) to work on /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:07:41,017] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/python_operator/branch_python_operator_dag.py for tasks to queue
+[2021-05-01 05:07:41,018] {logging_mixin.py:104} INFO - [2021-05-01 05:07:41,018] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:07:41,077] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-01 05:07:41,083] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['branch_python_operator_dag']) retrieved from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:07:41,105] {logging_mixin.py:104} INFO - [2021-05-01 05:07:41,105] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 05:07:41,132] {logging_mixin.py:104} INFO - [2021-05-01 05:07:41,132] {dag.py:2280} INFO - Setting next_dagrun for branch_python_operator_dag to 2021-05-01 00:00:00+00:00
+[2021-05-01 05:07:41,147] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/python_operator/branch_python_operator_dag.py took 0.136 seconds
+[2021-05-01 05:08:11,542] {scheduler_job.py:182} INFO - Started process (PID=1614) to work on /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:08:11,543] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/python_operator/branch_python_operator_dag.py for tasks to queue
+[2021-05-01 05:08:11,544] {logging_mixin.py:104} INFO - [2021-05-01 05:08:11,543] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:08:11,592] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-01 05:08:11,600] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['branch_python_operator_dag']) retrieved from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:08:11,624] {logging_mixin.py:104} INFO - [2021-05-01 05:08:11,624] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 05:08:11,647] {logging_mixin.py:104} INFO - [2021-05-01 05:08:11,647] {dag.py:2280} INFO - Setting next_dagrun for branch_python_operator_dag to 2021-05-01 00:00:00+00:00
+[2021-05-01 05:08:11,658] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/python_operator/branch_python_operator_dag.py took 0.121 seconds
+[2021-05-01 05:08:42,346] {scheduler_job.py:182} INFO - Started process (PID=1647) to work on /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:08:42,348] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/python_operator/branch_python_operator_dag.py for tasks to queue
+[2021-05-01 05:08:42,349] {logging_mixin.py:104} INFO - [2021-05-01 05:08:42,349] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:08:42,407] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-01 05:08:42,413] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['branch_python_operator_dag']) retrieved from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:08:42,435] {logging_mixin.py:104} INFO - [2021-05-01 05:08:42,434] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 05:08:42,463] {logging_mixin.py:104} INFO - [2021-05-01 05:08:42,463] {dag.py:2280} INFO - Setting next_dagrun for branch_python_operator_dag to 2021-05-01 00:00:00+00:00
+[2021-05-01 05:08:42,474] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/python_operator/branch_python_operator_dag.py took 0.131 seconds
+[2021-05-01 05:09:13,059] {scheduler_job.py:182} INFO - Started process (PID=1680) to work on /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:09:13,061] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/python_operator/branch_python_operator_dag.py for tasks to queue
+[2021-05-01 05:09:13,062] {logging_mixin.py:104} INFO - [2021-05-01 05:09:13,062] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:09:13,121] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-01 05:09:13,128] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['branch_python_operator_dag']) retrieved from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:09:13,150] {logging_mixin.py:104} INFO - [2021-05-01 05:09:13,150] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 05:09:13,176] {logging_mixin.py:104} INFO - [2021-05-01 05:09:13,176] {dag.py:2280} INFO - Setting next_dagrun for branch_python_operator_dag to 2021-05-01 00:00:00+00:00
+[2021-05-01 05:09:13,187] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/python_operator/branch_python_operator_dag.py took 0.131 seconds
+[2021-05-01 05:09:43,814] {scheduler_job.py:182} INFO - Started process (PID=1713) to work on /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:09:43,816] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/python_operator/branch_python_operator_dag.py for tasks to queue
+[2021-05-01 05:09:43,817] {logging_mixin.py:104} INFO - [2021-05-01 05:09:43,817] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:09:43,874] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-01 05:09:43,882] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['branch_python_operator_dag']) retrieved from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:09:43,906] {logging_mixin.py:104} INFO - [2021-05-01 05:09:43,906] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 05:09:43,931] {logging_mixin.py:104} INFO - [2021-05-01 05:09:43,931] {dag.py:2280} INFO - Setting next_dagrun for branch_python_operator_dag to 2021-05-01 00:00:00+00:00
+[2021-05-01 05:09:43,945] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/python_operator/branch_python_operator_dag.py took 0.136 seconds
+[2021-05-01 05:10:14,513] {scheduler_job.py:182} INFO - Started process (PID=1746) to work on /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:10:14,514] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/python_operator/branch_python_operator_dag.py for tasks to queue
+[2021-05-01 05:10:14,516] {logging_mixin.py:104} INFO - [2021-05-01 05:10:14,516] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:10:14,569] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-01 05:10:14,575] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['branch_python_operator_dag']) retrieved from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:10:14,600] {logging_mixin.py:104} INFO - [2021-05-01 05:10:14,600] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 05:10:14,625] {logging_mixin.py:104} INFO - [2021-05-01 05:10:14,625] {dag.py:2280} INFO - Setting next_dagrun for branch_python_operator_dag to 2021-05-01 00:00:00+00:00
+[2021-05-01 05:10:14,635] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/python_operator/branch_python_operator_dag.py took 0.128 seconds
+[2021-05-01 05:10:45,172] {scheduler_job.py:182} INFO - Started process (PID=1779) to work on /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:10:45,174] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/python_operator/branch_python_operator_dag.py for tasks to queue
+[2021-05-01 05:10:45,174] {logging_mixin.py:104} INFO - [2021-05-01 05:10:45,174] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:10:45,228] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-01 05:10:45,242] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['branch_python_operator_dag']) retrieved from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:10:45,267] {logging_mixin.py:104} INFO - [2021-05-01 05:10:45,267] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 05:10:45,289] {logging_mixin.py:104} INFO - [2021-05-01 05:10:45,289] {dag.py:2280} INFO - Setting next_dagrun for branch_python_operator_dag to 2021-05-01 00:00:00+00:00
+[2021-05-01 05:10:45,302] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/python_operator/branch_python_operator_dag.py took 0.133 seconds
+[2021-05-01 05:11:15,982] {scheduler_job.py:182} INFO - Started process (PID=1812) to work on /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:11:15,983] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/python_operator/branch_python_operator_dag.py for tasks to queue
+[2021-05-01 05:11:15,984] {logging_mixin.py:104} INFO - [2021-05-01 05:11:15,984] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:11:16,036] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-01 05:11:16,042] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['branch_python_operator_dag']) retrieved from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:11:16,064] {logging_mixin.py:104} INFO - [2021-05-01 05:11:16,064] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 05:11:16,086] {logging_mixin.py:104} INFO - [2021-05-01 05:11:16,086] {dag.py:2280} INFO - Setting next_dagrun for branch_python_operator_dag to 2021-05-01 00:00:00+00:00
+[2021-05-01 05:11:16,096] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/python_operator/branch_python_operator_dag.py took 0.118 seconds
+[2021-05-01 05:11:46,738] {scheduler_job.py:182} INFO - Started process (PID=1845) to work on /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:11:46,739] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/python_operator/branch_python_operator_dag.py for tasks to queue
+[2021-05-01 05:11:46,740] {logging_mixin.py:104} INFO - [2021-05-01 05:11:46,740] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:11:46,793] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-01 05:11:46,800] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['branch_python_operator_dag']) retrieved from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:11:46,823] {logging_mixin.py:104} INFO - [2021-05-01 05:11:46,823] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 05:11:46,845] {logging_mixin.py:104} INFO - [2021-05-01 05:11:46,845] {dag.py:2280} INFO - Setting next_dagrun for branch_python_operator_dag to 2021-05-01 00:00:00+00:00
+[2021-05-01 05:11:46,860] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/python_operator/branch_python_operator_dag.py took 0.125 seconds
+[2021-05-01 05:12:17,445] {scheduler_job.py:182} INFO - Started process (PID=1878) to work on /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:12:17,446] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/python_operator/branch_python_operator_dag.py for tasks to queue
+[2021-05-01 05:12:17,447] {logging_mixin.py:104} INFO - [2021-05-01 05:12:17,447] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:12:17,501] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-01 05:12:17,507] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['branch_python_operator_dag']) retrieved from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:12:17,529] {logging_mixin.py:104} INFO - [2021-05-01 05:12:17,529] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 05:12:17,554] {logging_mixin.py:104} INFO - [2021-05-01 05:12:17,554] {dag.py:2280} INFO - Setting next_dagrun for branch_python_operator_dag to 2021-05-01 00:00:00+00:00
+[2021-05-01 05:12:17,566] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/python_operator/branch_python_operator_dag.py took 0.125 seconds
+[2021-05-01 05:12:48,162] {scheduler_job.py:182} INFO - Started process (PID=1911) to work on /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:12:48,164] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/python_operator/branch_python_operator_dag.py for tasks to queue
+[2021-05-01 05:12:48,165] {logging_mixin.py:104} INFO - [2021-05-01 05:12:48,164] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:12:48,222] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-01 05:12:48,231] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['branch_python_operator_dag']) retrieved from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:12:48,251] {logging_mixin.py:104} INFO - [2021-05-01 05:12:48,251] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 05:12:48,273] {logging_mixin.py:104} INFO - [2021-05-01 05:12:48,273] {dag.py:2280} INFO - Setting next_dagrun for branch_python_operator_dag to 2021-05-01 00:00:00+00:00
+[2021-05-01 05:12:48,286] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/python_operator/branch_python_operator_dag.py took 0.128 seconds
+[2021-05-01 05:13:18,836] {scheduler_job.py:182} INFO - Started process (PID=1944) to work on /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:13:18,838] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/python_operator/branch_python_operator_dag.py for tasks to queue
+[2021-05-01 05:13:18,839] {logging_mixin.py:104} INFO - [2021-05-01 05:13:18,839] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:13:18,899] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-01 05:13:18,905] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['branch_python_operator_dag']) retrieved from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:13:18,926] {logging_mixin.py:104} INFO - [2021-05-01 05:13:18,926] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 05:13:18,955] {logging_mixin.py:104} INFO - [2021-05-01 05:13:18,955] {dag.py:2280} INFO - Setting next_dagrun for branch_python_operator_dag to 2021-05-01 00:00:00+00:00
+[2021-05-01 05:13:18,968] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/python_operator/branch_python_operator_dag.py took 0.136 seconds
+[2021-05-01 05:13:49,473] {scheduler_job.py:182} INFO - Started process (PID=1977) to work on /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:13:49,474] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/python_operator/branch_python_operator_dag.py for tasks to queue
+[2021-05-01 05:13:49,474] {logging_mixin.py:104} INFO - [2021-05-01 05:13:49,474] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:13:49,519] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-01 05:13:49,525] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['branch_python_operator_dag']) retrieved from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:13:49,545] {logging_mixin.py:104} INFO - [2021-05-01 05:13:49,544] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 05:13:49,564] {logging_mixin.py:104} INFO - [2021-05-01 05:13:49,564] {dag.py:2280} INFO - Setting next_dagrun for branch_python_operator_dag to 2021-05-01 00:00:00+00:00
+[2021-05-01 05:13:49,584] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/python_operator/branch_python_operator_dag.py took 0.115 seconds
+[2021-05-01 05:14:20,144] {scheduler_job.py:182} INFO - Started process (PID=2010) to work on /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:14:20,145] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/python_operator/branch_python_operator_dag.py for tasks to queue
+[2021-05-01 05:14:20,146] {logging_mixin.py:104} INFO - [2021-05-01 05:14:20,146] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:14:20,201] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-01 05:14:20,208] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['branch_python_operator_dag']) retrieved from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:14:20,235] {logging_mixin.py:104} INFO - [2021-05-01 05:14:20,235] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 05:14:20,263] {logging_mixin.py:104} INFO - [2021-05-01 05:14:20,262] {dag.py:2280} INFO - Setting next_dagrun for branch_python_operator_dag to 2021-05-01 00:00:00+00:00
+[2021-05-01 05:14:20,277] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/python_operator/branch_python_operator_dag.py took 0.139 seconds
+[2021-05-01 05:14:50,691] {scheduler_job.py:182} INFO - Started process (PID=2043) to work on /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:14:50,692] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/python_operator/branch_python_operator_dag.py for tasks to queue
+[2021-05-01 05:14:50,693] {logging_mixin.py:104} INFO - [2021-05-01 05:14:50,693] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:14:50,749] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-01 05:14:50,756] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['branch_python_operator_dag']) retrieved from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:14:50,778] {logging_mixin.py:104} INFO - [2021-05-01 05:14:50,778] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 05:14:50,800] {logging_mixin.py:104} INFO - [2021-05-01 05:14:50,800] {dag.py:2280} INFO - Setting next_dagrun for branch_python_operator_dag to 2021-05-01 00:00:00+00:00
+[2021-05-01 05:14:50,814] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/python_operator/branch_python_operator_dag.py took 0.126 seconds
+[2021-05-01 05:15:21,344] {scheduler_job.py:182} INFO - Started process (PID=2076) to work on /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:15:21,348] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/python_operator/branch_python_operator_dag.py for tasks to queue
+[2021-05-01 05:15:21,349] {logging_mixin.py:104} INFO - [2021-05-01 05:15:21,349] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:15:21,421] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-01 05:15:21,428] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['branch_python_operator_dag']) retrieved from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:15:21,450] {logging_mixin.py:104} INFO - [2021-05-01 05:15:21,450] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 05:15:21,471] {logging_mixin.py:104} INFO - [2021-05-01 05:15:21,471] {dag.py:2280} INFO - Setting next_dagrun for branch_python_operator_dag to 2021-05-01 00:00:00+00:00
+[2021-05-01 05:15:21,483] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/python_operator/branch_python_operator_dag.py took 0.145 seconds
+[2021-05-01 05:15:51,975] {scheduler_job.py:182} INFO - Started process (PID=2109) to work on /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:15:51,976] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/python_operator/branch_python_operator_dag.py for tasks to queue
+[2021-05-01 05:15:51,977] {logging_mixin.py:104} INFO - [2021-05-01 05:15:51,977] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:15:52,033] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-01 05:15:52,041] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['branch_python_operator_dag']) retrieved from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:15:52,061] {logging_mixin.py:104} INFO - [2021-05-01 05:15:52,061] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 05:15:52,081] {logging_mixin.py:104} INFO - [2021-05-01 05:15:52,081] {dag.py:2280} INFO - Setting next_dagrun for branch_python_operator_dag to 2021-05-01 00:00:00+00:00
+[2021-05-01 05:15:52,091] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/python_operator/branch_python_operator_dag.py took 0.120 seconds
+[2021-05-01 05:16:22,769] {scheduler_job.py:182} INFO - Started process (PID=2142) to work on /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:16:22,772] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/python_operator/branch_python_operator_dag.py for tasks to queue
+[2021-05-01 05:16:22,773] {logging_mixin.py:104} INFO - [2021-05-01 05:16:22,773] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:16:22,826] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-01 05:16:22,832] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['branch_python_operator_dag']) retrieved from /opt/airflow/dags/python_operator/branch_python_operator_dag.py
+[2021-05-01 05:16:22,854] {logging_mixin.py:104} INFO - [2021-05-01 05:16:22,854] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-01 05:16:22,880] {logging_mixin.py:104} INFO - [2021-05-01 05:16:22,880] {dag.py:2280} INFO - Setting next_dagrun for branch_python_operator_dag to 2021-05-01 00:00:00+00:00
+[2021-05-01 05:16:22,893] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/python_operator/branch_python_operator_dag.py took 0.127 seconds

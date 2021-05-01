@@ -4835,3 +4835,31 @@ IndentationError: expected an indented block
 [2021-04-25 14:51:31,826] {logging_mixin.py:104} INFO - [2021-04-25 14:51:31,825] {dag.py:1824} INFO - Sync 1 DAGs
 [2021-04-25 14:51:31,857] {logging_mixin.py:104} INFO - [2021-04-25 14:51:31,857] {dag.py:2280} INFO - Setting next_dagrun for write_file_python_operator to 2021-04-25T14:48:00+00:00
 [2021-04-25 14:51:31,873] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/python_operator/write_file_python_operator.py took 0.118 seconds
+[2021-04-25 14:52:01,968] {scheduler_job.py:182} INFO - Started process (PID=5188) to work on /opt/airflow/dags/python_operator/write_file_python_operator.py
+[2021-04-25 14:52:01,970] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/python_operator/write_file_python_operator.py for tasks to queue
+[2021-04-25 14:52:01,971] {logging_mixin.py:104} INFO - [2021-04-25 14:52:01,970] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/python_operator/write_file_python_operator.py
+[2021-04-25 14:52:01,992] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['write_file_python_operator']) retrieved from /opt/airflow/dags/python_operator/write_file_python_operator.py
+[2021-04-25 14:52:02,024] {logging_mixin.py:104} INFO - [2021-04-25 14:52:02,024] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-25 14:52:02,069] {logging_mixin.py:104} INFO - [2021-04-25 14:52:02,069] {dag.py:2280} INFO - Setting next_dagrun for write_file_python_operator to 2021-04-25T14:50:00+00:00
+[2021-04-25 14:52:02,088] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/python_operator/write_file_python_operator.py took 0.124 seconds
+[2021-04-25 14:52:32,525] {scheduler_job.py:182} INFO - Started process (PID=5221) to work on /opt/airflow/dags/python_operator/write_file_python_operator.py
+[2021-04-25 14:52:32,527] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/python_operator/write_file_python_operator.py for tasks to queue
+[2021-04-25 14:52:32,528] {logging_mixin.py:104} INFO - [2021-04-25 14:52:32,528] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/python_operator/write_file_python_operator.py
+[2021-04-25 14:52:32,546] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['write_file_python_operator']) retrieved from /opt/airflow/dags/python_operator/write_file_python_operator.py
+[2021-04-25 14:52:32,576] {logging_mixin.py:104} INFO - [2021-04-25 14:52:32,576] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-25 14:52:32,618] {logging_mixin.py:104} INFO - [2021-04-25 14:52:32,618] {dag.py:2280} INFO - Setting next_dagrun for write_file_python_operator to 2021-04-25T14:50:00+00:00
+[2021-04-25 14:52:32,631] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/python_operator/write_file_python_operator.py took 0.111 seconds
+[2021-04-25 14:53:02,997] {scheduler_job.py:182} INFO - Started process (PID=5254) to work on /opt/airflow/dags/python_operator/write_file_python_operator.py
+[2021-04-25 14:53:02,999] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/python_operator/write_file_python_operator.py for tasks to queue
+[2021-04-25 14:53:03,000] {logging_mixin.py:104} INFO - [2021-04-25 14:53:03,000] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/python_operator/write_file_python_operator.py
+[2021-04-25 14:53:03,014] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['write_file_python_operator']) retrieved from /opt/airflow/dags/python_operator/write_file_python_operator.py
+[2021-04-25 14:53:03,039] {logging_mixin.py:104} INFO - [2021-04-25 14:53:03,039] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-25 14:53:03,077] {logging_mixin.py:104} INFO - [2021-04-25 14:53:03,076] {dag.py:2280} INFO - Setting next_dagrun for write_file_python_operator to 2021-04-25T14:50:00+00:00
+[2021-04-25 14:53:03,090] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/python_operator/write_file_python_operator.py took 0.097 seconds
+[2021-04-25 14:53:33,964] {scheduler_job.py:182} INFO - Started process (PID=5287) to work on /opt/airflow/dags/python_operator/write_file_python_operator.py
+[2021-04-25 14:53:33,968] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/python_operator/write_file_python_operator.py for tasks to queue
+[2021-04-25 14:53:33,969] {logging_mixin.py:104} INFO - [2021-04-25 14:53:33,969] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/python_operator/write_file_python_operator.py
+[2021-04-25 14:53:34,003] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['write_file_python_operator']) retrieved from /opt/airflow/dags/python_operator/write_file_python_operator.py
+[2021-04-25 14:53:34,059] {logging_mixin.py:104} INFO - [2021-04-25 14:53:34,059] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-25 14:53:34,158] {logging_mixin.py:104} INFO - [2021-04-25 14:53:34,155] {dag.py:2280} INFO - Setting next_dagrun for write_file_python_operator to 2021-04-25T14:50:00+00:00
+[2021-04-25 14:53:34,217] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/python_operator/write_file_python_operator.py took 0.260 seconds

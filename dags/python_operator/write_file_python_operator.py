@@ -15,7 +15,7 @@ default_args = {
 
 def fetch_and_write(path_to_write, url=None):
     """
-    fetch data from url then write to a json file
+    write a json file contains data fetched from URL if URL is provided, or a text file if not
     """
 
     if url:
