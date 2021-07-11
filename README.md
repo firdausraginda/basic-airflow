@@ -6,19 +6,19 @@ Basically, this initialization step follows airflow documentation [here](https:/
 The summary can do as follows:
 
 1. Create docker-compose.yaml using linux CLI
-$ curl -LfO 'https://airflow.apache.org/docs/apache-airflow/2.1.1/docker-compose.yaml'
+`$ curl -LfO 'https://airflow.apache.org/docs/apache-airflow/2.1.1/docker-compose.yaml'
 
 2. Create folder dags, logs, and plugins in your root directory
-$ mkdir ./dags ./logs ./plugins
+`$ mkdir ./dags ./logs ./plugins`
 
 3. Make sure the container and host computer have matching file permissions
-$ echo -e "AIRFLOW_UID=$(id -u)\nAIRFLOW_GID=0" > .env
+`$ echo -e "AIRFLOW_UID=$(id -u)\nAIRFLOW_GID=0" > .env`
 
 4. Run database migrations and create the first user account
-$ docker-compose up airflow-init
+`$ docker-compose up airflow-init`
 
 5. Finally, run the airflow via `docker desktop` app or run this command on CLI
-$ docker-compose up
+`$ docker-compose up`
 
 6. Airflow webserver can be accessed via `localhost:8080`
 
