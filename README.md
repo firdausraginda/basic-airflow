@@ -1,15 +1,37 @@
 # Run Airflow in Docker
 
-## Source: 
-[Airflow Official Docs](https://airflow.apache.org/docs/apache-airflow/stable/start/docker.html)
+## Source:
 
-## How to use:
-```docker-compose up```
+Basically, this initialization step follows airflow documentation [here](https://airflow.apache.org/docs/apache-airflow/stable/start/docker.html).
+The summary can do as follows:
 
-then open ```localhost:8080```
+1. Create docker-compose.yaml using linux CLI
 
-## To manually run via CLI Commands:
-```docker-compose run airflow-worker airflow info```
+$ curl -LfO 'https://airflow.apache.org/docs/apache-airflow/2.1.1/docker-compose.yaml'
+
+2. Create folder dags, logs, and plugins in your root directory
+
+$ mkdir ./dags ./logs ./plugins
+
+3. Make sure the container and host computer have matching file permissions
+
+$ echo -e "AIRFLOW_UID=$(id -u)\nAIRFLOW_GID=0" > .env
+
+4. Run database migrations and create the first user account
+
+$ docker-compose up airflow-init
+
+5. Finally, run the airflow via `docker desktop` app or run this command on CLI
+
+$ docker-compose up
+
+6. Airflow webserver can be accessed via `localhost:8080`
+
+-------------
+
+## Airflow Account
+
+By default, both the **username** & **password** for airflow account is `airflow`
 
 -------------
 
