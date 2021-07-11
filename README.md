@@ -3,9 +3,9 @@
 ## Source:
 
 Basically, this initialization step follows airflow documentation [here](https://airflow.apache.org/docs/apache-airflow/stable/start/docker.html).
-The summary can do as follows:
+The summary can do as follows, kindly use linux CLI to run commands:
 
-1. Create docker-compose.yaml using linux CLI
+1. Create docker-compose.yaml
 
 `$ curl -LfO 'https://airflow.apache.org/docs/apache-airflow/2.1.1/docker-compose.yaml'`
 
