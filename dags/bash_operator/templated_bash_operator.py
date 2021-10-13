@@ -45,8 +45,11 @@ with DAG(
 
     return_json_key = BashOperator(
         task_id='return_json_key_task',
-        bash_command="echo {{params.json_key_var1}}",
-        params={"json_key_var1": var1},
+        bash_command="""
+            echo {{params.json_key}}
+            echo {{params.json_key_var1}}
+            """,
+        params={"json_key": json_key, "json_key_var1": var1},
         dag=dag
     )
 

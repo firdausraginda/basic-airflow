@@ -1,0 +1,1784 @@
+[2021-10-13 05:35:55,777] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: templated_bash_operator.read_json_file_task 2021-10-12T00:00:00+00:00 [queued]>
+[2021-10-13 05:35:55,797] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: templated_bash_operator.read_json_file_task 2021-10-12T00:00:00+00:00 [queued]>
+[2021-10-13 05:35:55,797] {taskinstance.py:1068} INFO - 
+--------------------------------------------------------------------------------
+[2021-10-13 05:35:55,798] {taskinstance.py:1069} INFO - Starting attempt 6 of 8
+[2021-10-13 05:35:55,799] {taskinstance.py:1070} INFO - 
+--------------------------------------------------------------------------------
+[2021-10-13 05:35:55,827] {taskinstance.py:1089} INFO - Executing <Task(BashOperator): read_json_file_task> on 2021-10-12T00:00:00+00:00
+[2021-10-13 05:35:55,841] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'templated_bash_operator', 'read_json_file_task', '2021-10-12T00:00:00+00:00', '--job-id', '34', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/bash_operator/templated_bash_operator.py', '--cfg-path', '/tmp/tmpz77no8pe', '--error-file', '/tmp/tmp88mk58e_']
+[2021-10-13 05:35:55,836] {standard_task_runner.py:52} INFO - Started process 88 to run task
+[2021-10-13 05:35:55,842] {standard_task_runner.py:77} INFO - Job 34: Subtask read_json_file_task
+[2021-10-13 05:35:55,918] {logging_mixin.py:104} INFO - Running <TaskInstance: templated_bash_operator.read_json_file_task 2021-10-12T00:00:00+00:00 [running]> on host 2a52f903feb2
+[2021-10-13 05:35:55,971] {taskinstance.py:1283} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=templated_bash_operator
+AIRFLOW_CTX_TASK_ID=read_json_file_task
+AIRFLOW_CTX_EXECUTION_DATE=2021-10-12T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-10-12T00:00:00+00:00
+[2021-10-13 05:35:55,972] {bash.py:135} INFO - Tmp dir root location: 
+ /tmp
+[2021-10-13 05:35:55,973] {bash.py:158} INFO - Running command: 
+    "execution date: 2021-10-12"
+    
+        cat "/opt/airflow/dags/python_operator/todo.json"
+    
+        cat "/opt/airflow/dags/python_operator/studio_ghibli.json"
+    
+    
+[2021-10-13 05:35:55,982] {bash.py:169} INFO - Output:
+[2021-10-13 05:35:55,983] {bash.py:173} INFO - bash: line 1: execution date: 2021-10-12: command not found
+[2021-10-13 05:35:55,987] {bash.py:173} INFO - [
+[2021-10-13 05:35:55,988] {bash.py:173} INFO -   {
+[2021-10-13 05:35:55,988] {bash.py:173} INFO -     "userId": 1,
+[2021-10-13 05:35:55,988] {bash.py:173} INFO -     "id": 1,
+[2021-10-13 05:35:55,989] {bash.py:173} INFO -     "title": "delectus aut autem",
+[2021-10-13 05:35:55,989] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:55,989] {bash.py:173} INFO -   },
+[2021-10-13 05:35:55,990] {bash.py:173} INFO -   {
+[2021-10-13 05:35:55,990] {bash.py:173} INFO -     "userId": 1,
+[2021-10-13 05:35:55,990] {bash.py:173} INFO -     "id": 2,
+[2021-10-13 05:35:55,991] {bash.py:173} INFO -     "title": "quis ut nam facilis et officia qui",
+[2021-10-13 05:35:55,992] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:55,992] {bash.py:173} INFO -   },
+[2021-10-13 05:35:55,993] {bash.py:173} INFO -   {
+[2021-10-13 05:35:55,993] {bash.py:173} INFO -     "userId": 1,
+[2021-10-13 05:35:55,995] {bash.py:173} INFO -     "id": 3,
+[2021-10-13 05:35:55,996] {bash.py:173} INFO -     "title": "fugiat veniam minus",
+[2021-10-13 05:35:55,996] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:55,997] {bash.py:173} INFO -   },
+[2021-10-13 05:35:55,997] {bash.py:173} INFO -   {
+[2021-10-13 05:35:55,997] {bash.py:173} INFO -     "userId": 1,
+[2021-10-13 05:35:55,997] {bash.py:173} INFO -     "id": 4,
+[2021-10-13 05:35:55,998] {bash.py:173} INFO -     "title": "et porro tempora",
+[2021-10-13 05:35:55,998] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:55,998] {bash.py:173} INFO -   },
+[2021-10-13 05:35:55,998] {bash.py:173} INFO -   {
+[2021-10-13 05:35:55,999] {bash.py:173} INFO -     "userId": 1,
+[2021-10-13 05:35:55,999] {bash.py:173} INFO -     "id": 5,
+[2021-10-13 05:35:55,999] {bash.py:173} INFO -     "title": "laboriosam mollitia et enim quasi adipisci quia provident illum",
+[2021-10-13 05:35:55,999] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,000] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,000] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,000] {bash.py:173} INFO -     "userId": 1,
+[2021-10-13 05:35:56,000] {bash.py:173} INFO -     "id": 6,
+[2021-10-13 05:35:56,001] {bash.py:173} INFO -     "title": "qui ullam ratione quibusdam voluptatem quia omnis",
+[2021-10-13 05:35:56,001] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,001] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,001] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,002] {bash.py:173} INFO -     "userId": 1,
+[2021-10-13 05:35:56,002] {bash.py:173} INFO -     "id": 7,
+[2021-10-13 05:35:56,002] {bash.py:173} INFO -     "title": "illo expedita consequatur quia in",
+[2021-10-13 05:35:56,002] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,003] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,003] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,003] {bash.py:173} INFO -     "userId": 1,
+[2021-10-13 05:35:56,003] {bash.py:173} INFO -     "id": 8,
+[2021-10-13 05:35:56,004] {bash.py:173} INFO -     "title": "quo adipisci enim quam ut ab",
+[2021-10-13 05:35:56,004] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,004] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,004] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,004] {bash.py:173} INFO -     "userId": 1,
+[2021-10-13 05:35:56,005] {bash.py:173} INFO -     "id": 9,
+[2021-10-13 05:35:56,005] {bash.py:173} INFO -     "title": "molestiae perspiciatis ipsa",
+[2021-10-13 05:35:56,005] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,005] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,006] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,006] {bash.py:173} INFO -     "userId": 1,
+[2021-10-13 05:35:56,006] {bash.py:173} INFO -     "id": 10,
+[2021-10-13 05:35:56,006] {bash.py:173} INFO -     "title": "illo est ratione doloremque quia maiores aut",
+[2021-10-13 05:35:56,007] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,007] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,007] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,007] {bash.py:173} INFO -     "userId": 1,
+[2021-10-13 05:35:56,008] {bash.py:173} INFO -     "id": 11,
+[2021-10-13 05:35:56,008] {bash.py:173} INFO -     "title": "vero rerum temporibus dolor",
+[2021-10-13 05:35:56,008] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,008] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,009] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,009] {bash.py:173} INFO -     "userId": 1,
+[2021-10-13 05:35:56,009] {bash.py:173} INFO -     "id": 12,
+[2021-10-13 05:35:56,009] {bash.py:173} INFO -     "title": "ipsa repellendus fugit nisi",
+[2021-10-13 05:35:56,010] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,010] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,010] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,012] {bash.py:173} INFO -     "userId": 1,
+[2021-10-13 05:35:56,012] {bash.py:173} INFO -     "id": 13,
+[2021-10-13 05:35:56,012] {bash.py:173} INFO -     "title": "et doloremque nulla",
+[2021-10-13 05:35:56,013] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,013] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,014] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,014] {bash.py:173} INFO -     "userId": 1,
+[2021-10-13 05:35:56,014] {bash.py:173} INFO -     "id": 14,
+[2021-10-13 05:35:56,014] {bash.py:173} INFO -     "title": "repellendus sunt dolores architecto voluptatum",
+[2021-10-13 05:35:56,015] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,015] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,015] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,016] {bash.py:173} INFO -     "userId": 1,
+[2021-10-13 05:35:56,016] {bash.py:173} INFO -     "id": 15,
+[2021-10-13 05:35:56,016] {bash.py:173} INFO -     "title": "ab voluptatum amet voluptas",
+[2021-10-13 05:35:56,016] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,017] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,017] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,017] {bash.py:173} INFO -     "userId": 1,
+[2021-10-13 05:35:56,018] {bash.py:173} INFO -     "id": 16,
+[2021-10-13 05:35:56,018] {bash.py:173} INFO -     "title": "accusamus eos facilis sint et aut voluptatem",
+[2021-10-13 05:35:56,018] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,018] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,019] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,019] {bash.py:173} INFO -     "userId": 1,
+[2021-10-13 05:35:56,019] {bash.py:173} INFO -     "id": 17,
+[2021-10-13 05:35:56,019] {bash.py:173} INFO -     "title": "quo laboriosam deleniti aut qui",
+[2021-10-13 05:35:56,020] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,020] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,020] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,020] {bash.py:173} INFO -     "userId": 1,
+[2021-10-13 05:35:56,021] {bash.py:173} INFO -     "id": 18,
+[2021-10-13 05:35:56,021] {bash.py:173} INFO -     "title": "dolorum est consequatur ea mollitia in culpa",
+[2021-10-13 05:35:56,021] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,022] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,022] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,022] {bash.py:173} INFO -     "userId": 1,
+[2021-10-13 05:35:56,022] {bash.py:173} INFO -     "id": 19,
+[2021-10-13 05:35:56,023] {bash.py:173} INFO -     "title": "molestiae ipsa aut voluptatibus pariatur dolor nihil",
+[2021-10-13 05:35:56,023] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,023] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,023] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,024] {bash.py:173} INFO -     "userId": 1,
+[2021-10-13 05:35:56,024] {bash.py:173} INFO -     "id": 20,
+[2021-10-13 05:35:56,024] {bash.py:173} INFO -     "title": "ullam nobis libero sapiente ad optio sint",
+[2021-10-13 05:35:56,024] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,025] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,025] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,025] {bash.py:173} INFO -     "userId": 2,
+[2021-10-13 05:35:56,026] {bash.py:173} INFO -     "id": 21,
+[2021-10-13 05:35:56,026] {bash.py:173} INFO -     "title": "suscipit repellat esse quibusdam voluptatem incidunt",
+[2021-10-13 05:35:56,026] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,027] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,027] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,028] {bash.py:173} INFO -     "userId": 2,
+[2021-10-13 05:35:56,028] {bash.py:173} INFO -     "id": 22,
+[2021-10-13 05:35:56,029] {bash.py:173} INFO -     "title": "distinctio vitae autem nihil ut molestias quo",
+[2021-10-13 05:35:56,029] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,030] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,030] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,030] {bash.py:173} INFO -     "userId": 2,
+[2021-10-13 05:35:56,030] {bash.py:173} INFO -     "id": 23,
+[2021-10-13 05:35:56,031] {bash.py:173} INFO -     "title": "et itaque necessitatibus maxime molestiae qui quas velit",
+[2021-10-13 05:35:56,031] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,031] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,032] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,032] {bash.py:173} INFO -     "userId": 2,
+[2021-10-13 05:35:56,032] {bash.py:173} INFO -     "id": 24,
+[2021-10-13 05:35:56,032] {bash.py:173} INFO -     "title": "adipisci non ad dicta qui amet quaerat doloribus ea",
+[2021-10-13 05:35:56,033] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,033] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,033] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,034] {bash.py:173} INFO -     "userId": 2,
+[2021-10-13 05:35:56,034] {bash.py:173} INFO -     "id": 25,
+[2021-10-13 05:35:56,034] {bash.py:173} INFO -     "title": "voluptas quo tenetur perspiciatis explicabo natus",
+[2021-10-13 05:35:56,034] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,035] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,035] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,035] {bash.py:173} INFO -     "userId": 2,
+[2021-10-13 05:35:56,036] {bash.py:173} INFO -     "id": 26,
+[2021-10-13 05:35:56,036] {bash.py:173} INFO -     "title": "aliquam aut quasi",
+[2021-10-13 05:35:56,036] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,037] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,037] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,038] {bash.py:173} INFO -     "userId": 2,
+[2021-10-13 05:35:56,038] {bash.py:173} INFO -     "id": 27,
+[2021-10-13 05:35:56,038] {bash.py:173} INFO -     "title": "veritatis pariatur delectus",
+[2021-10-13 05:35:56,038] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,039] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,039] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,039] {bash.py:173} INFO -     "userId": 2,
+[2021-10-13 05:35:56,039] {bash.py:173} INFO -     "id": 28,
+[2021-10-13 05:35:56,040] {bash.py:173} INFO -     "title": "nesciunt totam sit blanditiis sit",
+[2021-10-13 05:35:56,040] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,040] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,040] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,041] {bash.py:173} INFO -     "userId": 2,
+[2021-10-13 05:35:56,041] {bash.py:173} INFO -     "id": 29,
+[2021-10-13 05:35:56,041] {bash.py:173} INFO -     "title": "laborum aut in quam",
+[2021-10-13 05:35:56,042] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,042] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,042] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,042] {bash.py:173} INFO -     "userId": 2,
+[2021-10-13 05:35:56,043] {bash.py:173} INFO -     "id": 30,
+[2021-10-13 05:35:56,043] {bash.py:173} INFO -     "title": "nemo perspiciatis repellat ut dolor libero commodi blanditiis omnis",
+[2021-10-13 05:35:56,043] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,044] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,045] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,045] {bash.py:173} INFO -     "userId": 2,
+[2021-10-13 05:35:56,046] {bash.py:173} INFO -     "id": 31,
+[2021-10-13 05:35:56,046] {bash.py:173} INFO -     "title": "repudiandae totam in est sint facere fuga",
+[2021-10-13 05:35:56,047] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,047] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,048] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,048] {bash.py:173} INFO -     "userId": 2,
+[2021-10-13 05:35:56,048] {bash.py:173} INFO -     "id": 32,
+[2021-10-13 05:35:56,049] {bash.py:173} INFO -     "title": "earum doloribus ea doloremque quis",
+[2021-10-13 05:35:56,049] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,049] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,049] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,050] {bash.py:173} INFO -     "userId": 2,
+[2021-10-13 05:35:56,050] {bash.py:173} INFO -     "id": 33,
+[2021-10-13 05:35:56,050] {bash.py:173} INFO -     "title": "sint sit aut vero",
+[2021-10-13 05:35:56,051] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,051] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,051] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,052] {bash.py:173} INFO -     "userId": 2,
+[2021-10-13 05:35:56,052] {bash.py:173} INFO -     "id": 34,
+[2021-10-13 05:35:56,052] {bash.py:173} INFO -     "title": "porro aut necessitatibus eaque distinctio",
+[2021-10-13 05:35:56,053] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,053] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,053] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,053] {bash.py:173} INFO -     "userId": 2,
+[2021-10-13 05:35:56,054] {bash.py:173} INFO -     "id": 35,
+[2021-10-13 05:35:56,054] {bash.py:173} INFO -     "title": "repellendus veritatis molestias dicta incidunt",
+[2021-10-13 05:35:56,054] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,054] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,055] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,055] {bash.py:173} INFO -     "userId": 2,
+[2021-10-13 05:35:56,055] {bash.py:173} INFO -     "id": 36,
+[2021-10-13 05:35:56,055] {bash.py:173} INFO -     "title": "excepturi deleniti adipisci voluptatem et neque optio illum ad",
+[2021-10-13 05:35:56,056] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,056] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,056] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,056] {bash.py:173} INFO -     "userId": 2,
+[2021-10-13 05:35:56,057] {bash.py:173} INFO -     "id": 37,
+[2021-10-13 05:35:56,057] {bash.py:173} INFO -     "title": "sunt cum tempora",
+[2021-10-13 05:35:56,057] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,057] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,058] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,058] {bash.py:173} INFO -     "userId": 2,
+[2021-10-13 05:35:56,058] {bash.py:173} INFO -     "id": 38,
+[2021-10-13 05:35:56,058] {bash.py:173} INFO -     "title": "totam quia non",
+[2021-10-13 05:35:56,059] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,059] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,059] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,060] {bash.py:173} INFO -     "userId": 2,
+[2021-10-13 05:35:56,060] {bash.py:173} INFO -     "id": 39,
+[2021-10-13 05:35:56,060] {bash.py:173} INFO -     "title": "doloremque quibusdam asperiores libero corrupti illum qui omnis",
+[2021-10-13 05:35:56,061] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,061] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,061] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,062] {bash.py:173} INFO -     "userId": 2,
+[2021-10-13 05:35:56,062] {bash.py:173} INFO -     "id": 40,
+[2021-10-13 05:35:56,063] {bash.py:173} INFO -     "title": "totam atque quo nesciunt",
+[2021-10-13 05:35:56,063] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,063] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,063] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,064] {bash.py:173} INFO -     "userId": 3,
+[2021-10-13 05:35:56,064] {bash.py:173} INFO -     "id": 41,
+[2021-10-13 05:35:56,064] {bash.py:173} INFO -     "title": "aliquid amet impedit consequatur aspernatur placeat eaque fugiat suscipit",
+[2021-10-13 05:35:56,065] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,065] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,065] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,066] {bash.py:173} INFO -     "userId": 3,
+[2021-10-13 05:35:56,066] {bash.py:173} INFO -     "id": 42,
+[2021-10-13 05:35:56,066] {bash.py:173} INFO -     "title": "rerum perferendis error quia ut eveniet",
+[2021-10-13 05:35:56,067] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,067] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,067] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,068] {bash.py:173} INFO -     "userId": 3,
+[2021-10-13 05:35:56,068] {bash.py:173} INFO -     "id": 43,
+[2021-10-13 05:35:56,068] {bash.py:173} INFO -     "title": "tempore ut sint quis recusandae",
+[2021-10-13 05:35:56,069] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,069] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,069] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,069] {bash.py:173} INFO -     "userId": 3,
+[2021-10-13 05:35:56,070] {bash.py:173} INFO -     "id": 44,
+[2021-10-13 05:35:56,070] {bash.py:173} INFO -     "title": "cum debitis quis accusamus doloremque ipsa natus sapiente omnis",
+[2021-10-13 05:35:56,070] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,070] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,071] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,071] {bash.py:173} INFO -     "userId": 3,
+[2021-10-13 05:35:56,071] {bash.py:173} INFO -     "id": 45,
+[2021-10-13 05:35:56,072] {bash.py:173} INFO -     "title": "velit soluta adipisci molestias reiciendis harum",
+[2021-10-13 05:35:56,072] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,072] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,072] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,073] {bash.py:173} INFO -     "userId": 3,
+[2021-10-13 05:35:56,073] {bash.py:173} INFO -     "id": 46,
+[2021-10-13 05:35:56,073] {bash.py:173} INFO -     "title": "vel voluptatem repellat nihil placeat corporis",
+[2021-10-13 05:35:56,073] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,074] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,074] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,074] {bash.py:173} INFO -     "userId": 3,
+[2021-10-13 05:35:56,074] {bash.py:173} INFO -     "id": 47,
+[2021-10-13 05:35:56,075] {bash.py:173} INFO -     "title": "nam qui rerum fugiat accusamus",
+[2021-10-13 05:35:56,075] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,075] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,075] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,076] {bash.py:173} INFO -     "userId": 3,
+[2021-10-13 05:35:56,076] {bash.py:173} INFO -     "id": 48,
+[2021-10-13 05:35:56,076] {bash.py:173} INFO -     "title": "sit reprehenderit omnis quia",
+[2021-10-13 05:35:56,076] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,077] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,077] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,078] {bash.py:173} INFO -     "userId": 3,
+[2021-10-13 05:35:56,078] {bash.py:173} INFO -     "id": 49,
+[2021-10-13 05:35:56,078] {bash.py:173} INFO -     "title": "ut necessitatibus aut maiores debitis officia blanditiis velit et",
+[2021-10-13 05:35:56,079] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,079] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,079] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,080] {bash.py:173} INFO -     "userId": 3,
+[2021-10-13 05:35:56,080] {bash.py:173} INFO -     "id": 50,
+[2021-10-13 05:35:56,081] {bash.py:173} INFO -     "title": "cupiditate necessitatibus ullam aut quis dolor voluptate",
+[2021-10-13 05:35:56,081] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,081] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,081] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,082] {bash.py:173} INFO -     "userId": 3,
+[2021-10-13 05:35:56,082] {bash.py:173} INFO -     "id": 51,
+[2021-10-13 05:35:56,082] {bash.py:173} INFO -     "title": "distinctio exercitationem ab doloribus",
+[2021-10-13 05:35:56,083] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,083] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,083] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,083] {bash.py:173} INFO -     "userId": 3,
+[2021-10-13 05:35:56,084] {bash.py:173} INFO -     "id": 52,
+[2021-10-13 05:35:56,084] {bash.py:173} INFO -     "title": "nesciunt dolorum quis recusandae ad pariatur ratione",
+[2021-10-13 05:35:56,084] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,084] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,085] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,085] {bash.py:173} INFO -     "userId": 3,
+[2021-10-13 05:35:56,085] {bash.py:173} INFO -     "id": 53,
+[2021-10-13 05:35:56,086] {bash.py:173} INFO -     "title": "qui labore est occaecati recusandae aliquid quam",
+[2021-10-13 05:35:56,086] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,086] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,086] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,087] {bash.py:173} INFO -     "userId": 3,
+[2021-10-13 05:35:56,087] {bash.py:173} INFO -     "id": 54,
+[2021-10-13 05:35:56,087] {bash.py:173} INFO -     "title": "quis et est ut voluptate quam dolor",
+[2021-10-13 05:35:56,087] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,088] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,088] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,088] {bash.py:173} INFO -     "userId": 3,
+[2021-10-13 05:35:56,089] {bash.py:173} INFO -     "id": 55,
+[2021-10-13 05:35:56,089] {bash.py:173} INFO -     "title": "voluptatum omnis minima qui occaecati provident nulla voluptatem ratione",
+[2021-10-13 05:35:56,089] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,089] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,090] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,090] {bash.py:173} INFO -     "userId": 3,
+[2021-10-13 05:35:56,090] {bash.py:173} INFO -     "id": 56,
+[2021-10-13 05:35:56,090] {bash.py:173} INFO -     "title": "deleniti ea temporibus enim",
+[2021-10-13 05:35:56,091] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,091] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,091] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,091] {bash.py:173} INFO -     "userId": 3,
+[2021-10-13 05:35:56,092] {bash.py:173} INFO -     "id": 57,
+[2021-10-13 05:35:56,092] {bash.py:173} INFO -     "title": "pariatur et magnam ea doloribus similique voluptatem rerum quia",
+[2021-10-13 05:35:56,092] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,093] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,093] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,093] {bash.py:173} INFO -     "userId": 3,
+[2021-10-13 05:35:56,093] {bash.py:173} INFO -     "id": 58,
+[2021-10-13 05:35:56,094] {bash.py:173} INFO -     "title": "est dicta totam qui explicabo doloribus qui dignissimos",
+[2021-10-13 05:35:56,094] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,094] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,095] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,095] {bash.py:173} INFO -     "userId": 3,
+[2021-10-13 05:35:56,095] {bash.py:173} INFO -     "id": 59,
+[2021-10-13 05:35:56,096] {bash.py:173} INFO -     "title": "perspiciatis velit id laborum placeat iusto et aliquam odio",
+[2021-10-13 05:35:56,096] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,096] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,096] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,097] {bash.py:173} INFO -     "userId": 3,
+[2021-10-13 05:35:56,097] {bash.py:173} INFO -     "id": 60,
+[2021-10-13 05:35:56,097] {bash.py:173} INFO -     "title": "et sequi qui architecto ut adipisci",
+[2021-10-13 05:35:56,097] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,098] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,098] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,098] {bash.py:173} INFO -     "userId": 4,
+[2021-10-13 05:35:56,099] {bash.py:173} INFO -     "id": 61,
+[2021-10-13 05:35:56,099] {bash.py:173} INFO -     "title": "odit optio omnis qui sunt",
+[2021-10-13 05:35:56,099] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,099] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,100] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,100] {bash.py:173} INFO -     "userId": 4,
+[2021-10-13 05:35:56,100] {bash.py:173} INFO -     "id": 62,
+[2021-10-13 05:35:56,100] {bash.py:173} INFO -     "title": "et placeat et tempore aspernatur sint numquam",
+[2021-10-13 05:35:56,101] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,101] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,101] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,101] {bash.py:173} INFO -     "userId": 4,
+[2021-10-13 05:35:56,102] {bash.py:173} INFO -     "id": 63,
+[2021-10-13 05:35:56,102] {bash.py:173} INFO -     "title": "doloremque aut dolores quidem fuga qui nulla",
+[2021-10-13 05:35:56,102] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,102] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,103] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,103] {bash.py:173} INFO -     "userId": 4,
+[2021-10-13 05:35:56,103] {bash.py:173} INFO -     "id": 64,
+[2021-10-13 05:35:56,104] {bash.py:173} INFO -     "title": "voluptas consequatur qui ut quia magnam nemo esse",
+[2021-10-13 05:35:56,104] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,104] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,104] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,105] {bash.py:173} INFO -     "userId": 4,
+[2021-10-13 05:35:56,105] {bash.py:173} INFO -     "id": 65,
+[2021-10-13 05:35:56,105] {bash.py:173} INFO -     "title": "fugiat pariatur ratione ut asperiores necessitatibus magni",
+[2021-10-13 05:35:56,105] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,106] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,106] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,106] {bash.py:173} INFO -     "userId": 4,
+[2021-10-13 05:35:56,106] {bash.py:173} INFO -     "id": 66,
+[2021-10-13 05:35:56,107] {bash.py:173} INFO -     "title": "rerum eum molestias autem voluptatum sit optio",
+[2021-10-13 05:35:56,107] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,107] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,107] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,108] {bash.py:173} INFO -     "userId": 4,
+[2021-10-13 05:35:56,108] {bash.py:173} INFO -     "id": 67,
+[2021-10-13 05:35:56,108] {bash.py:173} INFO -     "title": "quia voluptatibus voluptatem quos similique maiores repellat",
+[2021-10-13 05:35:56,109] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,109] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,109] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,109] {bash.py:173} INFO -     "userId": 4,
+[2021-10-13 05:35:56,109] {bash.py:173} INFO -     "id": 68,
+[2021-10-13 05:35:56,110] {bash.py:173} INFO -     "title": "aut id perspiciatis voluptatem iusto",
+[2021-10-13 05:35:56,110] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,111] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,112] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,112] {bash.py:173} INFO -     "userId": 4,
+[2021-10-13 05:35:56,112] {bash.py:173} INFO -     "id": 69,
+[2021-10-13 05:35:56,113] {bash.py:173} INFO -     "title": "doloribus sint dolorum ab adipisci itaque dignissimos aliquam suscipit",
+[2021-10-13 05:35:56,113] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,114] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,114] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,114] {bash.py:173} INFO -     "userId": 4,
+[2021-10-13 05:35:56,115] {bash.py:173} INFO -     "id": 70,
+[2021-10-13 05:35:56,115] {bash.py:173} INFO -     "title": "ut sequi accusantium et mollitia delectus sunt",
+[2021-10-13 05:35:56,115] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,116] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,116] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,116] {bash.py:173} INFO -     "userId": 4,
+[2021-10-13 05:35:56,116] {bash.py:173} INFO -     "id": 71,
+[2021-10-13 05:35:56,117] {bash.py:173} INFO -     "title": "aut velit saepe ullam",
+[2021-10-13 05:35:56,117] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,117] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,117] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,118] {bash.py:173} INFO -     "userId": 4,
+[2021-10-13 05:35:56,118] {bash.py:173} INFO -     "id": 72,
+[2021-10-13 05:35:56,118] {bash.py:173} INFO -     "title": "praesentium facilis facere quis harum voluptatibus voluptatem eum",
+[2021-10-13 05:35:56,119] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,119] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,119] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,120] {bash.py:173} INFO -     "userId": 4,
+[2021-10-13 05:35:56,120] {bash.py:173} INFO -     "id": 73,
+[2021-10-13 05:35:56,120] {bash.py:173} INFO -     "title": "sint amet quia totam corporis qui exercitationem commodi",
+[2021-10-13 05:35:56,120] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,121] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,121] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,121] {bash.py:173} INFO -     "userId": 4,
+[2021-10-13 05:35:56,122] {bash.py:173} INFO -     "id": 74,
+[2021-10-13 05:35:56,122] {bash.py:173} INFO -     "title": "expedita tempore nobis eveniet laborum maiores",
+[2021-10-13 05:35:56,122] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,122] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,123] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,123] {bash.py:173} INFO -     "userId": 4,
+[2021-10-13 05:35:56,123] {bash.py:173} INFO -     "id": 75,
+[2021-10-13 05:35:56,124] {bash.py:173} INFO -     "title": "occaecati adipisci est possimus totam",
+[2021-10-13 05:35:56,124] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,124] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,124] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,124] {bash.py:173} INFO -     "userId": 4,
+[2021-10-13 05:35:56,125] {bash.py:173} INFO -     "id": 76,
+[2021-10-13 05:35:56,125] {bash.py:173} INFO -     "title": "sequi dolorem sed",
+[2021-10-13 05:35:56,126] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,126] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,126] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,126] {bash.py:173} INFO -     "userId": 4,
+[2021-10-13 05:35:56,127] {bash.py:173} INFO -     "id": 77,
+[2021-10-13 05:35:56,127] {bash.py:173} INFO -     "title": "maiores aut nesciunt delectus exercitationem vel assumenda eligendi at",
+[2021-10-13 05:35:56,128] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,128] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,128] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,129] {bash.py:173} INFO -     "userId": 4,
+[2021-10-13 05:35:56,129] {bash.py:173} INFO -     "id": 78,
+[2021-10-13 05:35:56,130] {bash.py:173} INFO -     "title": "reiciendis est magnam amet nemo iste recusandae impedit quaerat",
+[2021-10-13 05:35:56,130] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,130] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,130] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,131] {bash.py:173} INFO -     "userId": 4,
+[2021-10-13 05:35:56,131] {bash.py:173} INFO -     "id": 79,
+[2021-10-13 05:35:56,131] {bash.py:173} INFO -     "title": "eum ipsa maxime ut",
+[2021-10-13 05:35:56,132] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,132] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,132] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,132] {bash.py:173} INFO -     "userId": 4,
+[2021-10-13 05:35:56,133] {bash.py:173} INFO -     "id": 80,
+[2021-10-13 05:35:56,133] {bash.py:173} INFO -     "title": "tempore molestias dolores rerum sequi voluptates ipsum consequatur",
+[2021-10-13 05:35:56,133] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,133] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,134] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,134] {bash.py:173} INFO -     "userId": 5,
+[2021-10-13 05:35:56,134] {bash.py:173} INFO -     "id": 81,
+[2021-10-13 05:35:56,134] {bash.py:173} INFO -     "title": "suscipit qui totam",
+[2021-10-13 05:35:56,135] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,135] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,135] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,135] {bash.py:173} INFO -     "userId": 5,
+[2021-10-13 05:35:56,136] {bash.py:173} INFO -     "id": 82,
+[2021-10-13 05:35:56,136] {bash.py:173} INFO -     "title": "voluptates eum voluptas et dicta",
+[2021-10-13 05:35:56,136] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,136] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,137] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,137] {bash.py:173} INFO -     "userId": 5,
+[2021-10-13 05:35:56,137] {bash.py:173} INFO -     "id": 83,
+[2021-10-13 05:35:56,137] {bash.py:173} INFO -     "title": "quidem at rerum quis ex aut sit quam",
+[2021-10-13 05:35:56,138] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,138] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,138] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,139] {bash.py:173} INFO -     "userId": 5,
+[2021-10-13 05:35:56,139] {bash.py:173} INFO -     "id": 84,
+[2021-10-13 05:35:56,139] {bash.py:173} INFO -     "title": "sunt veritatis ut voluptate",
+[2021-10-13 05:35:56,139] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,140] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,140] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,140] {bash.py:173} INFO -     "userId": 5,
+[2021-10-13 05:35:56,141] {bash.py:173} INFO -     "id": 85,
+[2021-10-13 05:35:56,141] {bash.py:173} INFO -     "title": "et quia ad iste a",
+[2021-10-13 05:35:56,141] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,141] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,142] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,142] {bash.py:173} INFO -     "userId": 5,
+[2021-10-13 05:35:56,142] {bash.py:173} INFO -     "id": 86,
+[2021-10-13 05:35:56,142] {bash.py:173} INFO -     "title": "incidunt ut saepe autem",
+[2021-10-13 05:35:56,143] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,143] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,143] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,143] {bash.py:173} INFO -     "userId": 5,
+[2021-10-13 05:35:56,144] {bash.py:173} INFO -     "id": 87,
+[2021-10-13 05:35:56,145] {bash.py:173} INFO -     "title": "laudantium quae eligendi consequatur quia et vero autem",
+[2021-10-13 05:35:56,146] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,146] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,146] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,147] {bash.py:173} INFO -     "userId": 5,
+[2021-10-13 05:35:56,147] {bash.py:173} INFO -     "id": 88,
+[2021-10-13 05:35:56,147] {bash.py:173} INFO -     "title": "vitae aut excepturi laboriosam sint aliquam et et accusantium",
+[2021-10-13 05:35:56,148] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,148] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,148] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,149] {bash.py:173} INFO -     "userId": 5,
+[2021-10-13 05:35:56,149] {bash.py:173} INFO -     "id": 89,
+[2021-10-13 05:35:56,150] {bash.py:173} INFO -     "title": "sequi ut omnis et",
+[2021-10-13 05:35:56,150] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,150] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,150] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,151] {bash.py:173} INFO -     "userId": 5,
+[2021-10-13 05:35:56,151] {bash.py:173} INFO -     "id": 90,
+[2021-10-13 05:35:56,151] {bash.py:173} INFO -     "title": "molestiae nisi accusantium tenetur dolorem et",
+[2021-10-13 05:35:56,151] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,152] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,152] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,152] {bash.py:173} INFO -     "userId": 5,
+[2021-10-13 05:35:56,152] {bash.py:173} INFO -     "id": 91,
+[2021-10-13 05:35:56,153] {bash.py:173} INFO -     "title": "nulla quis consequatur saepe qui id expedita",
+[2021-10-13 05:35:56,153] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,153] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,153] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,153] {bash.py:173} INFO -     "userId": 5,
+[2021-10-13 05:35:56,154] {bash.py:173} INFO -     "id": 92,
+[2021-10-13 05:35:56,154] {bash.py:173} INFO -     "title": "in omnis laboriosam",
+[2021-10-13 05:35:56,154] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,155] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,155] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,155] {bash.py:173} INFO -     "userId": 5,
+[2021-10-13 05:35:56,156] {bash.py:173} INFO -     "id": 93,
+[2021-10-13 05:35:56,157] {bash.py:173} INFO -     "title": "odio iure consequatur molestiae quibusdam necessitatibus quia sint",
+[2021-10-13 05:35:56,157] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,158] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,158] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,159] {bash.py:173} INFO -     "userId": 5,
+[2021-10-13 05:35:56,159] {bash.py:173} INFO -     "id": 94,
+[2021-10-13 05:35:56,160] {bash.py:173} INFO -     "title": "facilis modi saepe mollitia",
+[2021-10-13 05:35:56,161] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,162] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,162] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,163] {bash.py:173} INFO -     "userId": 5,
+[2021-10-13 05:35:56,163] {bash.py:173} INFO -     "id": 95,
+[2021-10-13 05:35:56,163] {bash.py:173} INFO -     "title": "vel nihil et molestiae iusto assumenda nemo quo ut",
+[2021-10-13 05:35:56,164] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,164] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,164] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,165] {bash.py:173} INFO -     "userId": 5,
+[2021-10-13 05:35:56,165] {bash.py:173} INFO -     "id": 96,
+[2021-10-13 05:35:56,165] {bash.py:173} INFO -     "title": "nobis suscipit ducimus enim asperiores voluptas",
+[2021-10-13 05:35:56,166] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,166] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,166] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,167] {bash.py:173} INFO -     "userId": 5,
+[2021-10-13 05:35:56,167] {bash.py:173} INFO -     "id": 97,
+[2021-10-13 05:35:56,168] {bash.py:173} INFO -     "title": "dolorum laboriosam eos qui iure aliquam",
+[2021-10-13 05:35:56,168] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,168] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,169] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,169] {bash.py:173} INFO -     "userId": 5,
+[2021-10-13 05:35:56,169] {bash.py:173} INFO -     "id": 98,
+[2021-10-13 05:35:56,170] {bash.py:173} INFO -     "title": "debitis accusantium ut quo facilis nihil quis sapiente necessitatibus",
+[2021-10-13 05:35:56,170] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,170] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,171] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,171] {bash.py:173} INFO -     "userId": 5,
+[2021-10-13 05:35:56,171] {bash.py:173} INFO -     "id": 99,
+[2021-10-13 05:35:56,171] {bash.py:173} INFO -     "title": "neque voluptates ratione",
+[2021-10-13 05:35:56,172] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,172] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,172] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,173] {bash.py:173} INFO -     "userId": 5,
+[2021-10-13 05:35:56,173] {bash.py:173} INFO -     "id": 100,
+[2021-10-13 05:35:56,173] {bash.py:173} INFO -     "title": "excepturi a et neque qui expedita vel voluptate",
+[2021-10-13 05:35:56,173] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,174] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,174] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,174] {bash.py:173} INFO -     "userId": 6,
+[2021-10-13 05:35:56,175] {bash.py:173} INFO -     "id": 101,
+[2021-10-13 05:35:56,175] {bash.py:173} INFO -     "title": "explicabo enim cumque porro aperiam occaecati minima",
+[2021-10-13 05:35:56,175] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,175] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,176] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,176] {bash.py:173} INFO -     "userId": 6,
+[2021-10-13 05:35:56,176] {bash.py:173} INFO -     "id": 102,
+[2021-10-13 05:35:56,177] {bash.py:173} INFO -     "title": "sed ab consequatur",
+[2021-10-13 05:35:56,178] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,178] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,179] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,179] {bash.py:173} INFO -     "userId": 6,
+[2021-10-13 05:35:56,180] {bash.py:173} INFO -     "id": 103,
+[2021-10-13 05:35:56,180] {bash.py:173} INFO -     "title": "non sunt delectus illo nulla tenetur enim omnis",
+[2021-10-13 05:35:56,180] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,181] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,181] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,181] {bash.py:173} INFO -     "userId": 6,
+[2021-10-13 05:35:56,182] {bash.py:173} INFO -     "id": 104,
+[2021-10-13 05:35:56,182] {bash.py:173} INFO -     "title": "excepturi non laudantium quo",
+[2021-10-13 05:35:56,182] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,182] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,183] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,183] {bash.py:173} INFO -     "userId": 6,
+[2021-10-13 05:35:56,183] {bash.py:173} INFO -     "id": 105,
+[2021-10-13 05:35:56,184] {bash.py:173} INFO -     "title": "totam quia dolorem et illum repellat voluptas optio",
+[2021-10-13 05:35:56,184] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,186] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,186] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,187] {bash.py:173} INFO -     "userId": 6,
+[2021-10-13 05:35:56,187] {bash.py:173} INFO -     "id": 106,
+[2021-10-13 05:35:56,188] {bash.py:173} INFO -     "title": "ad illo quis voluptatem temporibus",
+[2021-10-13 05:35:56,188] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,189] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,189] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,189] {bash.py:173} INFO -     "userId": 6,
+[2021-10-13 05:35:56,190] {bash.py:173} INFO -     "id": 107,
+[2021-10-13 05:35:56,190] {bash.py:173} INFO -     "title": "praesentium facilis omnis laudantium fugit ad iusto nihil nesciunt",
+[2021-10-13 05:35:56,190] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,191] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,191] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,191] {bash.py:173} INFO -     "userId": 6,
+[2021-10-13 05:35:56,192] {bash.py:173} INFO -     "id": 108,
+[2021-10-13 05:35:56,192] {bash.py:173} INFO -     "title": "a eos eaque nihil et exercitationem incidunt delectus",
+[2021-10-13 05:35:56,192] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,192] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,193] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,193] {bash.py:173} INFO -     "userId": 6,
+[2021-10-13 05:35:56,193] {bash.py:173} INFO -     "id": 109,
+[2021-10-13 05:35:56,194] {bash.py:173} INFO -     "title": "autem temporibus harum quisquam in culpa",
+[2021-10-13 05:35:56,194] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,194] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,195] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,195] {bash.py:173} INFO -     "userId": 6,
+[2021-10-13 05:35:56,195] {bash.py:173} INFO -     "id": 110,
+[2021-10-13 05:35:56,196] {bash.py:173} INFO -     "title": "aut aut ea corporis",
+[2021-10-13 05:35:56,196] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,196] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,196] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,197] {bash.py:173} INFO -     "userId": 6,
+[2021-10-13 05:35:56,197] {bash.py:173} INFO -     "id": 111,
+[2021-10-13 05:35:56,197] {bash.py:173} INFO -     "title": "magni accusantium labore et id quis provident",
+[2021-10-13 05:35:56,197] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,198] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,198] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,198] {bash.py:173} INFO -     "userId": 6,
+[2021-10-13 05:35:56,198] {bash.py:173} INFO -     "id": 112,
+[2021-10-13 05:35:56,199] {bash.py:173} INFO -     "title": "consectetur impedit quisquam qui deserunt non rerum consequuntur eius",
+[2021-10-13 05:35:56,199] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,199] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,200] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,200] {bash.py:173} INFO -     "userId": 6,
+[2021-10-13 05:35:56,200] {bash.py:173} INFO -     "id": 113,
+[2021-10-13 05:35:56,201] {bash.py:173} INFO -     "title": "quia atque aliquam sunt impedit voluptatum rerum assumenda nisi",
+[2021-10-13 05:35:56,201] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,201] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,201] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,202] {bash.py:173} INFO -     "userId": 6,
+[2021-10-13 05:35:56,202] {bash.py:173} INFO -     "id": 114,
+[2021-10-13 05:35:56,202] {bash.py:173} INFO -     "title": "cupiditate quos possimus corporis quisquam exercitationem beatae",
+[2021-10-13 05:35:56,202] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,203] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,203] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,203] {bash.py:173} INFO -     "userId": 6,
+[2021-10-13 05:35:56,203] {bash.py:173} INFO -     "id": 115,
+[2021-10-13 05:35:56,204] {bash.py:173} INFO -     "title": "sed et ea eum",
+[2021-10-13 05:35:56,204] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,204] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,204] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,205] {bash.py:173} INFO -     "userId": 6,
+[2021-10-13 05:35:56,205] {bash.py:173} INFO -     "id": 116,
+[2021-10-13 05:35:56,205] {bash.py:173} INFO -     "title": "ipsa dolores vel facilis ut",
+[2021-10-13 05:35:56,205] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,206] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,206] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,206] {bash.py:173} INFO -     "userId": 6,
+[2021-10-13 05:35:56,207] {bash.py:173} INFO -     "id": 117,
+[2021-10-13 05:35:56,207] {bash.py:173} INFO -     "title": "sequi quae est et qui qui eveniet asperiores",
+[2021-10-13 05:35:56,207] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,207] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,208] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,208] {bash.py:173} INFO -     "userId": 6,
+[2021-10-13 05:35:56,208] {bash.py:173} INFO -     "id": 118,
+[2021-10-13 05:35:56,208] {bash.py:173} INFO -     "title": "quia modi consequatur vero fugiat",
+[2021-10-13 05:35:56,209] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,209] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,209] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,210] {bash.py:173} INFO -     "userId": 6,
+[2021-10-13 05:35:56,210] {bash.py:173} INFO -     "id": 119,
+[2021-10-13 05:35:56,211] {bash.py:173} INFO -     "title": "corporis ducimus ea perspiciatis iste",
+[2021-10-13 05:35:56,212] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,212] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,213] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,213] {bash.py:173} INFO -     "userId": 6,
+[2021-10-13 05:35:56,213] {bash.py:173} INFO -     "id": 120,
+[2021-10-13 05:35:56,214] {bash.py:173} INFO -     "title": "dolorem laboriosam vel voluptas et aliquam quasi",
+[2021-10-13 05:35:56,214] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,215] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,215] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,215] {bash.py:173} INFO -     "userId": 7,
+[2021-10-13 05:35:56,216] {bash.py:173} INFO -     "id": 121,
+[2021-10-13 05:35:56,216] {bash.py:173} INFO -     "title": "inventore aut nihil minima laudantium hic qui omnis",
+[2021-10-13 05:35:56,217] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,217] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,218] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,218] {bash.py:173} INFO -     "userId": 7,
+[2021-10-13 05:35:56,219] {bash.py:173} INFO -     "id": 122,
+[2021-10-13 05:35:56,219] {bash.py:173} INFO -     "title": "provident aut nobis culpa",
+[2021-10-13 05:35:56,220] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,220] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,221] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,221] {bash.py:173} INFO -     "userId": 7,
+[2021-10-13 05:35:56,221] {bash.py:173} INFO -     "id": 123,
+[2021-10-13 05:35:56,223] {bash.py:173} INFO -     "title": "esse et quis iste est earum aut impedit",
+[2021-10-13 05:35:56,223] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,224] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,224] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,225] {bash.py:173} INFO -     "userId": 7,
+[2021-10-13 05:35:56,225] {bash.py:173} INFO -     "id": 124,
+[2021-10-13 05:35:56,226] {bash.py:173} INFO -     "title": "qui consectetur id",
+[2021-10-13 05:35:56,226] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,227] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,227] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,228] {bash.py:173} INFO -     "userId": 7,
+[2021-10-13 05:35:56,229] {bash.py:173} INFO -     "id": 125,
+[2021-10-13 05:35:56,229] {bash.py:173} INFO -     "title": "aut quasi autem iste tempore illum possimus",
+[2021-10-13 05:35:56,230] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,230] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,231] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,231] {bash.py:173} INFO -     "userId": 7,
+[2021-10-13 05:35:56,232] {bash.py:173} INFO -     "id": 126,
+[2021-10-13 05:35:56,232] {bash.py:173} INFO -     "title": "ut asperiores perspiciatis veniam ipsum rerum saepe",
+[2021-10-13 05:35:56,232] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,233] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,233] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,234] {bash.py:173} INFO -     "userId": 7,
+[2021-10-13 05:35:56,234] {bash.py:173} INFO -     "id": 127,
+[2021-10-13 05:35:56,234] {bash.py:173} INFO -     "title": "voluptatem libero consectetur rerum ut",
+[2021-10-13 05:35:56,235] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,235] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,235] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,236] {bash.py:173} INFO -     "userId": 7,
+[2021-10-13 05:35:56,236] {bash.py:173} INFO -     "id": 128,
+[2021-10-13 05:35:56,237] {bash.py:173} INFO -     "title": "eius omnis est qui voluptatem autem",
+[2021-10-13 05:35:56,237] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,237] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,238] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,238] {bash.py:173} INFO -     "userId": 7,
+[2021-10-13 05:35:56,238] {bash.py:173} INFO -     "id": 129,
+[2021-10-13 05:35:56,238] {bash.py:173} INFO -     "title": "rerum culpa quis harum",
+[2021-10-13 05:35:56,239] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,239] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,240] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,240] {bash.py:173} INFO -     "userId": 7,
+[2021-10-13 05:35:56,241] {bash.py:173} INFO -     "id": 130,
+[2021-10-13 05:35:56,241] {bash.py:173} INFO -     "title": "nulla aliquid eveniet harum laborum libero alias ut unde",
+[2021-10-13 05:35:56,241] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,243] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,243] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,244] {bash.py:173} INFO -     "userId": 7,
+[2021-10-13 05:35:56,245] {bash.py:173} INFO -     "id": 131,
+[2021-10-13 05:35:56,246] {bash.py:173} INFO -     "title": "qui ea incidunt quis",
+[2021-10-13 05:35:56,246] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,247] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,247] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,249] {bash.py:173} INFO -     "userId": 7,
+[2021-10-13 05:35:56,249] {bash.py:173} INFO -     "id": 132,
+[2021-10-13 05:35:56,250] {bash.py:173} INFO -     "title": "qui molestiae voluptatibus velit iure harum quisquam",
+[2021-10-13 05:35:56,250] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,251] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,251] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,252] {bash.py:173} INFO -     "userId": 7,
+[2021-10-13 05:35:56,252] {bash.py:173} INFO -     "id": 133,
+[2021-10-13 05:35:56,253] {bash.py:173} INFO -     "title": "et labore eos enim rerum consequatur sunt",
+[2021-10-13 05:35:56,253] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,254] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,254] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,255] {bash.py:173} INFO -     "userId": 7,
+[2021-10-13 05:35:56,255] {bash.py:173} INFO -     "id": 134,
+[2021-10-13 05:35:56,256] {bash.py:173} INFO -     "title": "molestiae doloribus et laborum quod ea",
+[2021-10-13 05:35:56,256] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,257] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,257] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,258] {bash.py:173} INFO -     "userId": 7,
+[2021-10-13 05:35:56,258] {bash.py:173} INFO -     "id": 135,
+[2021-10-13 05:35:56,259] {bash.py:173} INFO -     "title": "facere ipsa nam eum voluptates reiciendis vero qui",
+[2021-10-13 05:35:56,259] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,260] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,260] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,261] {bash.py:173} INFO -     "userId": 7,
+[2021-10-13 05:35:56,261] {bash.py:173} INFO -     "id": 136,
+[2021-10-13 05:35:56,262] {bash.py:173} INFO -     "title": "asperiores illo tempora fuga sed ut quasi adipisci",
+[2021-10-13 05:35:56,263] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,264] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,264] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,265] {bash.py:173} INFO -     "userId": 7,
+[2021-10-13 05:35:56,265] {bash.py:173} INFO -     "id": 137,
+[2021-10-13 05:35:56,266] {bash.py:173} INFO -     "title": "qui sit non",
+[2021-10-13 05:35:56,266] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,267] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,267] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,268] {bash.py:173} INFO -     "userId": 7,
+[2021-10-13 05:35:56,268] {bash.py:173} INFO -     "id": 138,
+[2021-10-13 05:35:56,269] {bash.py:173} INFO -     "title": "placeat minima consequatur rem qui ut",
+[2021-10-13 05:35:56,269] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,270] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,270] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,271] {bash.py:173} INFO -     "userId": 7,
+[2021-10-13 05:35:56,271] {bash.py:173} INFO -     "id": 139,
+[2021-10-13 05:35:56,272] {bash.py:173} INFO -     "title": "consequatur doloribus id possimus voluptas a voluptatem",
+[2021-10-13 05:35:56,272] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,273] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,273] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,274] {bash.py:173} INFO -     "userId": 7,
+[2021-10-13 05:35:56,274] {bash.py:173} INFO -     "id": 140,
+[2021-10-13 05:35:56,275] {bash.py:173} INFO -     "title": "aut consectetur in blanditiis deserunt quia sed laboriosam",
+[2021-10-13 05:35:56,275] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,275] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,276] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,276] {bash.py:173} INFO -     "userId": 8,
+[2021-10-13 05:35:56,277] {bash.py:173} INFO -     "id": 141,
+[2021-10-13 05:35:56,278] {bash.py:173} INFO -     "title": "explicabo consectetur debitis voluptates quas quae culpa rerum non",
+[2021-10-13 05:35:56,279] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,279] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,280] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,281] {bash.py:173} INFO -     "userId": 8,
+[2021-10-13 05:35:56,281] {bash.py:173} INFO -     "id": 142,
+[2021-10-13 05:35:56,282] {bash.py:173} INFO -     "title": "maiores accusantium architecto necessitatibus reiciendis ea aut",
+[2021-10-13 05:35:56,282] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,283] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,283] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,284] {bash.py:173} INFO -     "userId": 8,
+[2021-10-13 05:35:56,285] {bash.py:173} INFO -     "id": 143,
+[2021-10-13 05:35:56,285] {bash.py:173} INFO -     "title": "eum non recusandae cupiditate animi",
+[2021-10-13 05:35:56,286] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,286] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,288] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,289] {bash.py:173} INFO -     "userId": 8,
+[2021-10-13 05:35:56,290] {bash.py:173} INFO -     "id": 144,
+[2021-10-13 05:35:56,290] {bash.py:173} INFO -     "title": "ut eum exercitationem sint",
+[2021-10-13 05:35:56,291] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,292] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,292] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,293] {bash.py:173} INFO -     "userId": 8,
+[2021-10-13 05:35:56,293] {bash.py:173} INFO -     "id": 145,
+[2021-10-13 05:35:56,294] {bash.py:173} INFO -     "title": "beatae qui ullam incidunt voluptatem non nisi aliquam",
+[2021-10-13 05:35:56,294] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,295] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,295] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,296] {bash.py:173} INFO -     "userId": 8,
+[2021-10-13 05:35:56,297] {bash.py:173} INFO -     "id": 146,
+[2021-10-13 05:35:56,297] {bash.py:173} INFO -     "title": "molestiae suscipit ratione nihil odio libero impedit vero totam",
+[2021-10-13 05:35:56,298] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,298] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,299] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,299] {bash.py:173} INFO -     "userId": 8,
+[2021-10-13 05:35:56,300] {bash.py:173} INFO -     "id": 147,
+[2021-10-13 05:35:56,300] {bash.py:173} INFO -     "title": "eum itaque quod reprehenderit et facilis dolor autem ut",
+[2021-10-13 05:35:56,301] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,301] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,302] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,302] {bash.py:173} INFO -     "userId": 8,
+[2021-10-13 05:35:56,303] {bash.py:173} INFO -     "id": 148,
+[2021-10-13 05:35:56,303] {bash.py:173} INFO -     "title": "esse quas et quo quasi exercitationem",
+[2021-10-13 05:35:56,304] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,304] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,305] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,305] {bash.py:173} INFO -     "userId": 8,
+[2021-10-13 05:35:56,305] {bash.py:173} INFO -     "id": 149,
+[2021-10-13 05:35:56,306] {bash.py:173} INFO -     "title": "animi voluptas quod perferendis est",
+[2021-10-13 05:35:56,306] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,306] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,307] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,307] {bash.py:173} INFO -     "userId": 8,
+[2021-10-13 05:35:56,308] {bash.py:173} INFO -     "id": 150,
+[2021-10-13 05:35:56,308] {bash.py:173} INFO -     "title": "eos amet tempore laudantium fugit a",
+[2021-10-13 05:35:56,308] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,308] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,309] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,309] {bash.py:173} INFO -     "userId": 8,
+[2021-10-13 05:35:56,309] {bash.py:173} INFO -     "id": 151,
+[2021-10-13 05:35:56,309] {bash.py:173} INFO -     "title": "accusamus adipisci dicta qui quo ea explicabo sed vero",
+[2021-10-13 05:35:56,310] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,310] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,311] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,312] {bash.py:173} INFO -     "userId": 8,
+[2021-10-13 05:35:56,312] {bash.py:173} INFO -     "id": 152,
+[2021-10-13 05:35:56,312] {bash.py:173} INFO -     "title": "odit eligendi recusandae doloremque cumque non",
+[2021-10-13 05:35:56,313] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,313] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,313] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,314] {bash.py:173} INFO -     "userId": 8,
+[2021-10-13 05:35:56,314] {bash.py:173} INFO -     "id": 153,
+[2021-10-13 05:35:56,314] {bash.py:173} INFO -     "title": "ea aperiam consequatur qui repellat eos",
+[2021-10-13 05:35:56,315] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,315] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,315] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,315] {bash.py:173} INFO -     "userId": 8,
+[2021-10-13 05:35:56,316] {bash.py:173} INFO -     "id": 154,
+[2021-10-13 05:35:56,316] {bash.py:173} INFO -     "title": "rerum non ex sapiente",
+[2021-10-13 05:35:56,317] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,317] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,317] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,317] {bash.py:173} INFO -     "userId": 8,
+[2021-10-13 05:35:56,318] {bash.py:173} INFO -     "id": 155,
+[2021-10-13 05:35:56,318] {bash.py:173} INFO -     "title": "voluptatem nobis consequatur et assumenda magnam",
+[2021-10-13 05:35:56,318] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,319] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,319] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,320] {bash.py:173} INFO -     "userId": 8,
+[2021-10-13 05:35:56,320] {bash.py:173} INFO -     "id": 156,
+[2021-10-13 05:35:56,320] {bash.py:173} INFO -     "title": "nam quia quia nulla repellat assumenda quibusdam sit nobis",
+[2021-10-13 05:35:56,321] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,321] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,321] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,322] {bash.py:173} INFO -     "userId": 8,
+[2021-10-13 05:35:56,322] {bash.py:173} INFO -     "id": 157,
+[2021-10-13 05:35:56,322] {bash.py:173} INFO -     "title": "dolorem veniam quisquam deserunt repellendus",
+[2021-10-13 05:35:56,323] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,323] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,324] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,324] {bash.py:173} INFO -     "userId": 8,
+[2021-10-13 05:35:56,324] {bash.py:173} INFO -     "id": 158,
+[2021-10-13 05:35:56,325] {bash.py:173} INFO -     "title": "debitis vitae delectus et harum accusamus aut deleniti a",
+[2021-10-13 05:35:56,325] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,325] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,326] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,326] {bash.py:173} INFO -     "userId": 8,
+[2021-10-13 05:35:56,326] {bash.py:173} INFO -     "id": 159,
+[2021-10-13 05:35:56,326] {bash.py:173} INFO -     "title": "debitis adipisci quibusdam aliquam sed dolore ea praesentium nobis",
+[2021-10-13 05:35:56,327] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,327] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,327] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,328] {bash.py:173} INFO -     "userId": 8,
+[2021-10-13 05:35:56,328] {bash.py:173} INFO -     "id": 160,
+[2021-10-13 05:35:56,329] {bash.py:173} INFO -     "title": "et praesentium aliquam est",
+[2021-10-13 05:35:56,329] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,329] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,330] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,330] {bash.py:173} INFO -     "userId": 9,
+[2021-10-13 05:35:56,330] {bash.py:173} INFO -     "id": 161,
+[2021-10-13 05:35:56,330] {bash.py:173} INFO -     "title": "ex hic consequuntur earum omnis alias ut occaecati culpa",
+[2021-10-13 05:35:56,331] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,331] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,331] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,332] {bash.py:173} INFO -     "userId": 9,
+[2021-10-13 05:35:56,332] {bash.py:173} INFO -     "id": 162,
+[2021-10-13 05:35:56,332] {bash.py:173} INFO -     "title": "omnis laboriosam molestias animi sunt dolore",
+[2021-10-13 05:35:56,332] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,333] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,333] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,333] {bash.py:173} INFO -     "userId": 9,
+[2021-10-13 05:35:56,333] {bash.py:173} INFO -     "id": 163,
+[2021-10-13 05:35:56,334] {bash.py:173} INFO -     "title": "natus corrupti maxime laudantium et voluptatem laboriosam odit",
+[2021-10-13 05:35:56,334] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,334] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,334] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,335] {bash.py:173} INFO -     "userId": 9,
+[2021-10-13 05:35:56,335] {bash.py:173} INFO -     "id": 164,
+[2021-10-13 05:35:56,335] {bash.py:173} INFO -     "title": "reprehenderit quos aut aut consequatur est sed",
+[2021-10-13 05:35:56,336] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,336] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,336] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,336] {bash.py:173} INFO -     "userId": 9,
+[2021-10-13 05:35:56,337] {bash.py:173} INFO -     "id": 165,
+[2021-10-13 05:35:56,337] {bash.py:173} INFO -     "title": "fugiat perferendis sed aut quidem",
+[2021-10-13 05:35:56,337] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,338] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,338] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,338] {bash.py:173} INFO -     "userId": 9,
+[2021-10-13 05:35:56,338] {bash.py:173} INFO -     "id": 166,
+[2021-10-13 05:35:56,339] {bash.py:173} INFO -     "title": "quos quo possimus suscipit minima ut",
+[2021-10-13 05:35:56,339] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,339] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,339] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,340] {bash.py:173} INFO -     "userId": 9,
+[2021-10-13 05:35:56,340] {bash.py:173} INFO -     "id": 167,
+[2021-10-13 05:35:56,340] {bash.py:173} INFO -     "title": "et quis minus quo a asperiores molestiae",
+[2021-10-13 05:35:56,340] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,341] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,341] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,341] {bash.py:173} INFO -     "userId": 9,
+[2021-10-13 05:35:56,341] {bash.py:173} INFO -     "id": 168,
+[2021-10-13 05:35:56,342] {bash.py:173} INFO -     "title": "recusandae quia qui sunt libero",
+[2021-10-13 05:35:56,342] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,342] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,342] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,343] {bash.py:173} INFO -     "userId": 9,
+[2021-10-13 05:35:56,343] {bash.py:173} INFO -     "id": 169,
+[2021-10-13 05:35:56,343] {bash.py:173} INFO -     "title": "ea odio perferendis officiis",
+[2021-10-13 05:35:56,343] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,345] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,345] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,346] {bash.py:173} INFO -     "userId": 9,
+[2021-10-13 05:35:56,347] {bash.py:173} INFO -     "id": 170,
+[2021-10-13 05:35:56,347] {bash.py:173} INFO -     "title": "quisquam aliquam quia doloribus aut",
+[2021-10-13 05:35:56,347] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,348] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,348] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,348] {bash.py:173} INFO -     "userId": 9,
+[2021-10-13 05:35:56,349] {bash.py:173} INFO -     "id": 171,
+[2021-10-13 05:35:56,349] {bash.py:173} INFO -     "title": "fugiat aut voluptatibus corrupti deleniti velit iste odio",
+[2021-10-13 05:35:56,349] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,350] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,350] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,350] {bash.py:173} INFO -     "userId": 9,
+[2021-10-13 05:35:56,351] {bash.py:173} INFO -     "id": 172,
+[2021-10-13 05:35:56,351] {bash.py:173} INFO -     "title": "et provident amet rerum consectetur et voluptatum",
+[2021-10-13 05:35:56,351] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,352] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,352] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,352] {bash.py:173} INFO -     "userId": 9,
+[2021-10-13 05:35:56,353] {bash.py:173} INFO -     "id": 173,
+[2021-10-13 05:35:56,353] {bash.py:173} INFO -     "title": "harum ad aperiam quis",
+[2021-10-13 05:35:56,353] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,353] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,354] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,354] {bash.py:173} INFO -     "userId": 9,
+[2021-10-13 05:35:56,354] {bash.py:173} INFO -     "id": 174,
+[2021-10-13 05:35:56,354] {bash.py:173} INFO -     "title": "similique aut quo",
+[2021-10-13 05:35:56,355] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,355] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,355] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,355] {bash.py:173} INFO -     "userId": 9,
+[2021-10-13 05:35:56,356] {bash.py:173} INFO -     "id": 175,
+[2021-10-13 05:35:56,356] {bash.py:173} INFO -     "title": "laudantium eius officia perferendis provident perspiciatis asperiores",
+[2021-10-13 05:35:56,356] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,356] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,357] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,357] {bash.py:173} INFO -     "userId": 9,
+[2021-10-13 05:35:56,357] {bash.py:173} INFO -     "id": 176,
+[2021-10-13 05:35:56,358] {bash.py:173} INFO -     "title": "magni soluta corrupti ut maiores rem quidem",
+[2021-10-13 05:35:56,358] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,358] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,358] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,359] {bash.py:173} INFO -     "userId": 9,
+[2021-10-13 05:35:56,359] {bash.py:173} INFO -     "id": 177,
+[2021-10-13 05:35:56,359] {bash.py:173} INFO -     "title": "et placeat temporibus voluptas est tempora quos quibusdam",
+[2021-10-13 05:35:56,359] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,360] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,360] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,361] {bash.py:173} INFO -     "userId": 9,
+[2021-10-13 05:35:56,361] {bash.py:173} INFO -     "id": 178,
+[2021-10-13 05:35:56,361] {bash.py:173} INFO -     "title": "nesciunt itaque commodi tempore",
+[2021-10-13 05:35:56,362] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,362] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,362] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,362] {bash.py:173} INFO -     "userId": 9,
+[2021-10-13 05:35:56,363] {bash.py:173} INFO -     "id": 179,
+[2021-10-13 05:35:56,363] {bash.py:173} INFO -     "title": "omnis consequuntur cupiditate impedit itaque ipsam quo",
+[2021-10-13 05:35:56,363] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,364] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,364] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,364] {bash.py:173} INFO -     "userId": 9,
+[2021-10-13 05:35:56,365] {bash.py:173} INFO -     "id": 180,
+[2021-10-13 05:35:56,365] {bash.py:173} INFO -     "title": "debitis nisi et dolorem repellat et",
+[2021-10-13 05:35:56,365] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,365] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,366] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,366] {bash.py:173} INFO -     "userId": 10,
+[2021-10-13 05:35:56,366] {bash.py:173} INFO -     "id": 181,
+[2021-10-13 05:35:56,367] {bash.py:173} INFO -     "title": "ut cupiditate sequi aliquam fuga maiores",
+[2021-10-13 05:35:56,367] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,367] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,367] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,368] {bash.py:173} INFO -     "userId": 10,
+[2021-10-13 05:35:56,368] {bash.py:173} INFO -     "id": 182,
+[2021-10-13 05:35:56,368] {bash.py:173} INFO -     "title": "inventore saepe cumque et aut illum enim",
+[2021-10-13 05:35:56,368] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,369] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,369] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,369] {bash.py:173} INFO -     "userId": 10,
+[2021-10-13 05:35:56,370] {bash.py:173} INFO -     "id": 183,
+[2021-10-13 05:35:56,370] {bash.py:173} INFO -     "title": "omnis nulla eum aliquam distinctio",
+[2021-10-13 05:35:56,370] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,370] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,371] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,371] {bash.py:173} INFO -     "userId": 10,
+[2021-10-13 05:35:56,371] {bash.py:173} INFO -     "id": 184,
+[2021-10-13 05:35:56,371] {bash.py:173} INFO -     "title": "molestias modi perferendis perspiciatis",
+[2021-10-13 05:35:56,372] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,372] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,372] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,372] {bash.py:173} INFO -     "userId": 10,
+[2021-10-13 05:35:56,373] {bash.py:173} INFO -     "id": 185,
+[2021-10-13 05:35:56,373] {bash.py:173} INFO -     "title": "voluptates dignissimos sed doloribus animi quaerat aut",
+[2021-10-13 05:35:56,373] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,374] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,374] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,374] {bash.py:173} INFO -     "userId": 10,
+[2021-10-13 05:35:56,374] {bash.py:173} INFO -     "id": 186,
+[2021-10-13 05:35:56,375] {bash.py:173} INFO -     "title": "explicabo odio est et",
+[2021-10-13 05:35:56,375] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,375] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,375] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,376] {bash.py:173} INFO -     "userId": 10,
+[2021-10-13 05:35:56,376] {bash.py:173} INFO -     "id": 187,
+[2021-10-13 05:35:56,376] {bash.py:173} INFO -     "title": "consequuntur animi possimus",
+[2021-10-13 05:35:56,376] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,377] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,378] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,378] {bash.py:173} INFO -     "userId": 10,
+[2021-10-13 05:35:56,378] {bash.py:173} INFO -     "id": 188,
+[2021-10-13 05:35:56,378] {bash.py:173} INFO -     "title": "vel non beatae est",
+[2021-10-13 05:35:56,379] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,379] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,379] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,379] {bash.py:173} INFO -     "userId": 10,
+[2021-10-13 05:35:56,380] {bash.py:173} INFO -     "id": 189,
+[2021-10-13 05:35:56,380] {bash.py:173} INFO -     "title": "culpa eius et voluptatem et",
+[2021-10-13 05:35:56,380] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,381] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,381] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,381] {bash.py:173} INFO -     "userId": 10,
+[2021-10-13 05:35:56,381] {bash.py:173} INFO -     "id": 190,
+[2021-10-13 05:35:56,382] {bash.py:173} INFO -     "title": "accusamus sint iusto et voluptatem exercitationem",
+[2021-10-13 05:35:56,382] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,382] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,382] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,383] {bash.py:173} INFO -     "userId": 10,
+[2021-10-13 05:35:56,383] {bash.py:173} INFO -     "id": 191,
+[2021-10-13 05:35:56,383] {bash.py:173} INFO -     "title": "temporibus atque distinctio omnis eius impedit tempore molestias pariatur",
+[2021-10-13 05:35:56,383] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,384] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,384] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,384] {bash.py:173} INFO -     "userId": 10,
+[2021-10-13 05:35:56,385] {bash.py:173} INFO -     "id": 192,
+[2021-10-13 05:35:56,385] {bash.py:173} INFO -     "title": "ut quas possimus exercitationem sint voluptates",
+[2021-10-13 05:35:56,385] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,385] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,386] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,386] {bash.py:173} INFO -     "userId": 10,
+[2021-10-13 05:35:56,386] {bash.py:173} INFO -     "id": 193,
+[2021-10-13 05:35:56,386] {bash.py:173} INFO -     "title": "rerum debitis voluptatem qui eveniet tempora distinctio a",
+[2021-10-13 05:35:56,387] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,387] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,387] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,388] {bash.py:173} INFO -     "userId": 10,
+[2021-10-13 05:35:56,388] {bash.py:173} INFO -     "id": 194,
+[2021-10-13 05:35:56,388] {bash.py:173} INFO -     "title": "sed ut vero sit molestiae",
+[2021-10-13 05:35:56,388] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,389] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,389] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,389] {bash.py:173} INFO -     "userId": 10,
+[2021-10-13 05:35:56,389] {bash.py:173} INFO -     "id": 195,
+[2021-10-13 05:35:56,390] {bash.py:173} INFO -     "title": "rerum ex veniam mollitia voluptatibus pariatur",
+[2021-10-13 05:35:56,390] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,390] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,390] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,391] {bash.py:173} INFO -     "userId": 10,
+[2021-10-13 05:35:56,391] {bash.py:173} INFO -     "id": 196,
+[2021-10-13 05:35:56,391] {bash.py:173} INFO -     "title": "consequuntur aut ut fugit similique",
+[2021-10-13 05:35:56,392] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,392] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,392] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,392] {bash.py:173} INFO -     "userId": 10,
+[2021-10-13 05:35:56,392] {bash.py:173} INFO -     "id": 197,
+[2021-10-13 05:35:56,393] {bash.py:173} INFO -     "title": "dignissimos quo nobis earum saepe",
+[2021-10-13 05:35:56,393] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,393] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,394] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,394] {bash.py:173} INFO -     "userId": 10,
+[2021-10-13 05:35:56,394] {bash.py:173} INFO -     "id": 198,
+[2021-10-13 05:35:56,395] {bash.py:173} INFO -     "title": "quis eius est sint explicabo",
+[2021-10-13 05:35:56,395] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,395] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,396] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,396] {bash.py:173} INFO -     "userId": 10,
+[2021-10-13 05:35:56,396] {bash.py:173} INFO -     "id": 199,
+[2021-10-13 05:35:56,397] {bash.py:173} INFO -     "title": "numquam repellendus a magnam",
+[2021-10-13 05:35:56,397] {bash.py:173} INFO -     "completed": true
+[2021-10-13 05:35:56,397] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,397] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,398] {bash.py:173} INFO -     "userId": 10,
+[2021-10-13 05:35:56,398] {bash.py:173} INFO -     "id": 200,
+[2021-10-13 05:35:56,398] {bash.py:173} INFO -     "title": "ipsam aperiam voluptates qui",
+[2021-10-13 05:35:56,398] {bash.py:173} INFO -     "completed": false
+[2021-10-13 05:35:56,399] {bash.py:173} INFO -   }
+[2021-10-13 05:35:56,399] {bash.py:173} INFO - ][
+[2021-10-13 05:35:56,399] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,399] {bash.py:173} INFO -     "id": "2baf70d1-42bb-4437-b551-e5fed5a87abe",
+[2021-10-13 05:35:56,400] {bash.py:173} INFO -     "title": "Castle in the Sky",
+[2021-10-13 05:35:56,400] {bash.py:173} INFO -     "original_title": "天空の城ラピュタ",
+[2021-10-13 05:35:56,400] {bash.py:173} INFO -     "original_title_romanised": "Tenkū no shiro Rapyuta",
+[2021-10-13 05:35:56,401] {bash.py:173} INFO -     "description": "The orphan Sheeta inherited a mysterious crystal that links her to the mythical sky-kingdom of Laputa. With the help of resourceful Pazu and a rollicking band of sky pirates, she makes her way to the ruins of the once-great civilization. Sheeta and Pazu must outwit the evil Muska, who plans to use Laputa's science to make himself ruler of the world.",
+[2021-10-13 05:35:56,401] {bash.py:173} INFO -     "director": "Hayao Miyazaki",
+[2021-10-13 05:35:56,401] {bash.py:173} INFO -     "producer": "Isao Takahata",
+[2021-10-13 05:35:56,401] {bash.py:173} INFO -     "release_date": "1986",
+[2021-10-13 05:35:56,402] {bash.py:173} INFO -     "running_time": "124",
+[2021-10-13 05:35:56,402] {bash.py:173} INFO -     "rt_score": "95",
+[2021-10-13 05:35:56,402] {bash.py:173} INFO -     "people": [
+[2021-10-13 05:35:56,403] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/people/"
+[2021-10-13 05:35:56,403] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,403] {bash.py:173} INFO -     "species": [
+[2021-10-13 05:35:56,403] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2"
+[2021-10-13 05:35:56,404] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,404] {bash.py:173} INFO -     "locations": [
+[2021-10-13 05:35:56,404] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/locations/"
+[2021-10-13 05:35:56,405] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,405] {bash.py:173} INFO -     "vehicles": [
+[2021-10-13 05:35:56,405] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/vehicles/"
+[2021-10-13 05:35:56,405] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,406] {bash.py:173} INFO -     "url": "https://ghibliapi.herokuapp.com/films/2baf70d1-42bb-4437-b551-e5fed5a87abe"
+[2021-10-13 05:35:56,406] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,406] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,406] {bash.py:173} INFO -     "id": "12cfb892-aac0-4c5b-94af-521852e46d6a",
+[2021-10-13 05:35:56,407] {bash.py:173} INFO -     "title": "Grave of the Fireflies",
+[2021-10-13 05:35:56,407] {bash.py:173} INFO -     "original_title": "火垂るの墓",
+[2021-10-13 05:35:56,407] {bash.py:173} INFO -     "original_title_romanised": "Hotaru no haka",
+[2021-10-13 05:35:56,407] {bash.py:173} INFO -     "description": "In the latter part of World War II, a boy and his sister, orphaned when their mother is killed in the firebombing of Tokyo, are left to survive on their own in what remains of civilian life in Japan. The plot follows this boy and his sister as they do their best to survive in the Japanese countryside, battling hunger, prejudice, and pride in their own quiet, personal battle.",
+[2021-10-13 05:35:56,408] {bash.py:173} INFO -     "director": "Isao Takahata",
+[2021-10-13 05:35:56,408] {bash.py:173} INFO -     "producer": "Toru Hara",
+[2021-10-13 05:35:56,408] {bash.py:173} INFO -     "release_date": "1988",
+[2021-10-13 05:35:56,409] {bash.py:173} INFO -     "running_time": "89",
+[2021-10-13 05:35:56,409] {bash.py:173} INFO -     "rt_score": "97",
+[2021-10-13 05:35:56,409] {bash.py:173} INFO -     "people": [
+[2021-10-13 05:35:56,409] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/people/"
+[2021-10-13 05:35:56,410] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,410] {bash.py:173} INFO -     "species": [
+[2021-10-13 05:35:56,411] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2"
+[2021-10-13 05:35:56,412] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,412] {bash.py:173} INFO -     "locations": [
+[2021-10-13 05:35:56,412] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/locations/"
+[2021-10-13 05:35:56,413] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,413] {bash.py:173} INFO -     "vehicles": [
+[2021-10-13 05:35:56,414] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/vehicles/"
+[2021-10-13 05:35:56,414] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,415] {bash.py:173} INFO -     "url": "https://ghibliapi.herokuapp.com/films/12cfb892-aac0-4c5b-94af-521852e46d6a"
+[2021-10-13 05:35:56,415] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,415] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,416] {bash.py:173} INFO -     "id": "58611129-2dbc-4a81-a72f-77ddfc1b1b49",
+[2021-10-13 05:35:56,416] {bash.py:173} INFO -     "title": "My Neighbor Totoro",
+[2021-10-13 05:35:56,416] {bash.py:173} INFO -     "original_title": "となりのトトロ",
+[2021-10-13 05:35:56,416] {bash.py:173} INFO -     "original_title_romanised": "Tonari no Totoro",
+[2021-10-13 05:35:56,417] {bash.py:173} INFO -     "description": "Two sisters move to the country with their father in order to be closer to their hospitalized mother, and discover the surrounding trees are inhabited by Totoros, magical spirits of the forest. When the youngest runs away from home, the older sister seeks help from the spirits to find her.",
+[2021-10-13 05:35:56,417] {bash.py:173} INFO -     "director": "Hayao Miyazaki",
+[2021-10-13 05:35:56,417] {bash.py:173} INFO -     "producer": "Hayao Miyazaki",
+[2021-10-13 05:35:56,418] {bash.py:173} INFO -     "release_date": "1988",
+[2021-10-13 05:35:56,418] {bash.py:173} INFO -     "running_time": "86",
+[2021-10-13 05:35:56,418] {bash.py:173} INFO -     "rt_score": "93",
+[2021-10-13 05:35:56,419] {bash.py:173} INFO -     "people": [
+[2021-10-13 05:35:56,419] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/people/986faac6-67e3-4fb8-a9ee-bad077c2e7fe",
+[2021-10-13 05:35:56,419] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/people/d5df3c04-f355-4038-833c-83bd3502b6b9",
+[2021-10-13 05:35:56,419] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/people/3031caa8-eb1a-41c6-ab93-dd091b541e11",
+[2021-10-13 05:35:56,420] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/people/87b68b97-3774-495b-bf80-495a5f3e672d",
+[2021-10-13 05:35:56,420] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/people/d39deecb-2bd0-4770-8b45-485f26e1381f",
+[2021-10-13 05:35:56,420] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/people/591524bc-04fe-4e60-8d61-2425e42ffb2a",
+[2021-10-13 05:35:56,420] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/people/c491755a-407d-4d6e-b58a-240ec78b5061",
+[2021-10-13 05:35:56,421] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/people/f467e18e-3694-409f-bdb3-be891ade1106",
+[2021-10-13 05:35:56,421] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/people/08ffbce4-7f94-476a-95bc-76d3c3969c19",
+[2021-10-13 05:35:56,421] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/people/0f8ef701-b4c7-4f15-bd15-368c7fe38d0a"
+[2021-10-13 05:35:56,421] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,422] {bash.py:173} INFO -     "species": [
+[2021-10-13 05:35:56,422] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
+[2021-10-13 05:35:56,422] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/species/603428ba-8a86-4b0b-a9f1-65df6abef3d3",
+[2021-10-13 05:35:56,422] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/species/74b7f547-1577-4430-806c-c358c8b6bcf5"
+[2021-10-13 05:35:56,423] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,423] {bash.py:173} INFO -     "locations": [
+[2021-10-13 05:35:56,423] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/locations/"
+[2021-10-13 05:35:56,423] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,424] {bash.py:173} INFO -     "vehicles": [
+[2021-10-13 05:35:56,424] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/vehicles/"
+[2021-10-13 05:35:56,424] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,424] {bash.py:173} INFO -     "url": "https://ghibliapi.herokuapp.com/films/58611129-2dbc-4a81-a72f-77ddfc1b1b49"
+[2021-10-13 05:35:56,425] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,425] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,425] {bash.py:173} INFO -     "id": "ea660b10-85c4-4ae3-8a5f-41cea3648e3e",
+[2021-10-13 05:35:56,425] {bash.py:173} INFO -     "title": "Kiki's Delivery Service",
+[2021-10-13 05:35:56,426] {bash.py:173} INFO -     "original_title": "魔女の宅急便",
+[2021-10-13 05:35:56,426] {bash.py:173} INFO -     "original_title_romanised": "Majo no takkyūbin",
+[2021-10-13 05:35:56,426] {bash.py:173} INFO -     "description": "A young witch, on her mandatory year of independent life, finds fitting into a new community difficult while she supports herself by running an air courier service.",
+[2021-10-13 05:35:56,426] {bash.py:173} INFO -     "director": "Hayao Miyazaki",
+[2021-10-13 05:35:56,427] {bash.py:173} INFO -     "producer": "Hayao Miyazaki",
+[2021-10-13 05:35:56,427] {bash.py:173} INFO -     "release_date": "1989",
+[2021-10-13 05:35:56,428] {bash.py:173} INFO -     "running_time": "102",
+[2021-10-13 05:35:56,428] {bash.py:173} INFO -     "rt_score": "96",
+[2021-10-13 05:35:56,428] {bash.py:173} INFO -     "people": [
+[2021-10-13 05:35:56,429] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/people/"
+[2021-10-13 05:35:56,429] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,429] {bash.py:173} INFO -     "species": [
+[2021-10-13 05:35:56,430] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2"
+[2021-10-13 05:35:56,430] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,430] {bash.py:173} INFO -     "locations": [
+[2021-10-13 05:35:56,430] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/locations/"
+[2021-10-13 05:35:56,431] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,431] {bash.py:173} INFO -     "vehicles": [
+[2021-10-13 05:35:56,431] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/vehicles/"
+[2021-10-13 05:35:56,431] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,432] {bash.py:173} INFO -     "url": "https://ghibliapi.herokuapp.com/films/ea660b10-85c4-4ae3-8a5f-41cea3648e3e"
+[2021-10-13 05:35:56,432] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,432] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,433] {bash.py:173} INFO -     "id": "4e236f34-b981-41c3-8c65-f8c9000b94e7",
+[2021-10-13 05:35:56,433] {bash.py:173} INFO -     "title": "Only Yesterday",
+[2021-10-13 05:35:56,433] {bash.py:173} INFO -     "original_title": "おもひでぽろぽろ",
+[2021-10-13 05:35:56,434] {bash.py:173} INFO -     "original_title_romanised": "Omoide poro poro",
+[2021-10-13 05:35:56,434] {bash.py:173} INFO -     "description": "It’s 1982, and Taeko is 27 years old, unmarried, and has lived her whole life in Tokyo. She decides to visit her family in the countryside, and as the train travels through the night, memories flood back of her younger years: the first immature stirrings of romance, the onset of puberty, and the frustrations of math and boys. At the station she is met by young farmer Toshio, and the encounters with him begin to reconnect her to forgotten longings. In lyrical switches between the present and the past, Taeko contemplates the arc of her life, and wonders if she has been true to the dreams of her childhood self.",
+[2021-10-13 05:35:56,434] {bash.py:173} INFO -     "director": "Isao Takahata",
+[2021-10-13 05:35:56,435] {bash.py:173} INFO -     "producer": "Toshio Suzuki",
+[2021-10-13 05:35:56,435] {bash.py:173} INFO -     "release_date": "1991",
+[2021-10-13 05:35:56,435] {bash.py:173} INFO -     "running_time": "118",
+[2021-10-13 05:35:56,435] {bash.py:173} INFO -     "rt_score": "100",
+[2021-10-13 05:35:56,436] {bash.py:173} INFO -     "people": [
+[2021-10-13 05:35:56,436] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/people/"
+[2021-10-13 05:35:56,436] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,437] {bash.py:173} INFO -     "species": [
+[2021-10-13 05:35:56,437] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2"
+[2021-10-13 05:35:56,437] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,438] {bash.py:173} INFO -     "locations": [
+[2021-10-13 05:35:56,438] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/locations/"
+[2021-10-13 05:35:56,438] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,438] {bash.py:173} INFO -     "vehicles": [
+[2021-10-13 05:35:56,439] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/vehicles/"
+[2021-10-13 05:35:56,439] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,439] {bash.py:173} INFO -     "url": "https://ghibliapi.herokuapp.com/films/4e236f34-b981-41c3-8c65-f8c9000b94e7"
+[2021-10-13 05:35:56,440] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,440] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,440] {bash.py:173} INFO -     "id": "ebbb6b7c-945c-41ee-a792-de0e43191bd8",
+[2021-10-13 05:35:56,440] {bash.py:173} INFO -     "title": "Porco Rosso",
+[2021-10-13 05:35:56,441] {bash.py:173} INFO -     "original_title": "紅の豚",
+[2021-10-13 05:35:56,441] {bash.py:173} INFO -     "original_title_romanised": "Kurenai no buta",
+[2021-10-13 05:35:56,441] {bash.py:173} INFO -     "description": "Porco Rosso, known in Japan as Crimson Pig (Kurenai no Buta) is the sixth animated film by Hayao Miyazaki and released in 1992. You're introduced to an Italian World War I fighter ace, now living as a freelance bounty hunter chasing 'air pirates' in the Adriatic Sea. He has been given a curse that changed his head to that of a pig. Once called Marco Pagot, he is now known to the world as 'Porco Rosso', Italian for 'Red Pig.'",
+[2021-10-13 05:35:56,442] {bash.py:173} INFO -     "director": "Hayao Miyazaki",
+[2021-10-13 05:35:56,442] {bash.py:173} INFO -     "producer": "Toshio Suzuki",
+[2021-10-13 05:35:56,442] {bash.py:173} INFO -     "release_date": "1992",
+[2021-10-13 05:35:56,442] {bash.py:173} INFO -     "running_time": "93",
+[2021-10-13 05:35:56,442] {bash.py:173} INFO -     "rt_score": "94",
+[2021-10-13 05:35:56,443] {bash.py:173} INFO -     "people": [
+[2021-10-13 05:35:56,443] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/people/"
+[2021-10-13 05:35:56,443] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,444] {bash.py:173} INFO -     "species": [
+[2021-10-13 05:35:56,444] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2"
+[2021-10-13 05:35:56,445] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,445] {bash.py:173} INFO -     "locations": [
+[2021-10-13 05:35:56,446] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/locations/"
+[2021-10-13 05:35:56,446] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,447] {bash.py:173} INFO -     "vehicles": [
+[2021-10-13 05:35:56,447] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/vehicles/"
+[2021-10-13 05:35:56,448] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,448] {bash.py:173} INFO -     "url": "https://ghibliapi.herokuapp.com/films/ebbb6b7c-945c-41ee-a792-de0e43191bd8"
+[2021-10-13 05:35:56,449] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,449] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,449] {bash.py:173} INFO -     "id": "1b67aa9a-2e4a-45af-ac98-64d6ad15b16c",
+[2021-10-13 05:35:56,450] {bash.py:173} INFO -     "title": "Pom Poko",
+[2021-10-13 05:35:56,450] {bash.py:173} INFO -     "original_title": "平成狸合戦ぽんぽこ",
+[2021-10-13 05:35:56,451] {bash.py:173} INFO -     "original_title_romanised": "Heisei tanuki gassen Ponpoko",
+[2021-10-13 05:35:56,451] {bash.py:173} INFO -     "description": "As the human city development encroaches on the raccoon population's forest and meadow habitat, the raccoons find themselves faced with the very real possibility of extinction. In response, the raccoons engage in a desperate struggle to stop the construction and preserve their home.",
+[2021-10-13 05:35:56,452] {bash.py:173} INFO -     "director": "Isao Takahata",
+[2021-10-13 05:35:56,452] {bash.py:173} INFO -     "producer": "Toshio Suzuki",
+[2021-10-13 05:35:56,452] {bash.py:173} INFO -     "release_date": "1994",
+[2021-10-13 05:35:56,453] {bash.py:173} INFO -     "running_time": "119",
+[2021-10-13 05:35:56,453] {bash.py:173} INFO -     "rt_score": "78",
+[2021-10-13 05:35:56,453] {bash.py:173} INFO -     "people": [
+[2021-10-13 05:35:56,454] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/people/"
+[2021-10-13 05:35:56,454] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,454] {bash.py:173} INFO -     "species": [
+[2021-10-13 05:35:56,454] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2"
+[2021-10-13 05:35:56,455] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,455] {bash.py:173} INFO -     "locations": [
+[2021-10-13 05:35:56,455] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/locations/"
+[2021-10-13 05:35:56,455] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,455] {bash.py:173} INFO -     "vehicles": [
+[2021-10-13 05:35:56,456] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/vehicles/"
+[2021-10-13 05:35:56,456] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,456] {bash.py:173} INFO -     "url": "https://ghibliapi.herokuapp.com/films/1b67aa9a-2e4a-45af-ac98-64d6ad15b16c"
+[2021-10-13 05:35:56,457] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,457] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,457] {bash.py:173} INFO -     "id": "ff24da26-a969-4f0e-ba1e-a122ead6c6e3",
+[2021-10-13 05:35:56,458] {bash.py:173} INFO -     "title": "Whisper of the Heart",
+[2021-10-13 05:35:56,458] {bash.py:173} INFO -     "original_title": "耳をすませば",
+[2021-10-13 05:35:56,458] {bash.py:173} INFO -     "original_title_romanised": "Mimi wo sumaseba",
+[2021-10-13 05:35:56,458] {bash.py:173} INFO -     "description": "Shizuku lives a simple life, dominated by her love for stories and writing. One day she notices that all the library books she has have been previously checked out by the same person: 'Seiji Amasawa'. Curious as to who he is, Shizuku meets a boy her age whom she finds infuriating, but discovers to her shock that he is her 'Prince of Books'. As she grows closer to him, she realises that he merely read all those books to bring himself closer to her. The boy Seiji aspires to be a violin maker in Italy, and it is his dreams that make Shizuku realise that she has no clear path for her life. Knowing that her strength lies in writing, she tests her talents by writing a story about Baron, a cat statuette belonging to Seiji's grandfather.",
+[2021-10-13 05:35:56,459] {bash.py:173} INFO -     "director": "Yoshifumi Kondō",
+[2021-10-13 05:35:56,459] {bash.py:173} INFO -     "producer": "Toshio Suzuki",
+[2021-10-13 05:35:56,459] {bash.py:173} INFO -     "release_date": "1995",
+[2021-10-13 05:35:56,460] {bash.py:173} INFO -     "running_time": "111",
+[2021-10-13 05:35:56,460] {bash.py:173} INFO -     "rt_score": "91",
+[2021-10-13 05:35:56,460] {bash.py:173} INFO -     "people": [
+[2021-10-13 05:35:56,461] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/people/"
+[2021-10-13 05:35:56,461] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,462] {bash.py:173} INFO -     "species": [
+[2021-10-13 05:35:56,462] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2"
+[2021-10-13 05:35:56,463] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,464] {bash.py:173} INFO -     "locations": [
+[2021-10-13 05:35:56,464] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/locations/"
+[2021-10-13 05:35:56,465] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,465] {bash.py:173} INFO -     "vehicles": [
+[2021-10-13 05:35:56,465] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/vehicles/"
+[2021-10-13 05:35:56,465] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,466] {bash.py:173} INFO -     "url": "https://ghibliapi.herokuapp.com/films/ff24da26-a969-4f0e-ba1e-a122ead6c6e3"
+[2021-10-13 05:35:56,466] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,466] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,467] {bash.py:173} INFO -     "id": "0440483e-ca0e-4120-8c50-4c8cd9b965d6",
+[2021-10-13 05:35:56,467] {bash.py:173} INFO -     "title": "Princess Mononoke",
+[2021-10-13 05:35:56,467] {bash.py:173} INFO -     "original_title": "もののけ姫",
+[2021-10-13 05:35:56,468] {bash.py:173} INFO -     "original_title_romanised": "Mononoke hime",
+[2021-10-13 05:35:56,468] {bash.py:173} INFO -     "description": "Ashitaka, a prince of the disappearing Ainu tribe, is cursed by a demonized boar god and must journey to the west to find a cure. Along the way, he encounters San, a young human woman fighting to protect the forest, and Lady Eboshi, who is trying to destroy it. Ashitaka must find a way to bring balance to this conflict.",
+[2021-10-13 05:35:56,468] {bash.py:173} INFO -     "director": "Hayao Miyazaki",
+[2021-10-13 05:35:56,468] {bash.py:173} INFO -     "producer": "Toshio Suzuki",
+[2021-10-13 05:35:56,469] {bash.py:173} INFO -     "release_date": "1997",
+[2021-10-13 05:35:56,469] {bash.py:173} INFO -     "running_time": "134",
+[2021-10-13 05:35:56,469] {bash.py:173} INFO -     "rt_score": "92",
+[2021-10-13 05:35:56,469] {bash.py:173} INFO -     "people": [
+[2021-10-13 05:35:56,470] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/people/ba924631-068e-4436-b6de-f3283fa848f0",
+[2021-10-13 05:35:56,470] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/people/ebe40383-aad2-4208-90ab-698f00c581ab",
+[2021-10-13 05:35:56,470] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/people/030555b3-4c92-4fce-93fb-e70c3ae3df8b",
+[2021-10-13 05:35:56,471] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/people/ca568e87-4ce2-4afa-a6c5-51f4ae80a60b",
+[2021-10-13 05:35:56,471] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/people/e9356bb5-4d4a-4c93-aadc-c83e514bffe3",
+[2021-10-13 05:35:56,471] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/people/34277bec-7401-43fa-a00a-5aee64b45b08",
+[2021-10-13 05:35:56,472] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/people/91939012-90b9-46e5-a649-96b898073c82",
+[2021-10-13 05:35:56,472] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/people/20e3bd33-b35d-41e6-83a4-57ca7f028d38",
+[2021-10-13 05:35:56,472] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/people/8bccdc78-545b-49f4-a4c8-756163a38c91",
+[2021-10-13 05:35:56,472] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/people/116bfe1b-3ba8-4fa0-8f72-88537a493cb9"
+[2021-10-13 05:35:56,473] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,473] {bash.py:173} INFO -     "species": [
+[2021-10-13 05:35:56,473] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
+[2021-10-13 05:35:56,473] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/species/6bc92fdd-b0f4-4286-ad71-1f99fb4a0d1e",
+[2021-10-13 05:35:56,474] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/species/f25fa661-3073-414d-968a-ab062e3065f7"
+[2021-10-13 05:35:56,474] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,474] {bash.py:173} INFO -     "locations": [
+[2021-10-13 05:35:56,474] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/locations/"
+[2021-10-13 05:35:56,475] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,475] {bash.py:173} INFO -     "vehicles": [
+[2021-10-13 05:35:56,475] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/vehicles/"
+[2021-10-13 05:35:56,475] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,476] {bash.py:173} INFO -     "url": "https://ghibliapi.herokuapp.com/films/0440483e-ca0e-4120-8c50-4c8cd9b965d6"
+[2021-10-13 05:35:56,476] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,476] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,477] {bash.py:173} INFO -     "id": "45204234-adfd-45cb-a505-a8e7a676b114",
+[2021-10-13 05:35:56,477] {bash.py:173} INFO -     "title": "My Neighbors the Yamadas",
+[2021-10-13 05:35:56,478] {bash.py:173} INFO -     "original_title": "ホーホケキョ となりの山田くん",
+[2021-10-13 05:35:56,479] {bash.py:173} INFO -     "original_title_romanised": "Hōhokekyo tonari no Yamada-kun",
+[2021-10-13 05:35:56,479] {bash.py:173} INFO -     "description": "The Yamadas are a typical middle class Japanese family in urban Tokyo and this film shows us a variety of episodes of their lives. With tales that range from the humourous to the heartbreaking, we see this family cope with life's little conflicts, problems and joys in their own way.",
+[2021-10-13 05:35:56,479] {bash.py:173} INFO -     "director": "Isao Takahata",
+[2021-10-13 05:35:56,480] {bash.py:173} INFO -     "producer": "Toshio Suzuki",
+[2021-10-13 05:35:56,480] {bash.py:173} INFO -     "release_date": "1999",
+[2021-10-13 05:35:56,480] {bash.py:173} INFO -     "running_time": "104",
+[2021-10-13 05:35:56,481] {bash.py:173} INFO -     "rt_score": "75",
+[2021-10-13 05:35:56,481] {bash.py:173} INFO -     "people": [
+[2021-10-13 05:35:56,481] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/people/"
+[2021-10-13 05:35:56,482] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,482] {bash.py:173} INFO -     "species": [
+[2021-10-13 05:35:56,482] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2"
+[2021-10-13 05:35:56,482] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,483] {bash.py:173} INFO -     "locations": [
+[2021-10-13 05:35:56,483] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/locations/"
+[2021-10-13 05:35:56,483] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,483] {bash.py:173} INFO -     "vehicles": [
+[2021-10-13 05:35:56,484] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/vehicles/"
+[2021-10-13 05:35:56,484] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,484] {bash.py:173} INFO -     "url": "https://ghibliapi.herokuapp.com/films/45204234-adfd-45cb-a505-a8e7a676b114"
+[2021-10-13 05:35:56,484] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,485] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,485] {bash.py:173} INFO -     "id": "dc2e6bd1-8156-4886-adff-b39e6043af0c",
+[2021-10-13 05:35:56,485] {bash.py:173} INFO -     "title": "Spirited Away",
+[2021-10-13 05:35:56,485] {bash.py:173} INFO -     "original_title": "千と千尋の神隠し",
+[2021-10-13 05:35:56,486] {bash.py:173} INFO -     "original_title_romanised": "Sen to Chihiro no kamikakushi",
+[2021-10-13 05:35:56,486] {bash.py:173} INFO -     "description": "Spirited Away is an Oscar winning Japanese animated film about a ten year old girl who wanders away from her parents along a path that leads to a world ruled by strange and unusual monster-like animals. Her parents have been changed into pigs along with others inside a bathhouse full of these creatures. Will she ever see the world how it once was?",
+[2021-10-13 05:35:56,486] {bash.py:173} INFO -     "director": "Hayao Miyazaki",
+[2021-10-13 05:35:56,487] {bash.py:173} INFO -     "producer": "Toshio Suzuki",
+[2021-10-13 05:35:56,487] {bash.py:173} INFO -     "release_date": "2001",
+[2021-10-13 05:35:56,487] {bash.py:173} INFO -     "running_time": "124",
+[2021-10-13 05:35:56,487] {bash.py:173} INFO -     "rt_score": "97",
+[2021-10-13 05:35:56,488] {bash.py:173} INFO -     "people": [
+[2021-10-13 05:35:56,488] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/people/"
+[2021-10-13 05:35:56,488] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,489] {bash.py:173} INFO -     "species": [
+[2021-10-13 05:35:56,489] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2"
+[2021-10-13 05:35:56,489] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,489] {bash.py:173} INFO -     "locations": [
+[2021-10-13 05:35:56,489] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/locations/"
+[2021-10-13 05:35:56,490] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,490] {bash.py:173} INFO -     "vehicles": [
+[2021-10-13 05:35:56,490] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/vehicles/"
+[2021-10-13 05:35:56,490] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,491] {bash.py:173} INFO -     "url": "https://ghibliapi.herokuapp.com/films/dc2e6bd1-8156-4886-adff-b39e6043af0c"
+[2021-10-13 05:35:56,491] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,491] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,492] {bash.py:173} INFO -     "id": "90b72513-afd4-4570-84de-a56c312fdf81",
+[2021-10-13 05:35:56,492] {bash.py:173} INFO -     "title": "The Cat Returns",
+[2021-10-13 05:35:56,492] {bash.py:173} INFO -     "original_title": "猫の恩返し",
+[2021-10-13 05:35:56,492] {bash.py:173} INFO -     "original_title_romanised": "Neko no ongaeshi",
+[2021-10-13 05:35:56,493] {bash.py:173} INFO -     "description": "Haru, a schoolgirl bored by her ordinary routine, saves the life of an unusual cat and suddenly her world is transformed beyond anything she ever imagined. The Cat King rewards her good deed with a flurry of presents, including a very shocking proposal of marriage to his son! Haru embarks on an unexpected journey to the Kingdom of Cats where her eyes are opened to a whole other world.",
+[2021-10-13 05:35:56,493] {bash.py:173} INFO -     "director": "Hiroyuki Morita",
+[2021-10-13 05:35:56,493] {bash.py:173} INFO -     "producer": "Toshio Suzuki",
+[2021-10-13 05:35:56,493] {bash.py:173} INFO -     "release_date": "2002",
+[2021-10-13 05:35:56,494] {bash.py:173} INFO -     "running_time": "75",
+[2021-10-13 05:35:56,494] {bash.py:173} INFO -     "rt_score": "89",
+[2021-10-13 05:35:56,495] {bash.py:173} INFO -     "people": [
+[2021-10-13 05:35:56,495] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/people/"
+[2021-10-13 05:35:56,495] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,496] {bash.py:173} INFO -     "species": [
+[2021-10-13 05:35:56,496] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2"
+[2021-10-13 05:35:56,496] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,497] {bash.py:173} INFO -     "locations": [
+[2021-10-13 05:35:56,497] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/locations/"
+[2021-10-13 05:35:56,497] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,498] {bash.py:173} INFO -     "vehicles": [
+[2021-10-13 05:35:56,498] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/vehicles/"
+[2021-10-13 05:35:56,498] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,498] {bash.py:173} INFO -     "url": "https://ghibliapi.herokuapp.com/films/90b72513-afd4-4570-84de-a56c312fdf81"
+[2021-10-13 05:35:56,499] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,499] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,499] {bash.py:173} INFO -     "id": "cd3d059c-09f4-4ff3-8d63-bc765a5184fa",
+[2021-10-13 05:35:56,499] {bash.py:173} INFO -     "title": "Howl's Moving Castle",
+[2021-10-13 05:35:56,500] {bash.py:173} INFO -     "original_title": "ハウルの動く城",
+[2021-10-13 05:35:56,500] {bash.py:173} INFO -     "original_title_romanised": "Hauru no ugoku shiro",
+[2021-10-13 05:35:56,500] {bash.py:173} INFO -     "description": "When Sophie, a shy young woman, is cursed with an old body by a spiteful witch, her only chance of breaking the spell lies with a self-indulgent yet insecure young wizard and his companions in his legged, walking home.",
+[2021-10-13 05:35:56,501] {bash.py:173} INFO -     "director": "Hayao Miyazaki",
+[2021-10-13 05:35:56,501] {bash.py:173} INFO -     "producer": "Toshio Suzuki",
+[2021-10-13 05:35:56,501] {bash.py:173} INFO -     "release_date": "2004",
+[2021-10-13 05:35:56,501] {bash.py:173} INFO -     "running_time": "119",
+[2021-10-13 05:35:56,502] {bash.py:173} INFO -     "rt_score": "87",
+[2021-10-13 05:35:56,502] {bash.py:173} INFO -     "people": [
+[2021-10-13 05:35:56,502] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/people/"
+[2021-10-13 05:35:56,502] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,503] {bash.py:173} INFO -     "species": [
+[2021-10-13 05:35:56,503] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2"
+[2021-10-13 05:35:56,503] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,503] {bash.py:173} INFO -     "locations": [
+[2021-10-13 05:35:56,504] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/locations/"
+[2021-10-13 05:35:56,504] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,504] {bash.py:173} INFO -     "vehicles": [
+[2021-10-13 05:35:56,504] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/vehicles/"
+[2021-10-13 05:35:56,505] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,505] {bash.py:173} INFO -     "url": "https://ghibliapi.herokuapp.com/films/cd3d059c-09f4-4ff3-8d63-bc765a5184fa"
+[2021-10-13 05:35:56,505] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,505] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,506] {bash.py:173} INFO -     "id": "112c1e67-726f-40b1-ac17-6974127bb9b9",
+[2021-10-13 05:35:56,506] {bash.py:173} INFO -     "title": "Tales from Earthsea",
+[2021-10-13 05:35:56,506] {bash.py:173} INFO -     "original_title": "ゲド戦記",
+[2021-10-13 05:35:56,506] {bash.py:173} INFO -     "original_title_romanised": "Gedo senki",
+[2021-10-13 05:35:56,507] {bash.py:173} INFO -     "description": "Something bizarre has come over the land. The kingdom is deteriorating. People are beginning to act strange... What's even more strange is that people are beginning to see dragons, which shouldn't enter the world of humans. Due to all these bizarre events, Ged, a wandering wizard, is investigating the cause. During his journey, he meets Prince Arren, a young distraught teenage boy. While Arren may look like a shy young teen, he has a severe dark side, which grants him strength, hatred, ruthlessness and has no mercy, especially when it comes to protecting Teru. For the witch Kumo this is a perfect opportunity. She can use the boy's 'fears' against the very one who would help him, Ged.",
+[2021-10-13 05:35:56,507] {bash.py:173} INFO -     "director": "Gorō Miyazaki",
+[2021-10-13 05:35:56,507] {bash.py:173} INFO -     "producer": "Toshio Suzuki",
+[2021-10-13 05:35:56,508] {bash.py:173} INFO -     "release_date": "2006",
+[2021-10-13 05:35:56,508] {bash.py:173} INFO -     "running_time": "116",
+[2021-10-13 05:35:56,508] {bash.py:173} INFO -     "rt_score": "41",
+[2021-10-13 05:35:56,508] {bash.py:173} INFO -     "people": [
+[2021-10-13 05:35:56,509] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/people/"
+[2021-10-13 05:35:56,509] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,509] {bash.py:173} INFO -     "species": [
+[2021-10-13 05:35:56,510] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2"
+[2021-10-13 05:35:56,510] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,511] {bash.py:173} INFO -     "locations": [
+[2021-10-13 05:35:56,512] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/locations/"
+[2021-10-13 05:35:56,512] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,512] {bash.py:173} INFO -     "vehicles": [
+[2021-10-13 05:35:56,513] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/vehicles/"
+[2021-10-13 05:35:56,513] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,513] {bash.py:173} INFO -     "url": "https://ghibliapi.herokuapp.com/films/112c1e67-726f-40b1-ac17-6974127bb9b9"
+[2021-10-13 05:35:56,514] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,514] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,514] {bash.py:173} INFO -     "id": "758bf02e-3122-46e0-884e-67cf83df1786",
+[2021-10-13 05:35:56,515] {bash.py:173} INFO -     "title": "Ponyo",
+[2021-10-13 05:35:56,515] {bash.py:173} INFO -     "original_title": "崖の上のポニョ",
+[2021-10-13 05:35:56,515] {bash.py:173} INFO -     "original_title_romanised": "Gake no ue no Ponyo",
+[2021-10-13 05:35:56,516] {bash.py:173} INFO -     "description": "The son of a sailor, 5-year old Sosuke lives a quiet life on an oceanside cliff with his mother Lisa. One fateful day, he finds a beautiful goldfish trapped in a bottle on the beach and upon rescuing her, names her Ponyo. But she is no ordinary goldfish. The daughter of a masterful wizard and a sea goddess, Ponyo uses her father's magic to transform herself into a young girl and quickly falls in love with Sosuke, but the use of such powerful sorcery causes a dangerous imbalance in the world. As the moon steadily draws nearer to the earth and Ponyo's father sends the ocean's mighty waves to find his daughter, the two children embark on an adventure of a lifetime to save the world and fulfill Ponyo's dreams of becoming human.",
+[2021-10-13 05:35:56,516] {bash.py:173} INFO -     "director": "Hayao Miyazaki",
+[2021-10-13 05:35:56,516] {bash.py:173} INFO -     "producer": "Toshio Suzuki",
+[2021-10-13 05:35:56,517] {bash.py:173} INFO -     "release_date": "2008",
+[2021-10-13 05:35:56,517] {bash.py:173} INFO -     "running_time": "100",
+[2021-10-13 05:35:56,517] {bash.py:173} INFO -     "rt_score": "92",
+[2021-10-13 05:35:56,517] {bash.py:173} INFO -     "people": [
+[2021-10-13 05:35:56,518] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/people/"
+[2021-10-13 05:35:56,518] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,518] {bash.py:173} INFO -     "species": [
+[2021-10-13 05:35:56,518] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2"
+[2021-10-13 05:35:56,519] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,519] {bash.py:173} INFO -     "locations": [
+[2021-10-13 05:35:56,519] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/locations/"
+[2021-10-13 05:35:56,519] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,520] {bash.py:173} INFO -     "vehicles": [
+[2021-10-13 05:35:56,520] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/vehicles/"
+[2021-10-13 05:35:56,520] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,520] {bash.py:173} INFO -     "url": "https://ghibliapi.herokuapp.com/films/758bf02e-3122-46e0-884e-67cf83df1786"
+[2021-10-13 05:35:56,521] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,521] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,521] {bash.py:173} INFO -     "id": "2de9426b-914a-4a06-a3a0-5e6d9d3886f6",
+[2021-10-13 05:35:56,521] {bash.py:173} INFO -     "title": "Arrietty",
+[2021-10-13 05:35:56,522] {bash.py:173} INFO -     "original_title": "借りぐらしのアリエッティ",
+[2021-10-13 05:35:56,522] {bash.py:173} INFO -     "original_title_romanised": "Karigurashi no Arietti",
+[2021-10-13 05:35:56,523] {bash.py:173} INFO -     "description": "14-year-old Arrietty and the rest of the Clock family live in peaceful anonymity as they make their own home from items 'borrowed' from the house's human inhabitants. However, life changes for the Clocks when a human boy discovers Arrietty.",
+[2021-10-13 05:35:56,523] {bash.py:173} INFO -     "director": "Hiromasa Yonebayashi",
+[2021-10-13 05:35:56,523] {bash.py:173} INFO -     "producer": "Toshio Suzuki",
+[2021-10-13 05:35:56,523] {bash.py:173} INFO -     "release_date": "2010",
+[2021-10-13 05:35:56,524] {bash.py:173} INFO -     "running_time": "94",
+[2021-10-13 05:35:56,524] {bash.py:173} INFO -     "rt_score": "95",
+[2021-10-13 05:35:56,524] {bash.py:173} INFO -     "people": [
+[2021-10-13 05:35:56,524] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/people/"
+[2021-10-13 05:35:56,525] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,525] {bash.py:173} INFO -     "species": [
+[2021-10-13 05:35:56,525] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2"
+[2021-10-13 05:35:56,525] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,526] {bash.py:173} INFO -     "locations": [
+[2021-10-13 05:35:56,526] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/locations/"
+[2021-10-13 05:35:56,526] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,527] {bash.py:173} INFO -     "vehicles": [
+[2021-10-13 05:35:56,527] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/vehicles/"
+[2021-10-13 05:35:56,528] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,528] {bash.py:173} INFO -     "url": "https://ghibliapi.herokuapp.com/films/2de9426b-914a-4a06-a3a0-5e6d9d3886f6"
+[2021-10-13 05:35:56,529] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,529] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,529] {bash.py:173} INFO -     "id": "45db04e4-304a-4933-9823-33f389e8d74d",
+[2021-10-13 05:35:56,530] {bash.py:173} INFO -     "title": "From Up on Poppy Hill",
+[2021-10-13 05:35:56,532] {bash.py:173} INFO -     "original_title": "コクリコ坂から",
+[2021-10-13 05:35:56,533] {bash.py:173} INFO -     "original_title_romanised": "Kokuriko zaka kara",
+[2021-10-13 05:35:56,535] {bash.py:173} INFO -     "description": "The story is set in 1963 in Yokohama. Kokuriko Manor sits on a hill overlooking the harbour. A 16 year-old girl, Umi, lives in that house. Every morning she raises a signal flag facing the sea. The flag means “I pray for safe voyages”. A 17 year-old boy, Shun, always sees this flag from the sea as he rides a tugboat to school. Gradually the pair are drawn to each other but they are faced with a sudden trial. Even so, they keep going without running from facing the hardships of reality.",
+[2021-10-13 05:35:56,536] {bash.py:173} INFO -     "director": "Gorō Miyazaki",
+[2021-10-13 05:35:56,537] {bash.py:173} INFO -     "producer": "Toshio Suzuki",
+[2021-10-13 05:35:56,539] {bash.py:173} INFO -     "release_date": "2011",
+[2021-10-13 05:35:56,540] {bash.py:173} INFO -     "running_time": "91",
+[2021-10-13 05:35:56,541] {bash.py:173} INFO -     "rt_score": "83",
+[2021-10-13 05:35:56,542] {bash.py:173} INFO -     "people": [
+[2021-10-13 05:35:56,542] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/people/"
+[2021-10-13 05:35:56,543] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,543] {bash.py:173} INFO -     "species": [
+[2021-10-13 05:35:56,543] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2"
+[2021-10-13 05:35:56,544] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,545] {bash.py:173} INFO -     "locations": [
+[2021-10-13 05:35:56,546] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/locations/"
+[2021-10-13 05:35:56,546] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,547] {bash.py:173} INFO -     "vehicles": [
+[2021-10-13 05:35:56,547] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/vehicles/"
+[2021-10-13 05:35:56,548] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,548] {bash.py:173} INFO -     "url": "https://ghibliapi.herokuapp.com/films/45db04e4-304a-4933-9823-33f389e8d74d"
+[2021-10-13 05:35:56,548] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,549] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,549] {bash.py:173} INFO -     "id": "67405111-37a5-438f-81cc-4666af60c800",
+[2021-10-13 05:35:56,550] {bash.py:173} INFO -     "title": "The Wind Rises",
+[2021-10-13 05:35:56,550] {bash.py:173} INFO -     "original_title": "風立ちぬ",
+[2021-10-13 05:35:56,550] {bash.py:173} INFO -     "original_title_romanised": "Kaze tachinu",
+[2021-10-13 05:35:56,551] {bash.py:173} INFO -     "description": "A lifelong love of flight inspires Japanese aviation engineer Jiro Horikoshi, whose storied career includes the creation of the A-6M World War II fighter plane.",
+[2021-10-13 05:35:56,551] {bash.py:173} INFO -     "director": "Hayao Miyazaki",
+[2021-10-13 05:35:56,552] {bash.py:173} INFO -     "producer": "Toshio Suzuki",
+[2021-10-13 05:35:56,552] {bash.py:173} INFO -     "release_date": "2013",
+[2021-10-13 05:35:56,553] {bash.py:173} INFO -     "running_time": "126",
+[2021-10-13 05:35:56,553] {bash.py:173} INFO -     "rt_score": "89",
+[2021-10-13 05:35:56,553] {bash.py:173} INFO -     "people": [
+[2021-10-13 05:35:56,554] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/people/"
+[2021-10-13 05:35:56,554] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,555] {bash.py:173} INFO -     "species": [
+[2021-10-13 05:35:56,555] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2"
+[2021-10-13 05:35:56,555] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,555] {bash.py:173} INFO -     "locations": [
+[2021-10-13 05:35:56,556] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/locations/"
+[2021-10-13 05:35:56,556] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,557] {bash.py:173} INFO -     "vehicles": [
+[2021-10-13 05:35:56,557] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/vehicles/"
+[2021-10-13 05:35:56,557] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,557] {bash.py:173} INFO -     "url": "https://ghibliapi.herokuapp.com/films/67405111-37a5-438f-81cc-4666af60c800"
+[2021-10-13 05:35:56,558] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,558] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,558] {bash.py:173} INFO -     "id": "578ae244-7750-4d9f-867b-f3cd3d6fecf4",
+[2021-10-13 05:35:56,558] {bash.py:173} INFO -     "title": "The Tale of the Princess Kaguya",
+[2021-10-13 05:35:56,559] {bash.py:173} INFO -     "original_title": "かぐや姫の物語",
+[2021-10-13 05:35:56,559] {bash.py:173} INFO -     "original_title_romanised": "Kaguya-Hime no Monogatari",
+[2021-10-13 05:35:56,560] {bash.py:173} INFO -     "description": "A bamboo cutter named Sanuki no Miyatsuko discovers a miniature girl inside a glowing bamboo shoot. Believing her to be a divine presence, he and his wife decide to raise her as their own, calling her 'Princess'.",
+[2021-10-13 05:35:56,560] {bash.py:173} INFO -     "director": "Isao Takahata",
+[2021-10-13 05:35:56,560] {bash.py:173} INFO -     "producer": "Yoshiaki Nishimura",
+[2021-10-13 05:35:56,561] {bash.py:173} INFO -     "release_date": "2013",
+[2021-10-13 05:35:56,561] {bash.py:173} INFO -     "running_time": "137",
+[2021-10-13 05:35:56,562] {bash.py:173} INFO -     "rt_score": "100",
+[2021-10-13 05:35:56,562] {bash.py:173} INFO -     "people": [
+[2021-10-13 05:35:56,563] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/people/"
+[2021-10-13 05:35:56,563] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,564] {bash.py:173} INFO -     "species": [
+[2021-10-13 05:35:56,564] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2"
+[2021-10-13 05:35:56,564] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,564] {bash.py:173} INFO -     "locations": [
+[2021-10-13 05:35:56,565] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/locations/"
+[2021-10-13 05:35:56,565] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,565] {bash.py:173} INFO -     "vehicles": [
+[2021-10-13 05:35:56,566] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/vehicles/"
+[2021-10-13 05:35:56,566] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,566] {bash.py:173} INFO -     "url": "https://ghibliapi.herokuapp.com/films/578ae244-7750-4d9f-867b-f3cd3d6fecf4"
+[2021-10-13 05:35:56,567] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,567] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,567] {bash.py:173} INFO -     "id": "5fdfb320-2a02-49a7-94ff-5ca418cae602",
+[2021-10-13 05:35:56,568] {bash.py:173} INFO -     "title": "When Marnie Was There",
+[2021-10-13 05:35:56,568] {bash.py:173} INFO -     "original_title": "思い出のマーニー",
+[2021-10-13 05:35:56,568] {bash.py:173} INFO -     "original_title_romanised": "Omoide no Marnie",
+[2021-10-13 05:35:56,569] {bash.py:173} INFO -     "description": "The film follows Anna Sasaki living with her relatives in the seaside town. Anna comes across a nearby abandoned mansion, where she meets Marnie, a mysterious girl who asks her to promise to keep their secrets from everyone. As the summer progresses, Anna spends more time with Marnie, and eventually Anna learns the truth about her family and foster care.",
+[2021-10-13 05:35:56,569] {bash.py:173} INFO -     "director": "Hiromasa Yonebayashi",
+[2021-10-13 05:35:56,569] {bash.py:173} INFO -     "producer": "Yoshiaki Nishimura",
+[2021-10-13 05:35:56,570] {bash.py:173} INFO -     "release_date": "2014",
+[2021-10-13 05:35:56,570] {bash.py:173} INFO -     "running_time": "103",
+[2021-10-13 05:35:56,570] {bash.py:173} INFO -     "rt_score": "92",
+[2021-10-13 05:35:56,571] {bash.py:173} INFO -     "people": [
+[2021-10-13 05:35:56,571] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/people/"
+[2021-10-13 05:35:56,571] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,571] {bash.py:173} INFO -     "species": [
+[2021-10-13 05:35:56,572] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2"
+[2021-10-13 05:35:56,572] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,572] {bash.py:173} INFO -     "locations": [
+[2021-10-13 05:35:56,572] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/locations/"
+[2021-10-13 05:35:56,573] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,573] {bash.py:173} INFO -     "vehicles": [
+[2021-10-13 05:35:56,573] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/vehicles/"
+[2021-10-13 05:35:56,573] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,574] {bash.py:173} INFO -     "url": "https://ghibliapi.herokuapp.com/films/5fdfb320-2a02-49a7-94ff-5ca418cae602"
+[2021-10-13 05:35:56,574] {bash.py:173} INFO -   },
+[2021-10-13 05:35:56,574] {bash.py:173} INFO -   {
+[2021-10-13 05:35:56,575] {bash.py:173} INFO -     "id": "d868e6ec-c44a-405b-8fa6-f7f0f8cfb500",
+[2021-10-13 05:35:56,575] {bash.py:173} INFO -     "title": "The Red Turtle",
+[2021-10-13 05:35:56,575] {bash.py:173} INFO -     "original_title": "レッドタートル ある島の物語",
+[2021-10-13 05:35:56,575] {bash.py:173} INFO -     "original_title_romanised": "Reddotātoru aru shima no monogatari",
+[2021-10-13 05:35:56,576] {bash.py:173} INFO -     "description": "A man set adrift by a storm wakes up on a beach. He discovers that he is on a deserted island with plenty of fresh water, fruit and a dense bamboo forest. He builds a raft from bamboo and attempts to sail away, but his raft is destroyed by an unseen monster in the sea, forcing him back to the island. He tries again with another, larger raft, but is again foiled by the creature. A third attempt again ends with the raft destroyed, but this time he is confronted by a giant red turtle, which stares at him, and forces him back to the island.",
+[2021-10-13 05:35:56,576] {bash.py:173} INFO -     "director": "Michaël Dudok de Wit",
+[2021-10-13 05:35:56,576] {bash.py:173} INFO -     "producer": "Toshio Suzuki, Isao Takahata, Vincent Maraval, Pascal Caucheteux, Grégoire Sorlat",
+[2021-10-13 05:35:56,577] {bash.py:173} INFO -     "release_date": "2016",
+[2021-10-13 05:35:56,578] {bash.py:173} INFO -     "running_time": "80",
+[2021-10-13 05:35:56,578] {bash.py:173} INFO -     "rt_score": "93",
+[2021-10-13 05:35:56,579] {bash.py:173} INFO -     "people": [
+[2021-10-13 05:35:56,579] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/people/"
+[2021-10-13 05:35:56,580] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,580] {bash.py:173} INFO -     "species": [
+[2021-10-13 05:35:56,581] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/species/"
+[2021-10-13 05:35:56,581] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,582] {bash.py:173} INFO -     "locations": [
+[2021-10-13 05:35:56,582] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/locations/"
+[2021-10-13 05:35:56,582] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,583] {bash.py:173} INFO -     "vehicles": [
+[2021-10-13 05:35:56,583] {bash.py:173} INFO -       "https://ghibliapi.herokuapp.com/vehicles/"
+[2021-10-13 05:35:56,583] {bash.py:173} INFO -     ],
+[2021-10-13 05:35:56,584] {bash.py:173} INFO -     "url": "https://ghibliapi.herokuapp.com/films/d868e6ec-c44a-405b-8fa6-f7f0f8cfb500"
+[2021-10-13 05:35:56,584] {bash.py:173} INFO -   }
+[2021-10-13 05:35:56,584] {bash.py:173} INFO - ]
+[2021-10-13 05:35:56,585] {bash.py:177} INFO - Command exited with return code 0
+[2021-10-13 05:35:56,623] {taskinstance.py:1192} INFO - Marking task as SUCCESS. dag_id=templated_bash_operator, task_id=read_json_file_task, execution_date=20211012T000000, start_date=20211013T053555, end_date=20211013T053556
+[2021-10-13 05:35:56,684] {taskinstance.py:1246} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2021-10-13 05:35:56,701] {local_task_job.py:146} INFO - Task exited with return code 0

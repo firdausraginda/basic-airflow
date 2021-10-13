@@ -248,3 +248,304 @@ SyntaxError: invalid syntax
 [2021-10-13 05:05:37,107] {logging_mixin.py:104} INFO - [2021-10-13 05:05:37,107] {dag.py:1824} INFO - Sync 1 DAGs
 [2021-10-13 05:05:37,134] {logging_mixin.py:104} INFO - [2021-10-13 05:05:37,134] {dag.py:2280} INFO - Setting next_dagrun for templated_bash_operator to 2021-10-13 00:00:00+00:00
 [2021-10-13 05:05:37,153] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bash_operator/templated_bash_operator.py took 0.117 seconds
+[2021-10-13 05:06:07,603] {scheduler_job.py:182} INFO - Started process (PID=1030) to work on /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:06:07,605] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bash_operator/templated_bash_operator.py for tasks to queue
+[2021-10-13 05:06:07,606] {logging_mixin.py:104} INFO - [2021-10-13 05:06:07,606] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:06:07,665] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['templated_bash_operator']) retrieved from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:06:07,678] {logging_mixin.py:104} INFO - [2021-10-13 05:06:07,678] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-10-13 05:06:07,710] {logging_mixin.py:104} INFO - [2021-10-13 05:06:07,710] {dag.py:2280} INFO - Setting next_dagrun for templated_bash_operator to 2021-10-13 00:00:00+00:00
+[2021-10-13 05:06:07,732] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bash_operator/templated_bash_operator.py took 0.134 seconds
+[2021-10-13 05:06:37,852] {scheduler_job.py:182} INFO - Started process (PID=1063) to work on /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:06:37,853] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bash_operator/templated_bash_operator.py for tasks to queue
+[2021-10-13 05:06:37,854] {logging_mixin.py:104} INFO - [2021-10-13 05:06:37,854] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:06:37,897] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['templated_bash_operator']) retrieved from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:06:37,908] {logging_mixin.py:104} INFO - [2021-10-13 05:06:37,908] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-10-13 05:06:37,932] {logging_mixin.py:104} INFO - [2021-10-13 05:06:37,932] {dag.py:2280} INFO - Setting next_dagrun for templated_bash_operator to 2021-10-13 00:00:00+00:00
+[2021-10-13 05:06:37,949] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bash_operator/templated_bash_operator.py took 0.100 seconds
+[2021-10-13 05:07:08,107] {scheduler_job.py:182} INFO - Started process (PID=1097) to work on /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:07:08,109] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bash_operator/templated_bash_operator.py for tasks to queue
+[2021-10-13 05:07:08,110] {logging_mixin.py:104} INFO - [2021-10-13 05:07:08,110] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:07:08,158] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['templated_bash_operator']) retrieved from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:07:08,168] {logging_mixin.py:104} INFO - [2021-10-13 05:07:08,167] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-10-13 05:07:08,190] {logging_mixin.py:104} INFO - [2021-10-13 05:07:08,190] {dag.py:2280} INFO - Setting next_dagrun for templated_bash_operator to 2021-10-13 00:00:00+00:00
+[2021-10-13 05:07:08,207] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bash_operator/templated_bash_operator.py took 0.105 seconds
+[2021-10-13 05:07:38,592] {scheduler_job.py:182} INFO - Started process (PID=1130) to work on /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:07:38,593] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bash_operator/templated_bash_operator.py for tasks to queue
+[2021-10-13 05:07:38,594] {logging_mixin.py:104} INFO - [2021-10-13 05:07:38,594] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:07:38,660] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['templated_bash_operator']) retrieved from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:07:38,676] {logging_mixin.py:104} INFO - [2021-10-13 05:07:38,676] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-10-13 05:07:38,711] {logging_mixin.py:104} INFO - [2021-10-13 05:07:38,711] {dag.py:2280} INFO - Setting next_dagrun for templated_bash_operator to 2021-10-13 00:00:00+00:00
+[2021-10-13 05:07:38,727] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bash_operator/templated_bash_operator.py took 0.139 seconds
+[2021-10-13 05:08:08,814] {scheduler_job.py:182} INFO - Started process (PID=1163) to work on /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:08:08,816] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bash_operator/templated_bash_operator.py for tasks to queue
+[2021-10-13 05:08:08,817] {logging_mixin.py:104} INFO - [2021-10-13 05:08:08,817] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:08:08,875] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['templated_bash_operator']) retrieved from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:08:08,892] {logging_mixin.py:104} INFO - [2021-10-13 05:08:08,891] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-10-13 05:08:08,924] {logging_mixin.py:104} INFO - [2021-10-13 05:08:08,924] {dag.py:2280} INFO - Setting next_dagrun for templated_bash_operator to 2021-10-13 00:00:00+00:00
+[2021-10-13 05:08:08,941] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bash_operator/templated_bash_operator.py took 0.130 seconds
+[2021-10-13 05:08:39,097] {scheduler_job.py:182} INFO - Started process (PID=1197) to work on /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:08:39,099] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bash_operator/templated_bash_operator.py for tasks to queue
+[2021-10-13 05:08:39,100] {logging_mixin.py:104} INFO - [2021-10-13 05:08:39,100] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:08:39,149] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['templated_bash_operator']) retrieved from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:08:39,161] {logging_mixin.py:104} INFO - [2021-10-13 05:08:39,161] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-10-13 05:08:39,184] {logging_mixin.py:104} INFO - [2021-10-13 05:08:39,184] {dag.py:2280} INFO - Setting next_dagrun for templated_bash_operator to 2021-10-13 00:00:00+00:00
+[2021-10-13 05:08:39,198] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bash_operator/templated_bash_operator.py took 0.105 seconds
+[2021-10-13 05:09:10,128] {scheduler_job.py:182} INFO - Started process (PID=1231) to work on /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:09:10,130] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bash_operator/templated_bash_operator.py for tasks to queue
+[2021-10-13 05:09:10,131] {logging_mixin.py:104} INFO - [2021-10-13 05:09:10,131] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:09:10,182] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['templated_bash_operator']) retrieved from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:09:10,193] {logging_mixin.py:104} INFO - [2021-10-13 05:09:10,193] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-10-13 05:09:10,217] {logging_mixin.py:104} INFO - [2021-10-13 05:09:10,217] {dag.py:2280} INFO - Setting next_dagrun for templated_bash_operator to 2021-10-13 00:00:00+00:00
+[2021-10-13 05:09:10,234] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bash_operator/templated_bash_operator.py took 0.109 seconds
+[2021-10-13 05:09:41,254] {scheduler_job.py:182} INFO - Started process (PID=1264) to work on /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:09:41,256] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bash_operator/templated_bash_operator.py for tasks to queue
+[2021-10-13 05:09:41,257] {logging_mixin.py:104} INFO - [2021-10-13 05:09:41,257] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:09:41,306] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['templated_bash_operator']) retrieved from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:09:41,317] {logging_mixin.py:104} INFO - [2021-10-13 05:09:41,317] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-10-13 05:09:41,338] {logging_mixin.py:104} INFO - [2021-10-13 05:09:41,338] {dag.py:2280} INFO - Setting next_dagrun for templated_bash_operator to 2021-10-13 00:00:00+00:00
+[2021-10-13 05:09:41,354] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bash_operator/templated_bash_operator.py took 0.104 seconds
+[2021-10-13 05:10:11,408] {scheduler_job.py:182} INFO - Started process (PID=1297) to work on /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:10:11,409] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bash_operator/templated_bash_operator.py for tasks to queue
+[2021-10-13 05:10:11,410] {logging_mixin.py:104} INFO - [2021-10-13 05:10:11,410] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:10:11,461] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['templated_bash_operator']) retrieved from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:10:11,471] {logging_mixin.py:104} INFO - [2021-10-13 05:10:11,471] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-10-13 05:10:11,493] {logging_mixin.py:104} INFO - [2021-10-13 05:10:11,493] {dag.py:2280} INFO - Setting next_dagrun for templated_bash_operator to 2021-10-13 00:00:00+00:00
+[2021-10-13 05:10:11,510] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bash_operator/templated_bash_operator.py took 0.105 seconds
+[2021-10-13 05:10:41,654] {scheduler_job.py:182} INFO - Started process (PID=1330) to work on /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:10:41,656] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bash_operator/templated_bash_operator.py for tasks to queue
+[2021-10-13 05:10:41,657] {logging_mixin.py:104} INFO - [2021-10-13 05:10:41,656] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:10:41,704] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['templated_bash_operator']) retrieved from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:10:41,714] {logging_mixin.py:104} INFO - [2021-10-13 05:10:41,714] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-10-13 05:10:41,738] {logging_mixin.py:104} INFO - [2021-10-13 05:10:41,738] {dag.py:2280} INFO - Setting next_dagrun for templated_bash_operator to 2021-10-13 00:00:00+00:00
+[2021-10-13 05:10:41,754] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bash_operator/templated_bash_operator.py took 0.103 seconds
+[2021-10-13 05:11:12,067] {scheduler_job.py:182} INFO - Started process (PID=1363) to work on /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:11:12,069] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bash_operator/templated_bash_operator.py for tasks to queue
+[2021-10-13 05:11:12,070] {logging_mixin.py:104} INFO - [2021-10-13 05:11:12,069] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:11:12,123] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['templated_bash_operator']) retrieved from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:11:12,134] {logging_mixin.py:104} INFO - [2021-10-13 05:11:12,134] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-10-13 05:11:12,156] {logging_mixin.py:104} INFO - [2021-10-13 05:11:12,156] {dag.py:2280} INFO - Setting next_dagrun for templated_bash_operator to 2021-10-13 00:00:00+00:00
+[2021-10-13 05:11:12,172] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bash_operator/templated_bash_operator.py took 0.108 seconds
+[2021-10-13 05:11:42,705] {scheduler_job.py:182} INFO - Started process (PID=1393) to work on /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:11:42,707] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bash_operator/templated_bash_operator.py for tasks to queue
+[2021-10-13 05:11:42,708] {logging_mixin.py:104} INFO - [2021-10-13 05:11:42,707] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:11:42,770] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['templated_bash_operator']) retrieved from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:11:42,781] {logging_mixin.py:104} INFO - [2021-10-13 05:11:42,781] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-10-13 05:11:42,803] {logging_mixin.py:104} INFO - [2021-10-13 05:11:42,803] {dag.py:2280} INFO - Setting next_dagrun for templated_bash_operator to 2021-10-13 00:00:00+00:00
+[2021-10-13 05:11:42,822] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bash_operator/templated_bash_operator.py took 0.120 seconds
+[2021-10-13 05:12:13,538] {scheduler_job.py:182} INFO - Started process (PID=1423) to work on /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:12:13,539] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bash_operator/templated_bash_operator.py for tasks to queue
+[2021-10-13 05:12:13,540] {logging_mixin.py:104} INFO - [2021-10-13 05:12:13,540] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:12:13,594] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['templated_bash_operator']) retrieved from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:12:13,608] {logging_mixin.py:104} INFO - [2021-10-13 05:12:13,608] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-10-13 05:12:13,634] {logging_mixin.py:104} INFO - [2021-10-13 05:12:13,634] {dag.py:2280} INFO - Setting next_dagrun for templated_bash_operator to 2021-10-13 00:00:00+00:00
+[2021-10-13 05:12:13,656] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bash_operator/templated_bash_operator.py took 0.121 seconds
+[2021-10-13 05:12:44,521] {scheduler_job.py:182} INFO - Started process (PID=1456) to work on /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:12:44,523] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bash_operator/templated_bash_operator.py for tasks to queue
+[2021-10-13 05:12:44,524] {logging_mixin.py:104} INFO - [2021-10-13 05:12:44,524] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:12:44,579] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['templated_bash_operator']) retrieved from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:12:44,589] {logging_mixin.py:104} INFO - [2021-10-13 05:12:44,589] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-10-13 05:12:44,614] {logging_mixin.py:104} INFO - [2021-10-13 05:12:44,613] {dag.py:2280} INFO - Setting next_dagrun for templated_bash_operator to 2021-10-13 00:00:00+00:00
+[2021-10-13 05:12:44,631] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bash_operator/templated_bash_operator.py took 0.114 seconds
+[2021-10-13 05:13:14,735] {scheduler_job.py:182} INFO - Started process (PID=1489) to work on /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:13:14,736] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bash_operator/templated_bash_operator.py for tasks to queue
+[2021-10-13 05:13:14,737] {logging_mixin.py:104} INFO - [2021-10-13 05:13:14,737] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:13:14,787] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['templated_bash_operator']) retrieved from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:13:14,797] {logging_mixin.py:104} INFO - [2021-10-13 05:13:14,797] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-10-13 05:13:14,819] {logging_mixin.py:104} INFO - [2021-10-13 05:13:14,819] {dag.py:2280} INFO - Setting next_dagrun for templated_bash_operator to 2021-10-13 00:00:00+00:00
+[2021-10-13 05:13:14,835] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bash_operator/templated_bash_operator.py took 0.104 seconds
+[2021-10-13 05:13:45,740] {scheduler_job.py:182} INFO - Started process (PID=1522) to work on /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:13:45,742] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bash_operator/templated_bash_operator.py for tasks to queue
+[2021-10-13 05:13:45,743] {logging_mixin.py:104} INFO - [2021-10-13 05:13:45,743] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:13:45,799] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['templated_bash_operator']) retrieved from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:13:45,810] {logging_mixin.py:104} INFO - [2021-10-13 05:13:45,810] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-10-13 05:13:45,834] {logging_mixin.py:104} INFO - [2021-10-13 05:13:45,833] {dag.py:2280} INFO - Setting next_dagrun for templated_bash_operator to 2021-10-13 00:00:00+00:00
+[2021-10-13 05:13:45,850] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bash_operator/templated_bash_operator.py took 0.113 seconds
+[2021-10-13 05:14:15,942] {scheduler_job.py:182} INFO - Started process (PID=1555) to work on /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:14:15,944] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bash_operator/templated_bash_operator.py for tasks to queue
+[2021-10-13 05:14:15,945] {logging_mixin.py:104} INFO - [2021-10-13 05:14:15,945] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:14:15,995] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['templated_bash_operator']) retrieved from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:14:16,006] {logging_mixin.py:104} INFO - [2021-10-13 05:14:16,006] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-10-13 05:14:16,032] {logging_mixin.py:104} INFO - [2021-10-13 05:14:16,032] {dag.py:2280} INFO - Setting next_dagrun for templated_bash_operator to 2021-10-13 00:00:00+00:00
+[2021-10-13 05:14:16,049] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bash_operator/templated_bash_operator.py took 0.109 seconds
+[2021-10-13 05:26:30,703] {scheduler_job.py:182} INFO - Started process (PID=1573) to work on /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:26:30,705] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bash_operator/templated_bash_operator.py for tasks to queue
+[2021-10-13 05:26:30,706] {logging_mixin.py:104} INFO - [2021-10-13 05:26:30,706] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:26:30,794] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['templated_bash_operator']) retrieved from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:26:30,814] {logging_mixin.py:104} INFO - [2021-10-13 05:26:30,813] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-10-13 05:26:30,860] {logging_mixin.py:104} INFO - [2021-10-13 05:26:30,859] {dag.py:2280} INFO - Setting next_dagrun for templated_bash_operator to 2021-10-13 00:00:00+00:00
+[2021-10-13 05:26:30,881] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bash_operator/templated_bash_operator.py took 0.184 seconds
+[2021-10-13 05:27:01,187] {scheduler_job.py:182} INFO - Started process (PID=1606) to work on /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:27:01,189] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bash_operator/templated_bash_operator.py for tasks to queue
+[2021-10-13 05:27:01,189] {logging_mixin.py:104} INFO - [2021-10-13 05:27:01,189] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:27:01,235] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['templated_bash_operator']) retrieved from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:27:01,247] {logging_mixin.py:104} INFO - [2021-10-13 05:27:01,247] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-10-13 05:27:01,272] {logging_mixin.py:104} INFO - [2021-10-13 05:27:01,272] {dag.py:2280} INFO - Setting next_dagrun for templated_bash_operator to 2021-10-13 00:00:00+00:00
+[2021-10-13 05:27:01,287] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bash_operator/templated_bash_operator.py took 0.103 seconds
+[2021-10-13 05:27:31,371] {scheduler_job.py:182} INFO - Started process (PID=1639) to work on /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:27:31,374] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bash_operator/templated_bash_operator.py for tasks to queue
+[2021-10-13 05:27:31,375] {logging_mixin.py:104} INFO - [2021-10-13 05:27:31,375] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:27:31,429] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['templated_bash_operator']) retrieved from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:27:31,442] {logging_mixin.py:104} INFO - [2021-10-13 05:27:31,442] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-10-13 05:27:31,470] {logging_mixin.py:104} INFO - [2021-10-13 05:27:31,469] {dag.py:2280} INFO - Setting next_dagrun for templated_bash_operator to 2021-10-13 00:00:00+00:00
+[2021-10-13 05:27:31,487] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bash_operator/templated_bash_operator.py took 0.120 seconds
+[2021-10-13 05:28:02,412] {scheduler_job.py:182} INFO - Started process (PID=1676) to work on /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:28:02,415] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bash_operator/templated_bash_operator.py for tasks to queue
+[2021-10-13 05:28:02,415] {logging_mixin.py:104} INFO - [2021-10-13 05:28:02,415] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:28:02,477] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['templated_bash_operator']) retrieved from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:28:02,489] {logging_mixin.py:104} INFO - [2021-10-13 05:28:02,489] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-10-13 05:28:02,515] {logging_mixin.py:104} INFO - [2021-10-13 05:28:02,515] {dag.py:2280} INFO - Setting next_dagrun for templated_bash_operator to 2021-10-13 00:00:00+00:00
+[2021-10-13 05:28:02,536] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bash_operator/templated_bash_operator.py took 0.127 seconds
+[2021-10-13 05:28:33,114] {scheduler_job.py:182} INFO - Started process (PID=1712) to work on /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:28:33,116] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bash_operator/templated_bash_operator.py for tasks to queue
+[2021-10-13 05:28:33,117] {logging_mixin.py:104} INFO - [2021-10-13 05:28:33,117] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:28:33,170] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['templated_bash_operator']) retrieved from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:28:33,183] {logging_mixin.py:104} INFO - [2021-10-13 05:28:33,183] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-10-13 05:28:33,211] {logging_mixin.py:104} INFO - [2021-10-13 05:28:33,211] {dag.py:2280} INFO - Setting next_dagrun for templated_bash_operator to 2021-10-13 00:00:00+00:00
+[2021-10-13 05:28:33,231] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bash_operator/templated_bash_operator.py took 0.120 seconds
+[2021-10-13 05:29:03,698] {scheduler_job.py:182} INFO - Started process (PID=1748) to work on /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:29:03,699] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bash_operator/templated_bash_operator.py for tasks to queue
+[2021-10-13 05:29:03,701] {logging_mixin.py:104} INFO - [2021-10-13 05:29:03,700] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:29:03,748] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['templated_bash_operator']) retrieved from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:29:03,761] {logging_mixin.py:104} INFO - [2021-10-13 05:29:03,761] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-10-13 05:29:03,788] {logging_mixin.py:104} INFO - [2021-10-13 05:29:03,788] {dag.py:2280} INFO - Setting next_dagrun for templated_bash_operator to 2021-10-13 00:00:00+00:00
+[2021-10-13 05:29:03,804] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bash_operator/templated_bash_operator.py took 0.109 seconds
+[2021-10-13 05:29:34,179] {scheduler_job.py:182} INFO - Started process (PID=1778) to work on /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:29:34,180] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bash_operator/templated_bash_operator.py for tasks to queue
+[2021-10-13 05:29:34,182] {logging_mixin.py:104} INFO - [2021-10-13 05:29:34,182] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:29:34,275] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['templated_bash_operator']) retrieved from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:29:34,294] {logging_mixin.py:104} INFO - [2021-10-13 05:29:34,294] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-10-13 05:29:34,332] {logging_mixin.py:104} INFO - [2021-10-13 05:29:34,332] {dag.py:2280} INFO - Setting next_dagrun for templated_bash_operator to 2021-10-13 00:00:00+00:00
+[2021-10-13 05:29:34,358] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bash_operator/templated_bash_operator.py took 0.183 seconds
+[2021-10-13 05:30:04,489] {scheduler_job.py:182} INFO - Started process (PID=1811) to work on /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:30:04,491] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bash_operator/templated_bash_operator.py for tasks to queue
+[2021-10-13 05:30:04,492] {logging_mixin.py:104} INFO - [2021-10-13 05:30:04,492] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:30:04,545] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['templated_bash_operator']) retrieved from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:30:04,556] {logging_mixin.py:104} INFO - [2021-10-13 05:30:04,556] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-10-13 05:30:04,580] {logging_mixin.py:104} INFO - [2021-10-13 05:30:04,580] {dag.py:2280} INFO - Setting next_dagrun for templated_bash_operator to 2021-10-13 00:00:00+00:00
+[2021-10-13 05:30:04,606] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bash_operator/templated_bash_operator.py took 0.120 seconds
+[2021-10-13 05:30:35,354] {scheduler_job.py:182} INFO - Started process (PID=1845) to work on /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:30:35,361] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bash_operator/templated_bash_operator.py for tasks to queue
+[2021-10-13 05:30:35,365] {logging_mixin.py:104} INFO - [2021-10-13 05:30:35,364] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:30:35,476] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['templated_bash_operator']) retrieved from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:30:35,494] {logging_mixin.py:104} INFO - [2021-10-13 05:30:35,494] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-10-13 05:30:35,530] {logging_mixin.py:104} INFO - [2021-10-13 05:30:35,530] {dag.py:2280} INFO - Setting next_dagrun for templated_bash_operator to 2021-10-13 00:00:00+00:00
+[2021-10-13 05:30:35,552] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bash_operator/templated_bash_operator.py took 0.212 seconds
+[2021-10-13 05:31:05,777] {scheduler_job.py:182} INFO - Started process (PID=1878) to work on /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:31:05,779] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bash_operator/templated_bash_operator.py for tasks to queue
+[2021-10-13 05:31:05,780] {logging_mixin.py:104} INFO - [2021-10-13 05:31:05,780] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:31:05,875] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['templated_bash_operator']) retrieved from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:31:05,898] {logging_mixin.py:104} INFO - [2021-10-13 05:31:05,898] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-10-13 05:31:05,948] {logging_mixin.py:104} INFO - [2021-10-13 05:31:05,948] {dag.py:2280} INFO - Setting next_dagrun for templated_bash_operator to 2021-10-13 00:00:00+00:00
+[2021-10-13 05:31:05,983] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bash_operator/templated_bash_operator.py took 0.210 seconds
+[2021-10-13 05:31:36,996] {scheduler_job.py:182} INFO - Started process (PID=1914) to work on /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:31:36,999] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bash_operator/templated_bash_operator.py for tasks to queue
+[2021-10-13 05:31:37,002] {logging_mixin.py:104} INFO - [2021-10-13 05:31:37,002] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:31:37,127] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['templated_bash_operator']) retrieved from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:31:37,139] {logging_mixin.py:104} INFO - [2021-10-13 05:31:37,139] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-10-13 05:31:37,173] {logging_mixin.py:104} INFO - [2021-10-13 05:31:37,172] {dag.py:2280} INFO - Setting next_dagrun for templated_bash_operator to 2021-10-13 00:00:00+00:00
+[2021-10-13 05:31:37,192] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bash_operator/templated_bash_operator.py took 0.200 seconds
+[2021-10-13 05:32:07,333] {scheduler_job.py:182} INFO - Started process (PID=1947) to work on /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:32:07,334] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bash_operator/templated_bash_operator.py for tasks to queue
+[2021-10-13 05:32:07,335] {logging_mixin.py:104} INFO - [2021-10-13 05:32:07,335] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:32:07,383] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['templated_bash_operator']) retrieved from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:32:07,395] {logging_mixin.py:104} INFO - [2021-10-13 05:32:07,395] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-10-13 05:32:07,422] {logging_mixin.py:104} INFO - [2021-10-13 05:32:07,422] {dag.py:2280} INFO - Setting next_dagrun for templated_bash_operator to 2021-10-13 00:00:00+00:00
+[2021-10-13 05:32:07,439] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bash_operator/templated_bash_operator.py took 0.110 seconds
+[2021-10-13 05:32:37,585] {scheduler_job.py:182} INFO - Started process (PID=1980) to work on /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:32:37,587] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bash_operator/templated_bash_operator.py for tasks to queue
+[2021-10-13 05:32:37,588] {logging_mixin.py:104} INFO - [2021-10-13 05:32:37,588] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:32:37,659] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['templated_bash_operator']) retrieved from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:32:37,672] {logging_mixin.py:104} INFO - [2021-10-13 05:32:37,672] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-10-13 05:32:37,696] {logging_mixin.py:104} INFO - [2021-10-13 05:32:37,696] {dag.py:2280} INFO - Setting next_dagrun for templated_bash_operator to 2021-10-13 00:00:00+00:00
+[2021-10-13 05:32:37,713] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bash_operator/templated_bash_operator.py took 0.133 seconds
+[2021-10-13 05:33:08,017] {scheduler_job.py:182} INFO - Started process (PID=2014) to work on /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:33:08,018] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bash_operator/templated_bash_operator.py for tasks to queue
+[2021-10-13 05:33:08,019] {logging_mixin.py:104} INFO - [2021-10-13 05:33:08,019] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:33:08,076] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['templated_bash_operator']) retrieved from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:33:08,090] {logging_mixin.py:104} INFO - [2021-10-13 05:33:08,090] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-10-13 05:33:08,126] {logging_mixin.py:104} INFO - [2021-10-13 05:33:08,126] {dag.py:2280} INFO - Setting next_dagrun for templated_bash_operator to 2021-10-13 00:00:00+00:00
+[2021-10-13 05:33:08,144] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bash_operator/templated_bash_operator.py took 0.132 seconds
+[2021-10-13 05:33:38,451] {scheduler_job.py:182} INFO - Started process (PID=2048) to work on /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:33:38,453] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bash_operator/templated_bash_operator.py for tasks to queue
+[2021-10-13 05:33:38,455] {logging_mixin.py:104} INFO - [2021-10-13 05:33:38,455] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:33:38,521] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['templated_bash_operator']) retrieved from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:33:38,536] {logging_mixin.py:104} INFO - [2021-10-13 05:33:38,536] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-10-13 05:33:38,570] {logging_mixin.py:104} INFO - [2021-10-13 05:33:38,570] {dag.py:2280} INFO - Setting next_dagrun for templated_bash_operator to 2021-10-13 00:00:00+00:00
+[2021-10-13 05:33:38,593] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bash_operator/templated_bash_operator.py took 0.147 seconds
+[2021-10-13 05:34:09,056] {scheduler_job.py:182} INFO - Started process (PID=2082) to work on /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:34:09,059] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bash_operator/templated_bash_operator.py for tasks to queue
+[2021-10-13 05:34:09,061] {logging_mixin.py:104} INFO - [2021-10-13 05:34:09,061] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:34:09,175] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['templated_bash_operator']) retrieved from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:34:09,202] {logging_mixin.py:104} INFO - [2021-10-13 05:34:09,202] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-10-13 05:34:09,238] {logging_mixin.py:104} INFO - [2021-10-13 05:34:09,238] {dag.py:2280} INFO - Setting next_dagrun for templated_bash_operator to 2021-10-13 00:00:00+00:00
+[2021-10-13 05:34:09,257] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bash_operator/templated_bash_operator.py took 0.208 seconds
+[2021-10-13 05:34:39,676] {scheduler_job.py:182} INFO - Started process (PID=2115) to work on /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:34:39,678] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bash_operator/templated_bash_operator.py for tasks to queue
+[2021-10-13 05:34:39,679] {logging_mixin.py:104} INFO - [2021-10-13 05:34:39,679] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:34:39,751] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['templated_bash_operator']) retrieved from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:34:39,764] {logging_mixin.py:104} INFO - [2021-10-13 05:34:39,764] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-10-13 05:34:39,799] {logging_mixin.py:104} INFO - [2021-10-13 05:34:39,799] {dag.py:2280} INFO - Setting next_dagrun for templated_bash_operator to 2021-10-13 00:00:00+00:00
+[2021-10-13 05:34:39,819] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bash_operator/templated_bash_operator.py took 0.147 seconds
+[2021-10-13 05:35:10,295] {scheduler_job.py:182} INFO - Started process (PID=2148) to work on /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:35:10,298] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bash_operator/templated_bash_operator.py for tasks to queue
+[2021-10-13 05:35:10,299] {logging_mixin.py:104} INFO - [2021-10-13 05:35:10,299] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:35:10,369] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['templated_bash_operator']) retrieved from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:35:10,382] {logging_mixin.py:104} INFO - [2021-10-13 05:35:10,381] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-10-13 05:35:10,408] {logging_mixin.py:104} INFO - [2021-10-13 05:35:10,408] {dag.py:2280} INFO - Setting next_dagrun for templated_bash_operator to 2021-10-13 00:00:00+00:00
+[2021-10-13 05:35:10,427] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bash_operator/templated_bash_operator.py took 0.135 seconds
+[2021-10-13 05:35:41,010] {scheduler_job.py:182} INFO - Started process (PID=2181) to work on /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:35:41,012] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bash_operator/templated_bash_operator.py for tasks to queue
+[2021-10-13 05:35:41,013] {logging_mixin.py:104} INFO - [2021-10-13 05:35:41,013] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:35:41,102] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['templated_bash_operator']) retrieved from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:35:41,122] {logging_mixin.py:104} INFO - [2021-10-13 05:35:41,122] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-10-13 05:35:41,152] {logging_mixin.py:104} INFO - [2021-10-13 05:35:41,152] {dag.py:2280} INFO - Setting next_dagrun for templated_bash_operator to 2021-10-13 00:00:00+00:00
+[2021-10-13 05:35:41,174] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bash_operator/templated_bash_operator.py took 0.168 seconds
+[2021-10-13 05:36:11,477] {scheduler_job.py:182} INFO - Started process (PID=2219) to work on /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:36:11,478] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bash_operator/templated_bash_operator.py for tasks to queue
+[2021-10-13 05:36:11,480] {logging_mixin.py:104} INFO - [2021-10-13 05:36:11,480] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:36:11,557] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['templated_bash_operator']) retrieved from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:36:11,571] {logging_mixin.py:104} INFO - [2021-10-13 05:36:11,570] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-10-13 05:36:11,608] {logging_mixin.py:104} INFO - [2021-10-13 05:36:11,607] {dag.py:2280} INFO - Setting next_dagrun for templated_bash_operator to 2021-10-13 00:00:00+00:00
+[2021-10-13 05:36:11,626] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bash_operator/templated_bash_operator.py took 0.153 seconds
+[2021-10-13 05:36:42,417] {scheduler_job.py:182} INFO - Started process (PID=2252) to work on /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:36:42,420] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bash_operator/templated_bash_operator.py for tasks to queue
+[2021-10-13 05:36:42,423] {logging_mixin.py:104} INFO - [2021-10-13 05:36:42,423] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:36:42,521] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['templated_bash_operator']) retrieved from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:36:42,543] {logging_mixin.py:104} INFO - [2021-10-13 05:36:42,543] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-10-13 05:36:42,573] {logging_mixin.py:104} INFO - [2021-10-13 05:36:42,573] {dag.py:2280} INFO - Setting next_dagrun for templated_bash_operator to 2021-10-13 00:00:00+00:00
+[2021-10-13 05:36:42,602] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bash_operator/templated_bash_operator.py took 0.190 seconds
+[2021-10-13 05:37:13,522] {scheduler_job.py:182} INFO - Started process (PID=2286) to work on /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:37:13,530] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bash_operator/templated_bash_operator.py for tasks to queue
+[2021-10-13 05:37:13,535] {logging_mixin.py:104} INFO - [2021-10-13 05:37:13,534] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:37:13,656] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['templated_bash_operator']) retrieved from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:37:13,686] {logging_mixin.py:104} INFO - [2021-10-13 05:37:13,685] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-10-13 05:37:13,777] {logging_mixin.py:104} INFO - [2021-10-13 05:37:13,777] {dag.py:2280} INFO - Setting next_dagrun for templated_bash_operator to 2021-10-13 00:00:00+00:00
+[2021-10-13 05:37:13,813] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bash_operator/templated_bash_operator.py took 0.297 seconds
+[2021-10-13 05:37:44,265] {scheduler_job.py:182} INFO - Started process (PID=2319) to work on /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:37:44,267] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bash_operator/templated_bash_operator.py for tasks to queue
+[2021-10-13 05:37:44,268] {logging_mixin.py:104} INFO - [2021-10-13 05:37:44,268] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:37:44,385] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['templated_bash_operator']) retrieved from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:37:44,401] {logging_mixin.py:104} INFO - [2021-10-13 05:37:44,401] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-10-13 05:37:44,431] {logging_mixin.py:104} INFO - [2021-10-13 05:37:44,431] {dag.py:2280} INFO - Setting next_dagrun for templated_bash_operator to 2021-10-13 00:00:00+00:00
+[2021-10-13 05:37:44,466] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bash_operator/templated_bash_operator.py took 0.206 seconds
+[2021-10-13 05:38:14,853] {scheduler_job.py:182} INFO - Started process (PID=2350) to work on /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:38:14,855] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bash_operator/templated_bash_operator.py for tasks to queue
+[2021-10-13 05:38:14,856] {logging_mixin.py:104} INFO - [2021-10-13 05:38:14,856] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:38:14,932] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['templated_bash_operator']) retrieved from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:38:14,950] {logging_mixin.py:104} INFO - [2021-10-13 05:38:14,950] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-10-13 05:38:14,981] {logging_mixin.py:104} INFO - [2021-10-13 05:38:14,981] {dag.py:2280} INFO - Setting next_dagrun for templated_bash_operator to 2021-10-13 00:00:00+00:00
+[2021-10-13 05:38:15,009] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bash_operator/templated_bash_operator.py took 0.159 seconds
+[2021-10-13 05:38:45,345] {scheduler_job.py:182} INFO - Started process (PID=2390) to work on /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:38:45,346] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bash_operator/templated_bash_operator.py for tasks to queue
+[2021-10-13 05:38:45,348] {logging_mixin.py:104} INFO - [2021-10-13 05:38:45,347] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:38:45,410] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['templated_bash_operator']) retrieved from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:38:45,425] {logging_mixin.py:104} INFO - [2021-10-13 05:38:45,425] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-10-13 05:38:45,456] {logging_mixin.py:104} INFO - [2021-10-13 05:38:45,456] {dag.py:2280} INFO - Setting next_dagrun for templated_bash_operator to 2021-10-13 00:00:00+00:00
+[2021-10-13 05:38:45,473] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bash_operator/templated_bash_operator.py took 0.133 seconds
+[2021-10-13 05:39:15,809] {scheduler_job.py:182} INFO - Started process (PID=2424) to work on /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:39:15,811] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bash_operator/templated_bash_operator.py for tasks to queue
+[2021-10-13 05:39:15,813] {logging_mixin.py:104} INFO - [2021-10-13 05:39:15,812] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:39:15,880] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['templated_bash_operator']) retrieved from /opt/airflow/dags/bash_operator/templated_bash_operator.py
+[2021-10-13 05:39:15,896] {logging_mixin.py:104} INFO - [2021-10-13 05:39:15,896] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-10-13 05:39:15,927] {logging_mixin.py:104} INFO - [2021-10-13 05:39:15,927] {dag.py:2280} INFO - Setting next_dagrun for templated_bash_operator to 2021-10-13 00:00:00+00:00
+[2021-10-13 05:39:15,945] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bash_operator/templated_bash_operator.py took 0.139 seconds
