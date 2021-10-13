@@ -3,6 +3,7 @@ from airflow.models import DAG
 # Import the BashOperator
 from airflow.operators.bash_operator import BashOperator
 from datetime import datetime
+from airflow.models import Variable
 
 # Define the default_args dictionary
 default_args = {
@@ -22,6 +23,9 @@ with DAG(
     schedule_interval='@daily'
 ) as dag:
 
+    json_key = Variable.get("json_api_key", deserialize_json=True)
+    var1 = json_key["var1"]
+
     # templated command to read the file's content
     templated_command="""
     "execution date: {{ds}}"
@@ -39,5 +43,13 @@ with DAG(
         dag=dag
     )
 
+    return_json_key = BashOperator(
+        task_id='return_json_key_task',
+        bash_command="echo {{params.json_key_var1}}",
+        params={"json_key_var1": var1},
+        dag=dag
+    )
+
     # Define task depedencies
     read_json_file
+    return_json_key

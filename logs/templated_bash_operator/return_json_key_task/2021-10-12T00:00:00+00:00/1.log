@@ -1,0 +1,36 @@
+[2021-10-13 04:54:25,670] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: templated_bash_operator.return_json_key_task 2021-10-12T00:00:00+00:00 [queued]>
+[2021-10-13 04:54:25,685] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: templated_bash_operator.return_json_key_task 2021-10-12T00:00:00+00:00 [queued]>
+[2021-10-13 04:54:25,685] {taskinstance.py:1068} INFO - 
+--------------------------------------------------------------------------------
+[2021-10-13 04:54:25,686] {taskinstance.py:1069} INFO - Starting attempt 1 of 3
+[2021-10-13 04:54:25,686] {taskinstance.py:1070} INFO - 
+--------------------------------------------------------------------------------
+[2021-10-13 04:54:25,702] {taskinstance.py:1089} INFO - Executing <Task(BashOperator): return_json_key_task> on 2021-10-12T00:00:00+00:00
+[2021-10-13 04:54:25,707] {standard_task_runner.py:52} INFO - Started process 50 to run task
+[2021-10-13 04:54:25,711] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'templated_bash_operator', 'return_json_key_task', '2021-10-12T00:00:00+00:00', '--job-id', '26', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/bash_operator/templated_bash_operator.py', '--cfg-path', '/tmp/tmpyqa4i6td', '--error-file', '/tmp/tmp1kftw97q']
+[2021-10-13 04:54:25,712] {standard_task_runner.py:77} INFO - Job 26: Subtask return_json_key_task
+[2021-10-13 04:54:25,761] {logging_mixin.py:104} INFO - Running <TaskInstance: templated_bash_operator.return_json_key_task 2021-10-12T00:00:00+00:00 [running]> on host 2a52f903feb2
+[2021-10-13 04:54:25,791] {taskinstance.py:1482} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1138, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1275, in _prepare_and_execute_task_with_callbacks
+    self.render_templates(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1779, in render_templates
+    self.task.render_template_fields(context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py", line 892, in render_template_fields
+    self._do_render_template_fields(self, self.template_fields, context, jinja_env, set())
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py", line 905, in _do_render_template_fields
+    rendered_content = self.render_template(content, context, jinja_env, seen_oids)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py", line 942, in render_template
+    return jinja_env.from_string(content).render(**context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/jinja2/environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "/home/airflow/.local/lib/python3.6/site-packages/jinja2/environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "/home/airflow/.local/lib/python3.6/site-packages/jinja2/_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "<template>", line 1, in top-level template code
+jinja2.exceptions.UndefinedError: 'var1' is undefined
+[2021-10-13 04:54:25,793] {taskinstance.py:1532} INFO - Marking task as UP_FOR_RETRY. dag_id=templated_bash_operator, task_id=return_json_key_task, execution_date=20211012T000000, start_date=20211013T045425, end_date=20211013T045425
+[2021-10-13 04:54:25,845] {local_task_job.py:146} INFO - Task exited with return code 1
